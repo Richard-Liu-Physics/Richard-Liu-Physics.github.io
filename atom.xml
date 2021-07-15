@@ -3,11 +3,11 @@
   <title>荒原</title>
   <icon>https://www.gravatar.com/avatar/5cf780da85081f5fca38fb9ea91e0f7a</icon>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-07-14T15:59:51.089Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://richard-liu-physics.github.io/"/>
+  <updated>2021-07-15T09:42:20.737Z</updated>
+  <id>https://richard-liu-physics.github.io/</id>
   
   <author>
     <name>Richard Liu</name>
@@ -17,44 +17,95 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2021/07/14/%E5%A3%B0%E6%98%8E/"/>
-    <id>http://example.com/2021/07/14/%E5%A3%B0%E6%98%8E/</id>
-    <published>2021-07-14T15:59:50.760Z</published>
-    <updated>2021-07-14T15:59:51.089Z</updated>
+    <title>气势有别，內圣外王</title>
+    <link href="https://richard-liu-physics.github.io/2021/ckr500o2p0003ostsffzl1nke/"/>
+    <id>https://richard-liu-physics.github.io/2021/ckr500o2p0003ostsffzl1nke/</id>
+    <published>2021-07-15T09:28:43.000Z</published>
+    <updated>2021-07-15T09:42:20.737Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;声明：&quot;&gt;&lt;a href=&quot;#声明：&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
         
       
     
     
     
+    <category term="critic" scheme="https://richard-liu-physics.github.io/categories/critic/"/>
+    
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+    <category term="critic" scheme="https://richard-liu-physics.github.io/tags/critic/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/07/14/hello-world/"/>
-    <id>http://example.com/2021/07/14/hello-world/</id>
-    <published>2021-07-14T15:19:26.033Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
+    <title>或称作理想的</title>
+    <link href="https://richard-liu-physics.github.io/2021/ckr500o2i0000osts53csbbzt/"/>
+    <id>https://richard-liu-physics.github.io/2021/ckr500o2i0000osts53csbbzt/</id>
+    <published>2021-07-15T08:53:29.000Z</published>
+    <updated>2021-07-15T09:25:38.195Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;荒原建立在&lt;/p&gt;
+&lt;p&gt;春天语言的草场，&lt;/p&gt;
+&lt;p&gt;天使的翅膀下护着撒旦。&lt;/p&gt;
+&lt;p&gt;河流汇聚成海，倾听&lt;/p&gt;
+&lt;p&gt;鱼的记忆；&lt;/p&gt;
+&lt;p&gt;猫趴在草垫上宣称：&lt;/p&gt;
+&lt;p&gt;春天的树上&lt;/p&gt;
+&lt;p&gt;全是鱼。&lt;/p&gt;
+&lt;p&gt;以为是天机泄露。&lt;/p&gt;
+&lt;p&gt;语</summary>
         
       
     
     
     
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客简介</title>
+    <link href="https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/"/>
+    <id>https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/</id>
+    <published>2021-07-15T04:00:00.000Z</published>
+    <updated>2021-07-15T07:39:55.156Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是一个个人生活记录网站。&lt;/p&gt;
+&lt;p&gt;建立这个博客的初衷是为了给自己一个享受的小天地，所以更新看心情（不要试着催更），虽然最初的念头来源于机器学习的课程，希望可以有个地方记录学习体会。&lt;/p&gt;
+&lt;p&gt;主要学习内容包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物理学习的心得体会，以及</summary>
+        
+      
+    
+    
+    
+    <category term="简介" scheme="https://richard-liu-physics.github.io/categories/%E7%AE%80%E4%BB%8B/"/>
+    
+    
+    <category term="简介" scheme="https://richard-liu-physics.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
     
   </entry>
   
