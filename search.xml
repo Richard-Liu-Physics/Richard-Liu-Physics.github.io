@@ -27,11 +27,11 @@
   <entry>
     <title>或称作理想的</title>
     <url>/2021/ckr500o2i0000osts53csbbzt/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<p>荒原建立在</p>
+    <content><![CDATA[<p>荒原建立在</p>
 <p>春天语言的草场，</p>
 <p>天使的翅膀下护着撒旦。</p>
+<span id="more"></span>
+
 <p>河流汇聚成海，倾听</p>
 <p>鱼的记忆；</p>
 <p>猫趴在草垫上宣称：</p>
@@ -102,32 +102,75 @@
       </tags>
   </entry>
   <entry>
-    <title>Modernism and T.S.Eliot</title>
-    <url>/2021/ckr5049hy0000gots5q9m78kv/</url>
-    <content><![CDATA[<p><strong>Anyone enjoys Physics should understand the art of poetry.</strong></p>
-<span id="more"></span>
+    <title>大二物理学习指南</title>
+    <url>/2021/ckr7whmj40000dgtsb707hjgb/</url>
+    <content><![CDATA[<span id="more"></span>
 
-<p>This is a article used in my presentation during the summer vacation training period. Here, I’m trying to explain the idea of modernism and the script of the influential poem <em>The Waste Land</em>. Also, I will try to demonstrate how the writing style of the west influenced modern Chinese poem of the 1990s. Because it’s not used for a academic purpose, it won’t be as interesting as it can be. But the last part will be a interesting one as I wish.</p>
-<h1 id="BACKGROUND"><a href="#BACKGROUND" class="headerlink" title="BACKGROUND"></a>BACKGROUND</h1><h2 id="ABOUT-T-S-ELIOT"><a href="#ABOUT-T-S-ELIOT" class="headerlink" title="ABOUT T.S.ELIOT"></a>ABOUT T.S.ELIOT</h2><p>T.S.Eliot(1888-1965) is probably the most important poet of the 20th century, who was awarded the Nobel Prize in Literature in 1948. He is a American-born British poet,dramatist and literary critic, who’s idea of poem dramatically influenced the idea of Chinese poem during 1980s-1990s period.</p>
-<p>He was born in St. Louis, Missouri. His grandfather William Greenleaf Eliot founded the Washington University in St. Louis; his father was a prosperous owner of a brick family and he was the youngest of the seven children.</p>
-<p>Around the years of 1906 to 1910 he went to Harvard to get his bachelor’s degree, where hosts a galaxy of eminent professors. He came across a book written by Arthur Symons <em>The Symbolist Movement in Literature</em>, which influenced the early writing style of T.S.Eliot.</p>
-<h3 id="Influence-on-his-poems"><a href="#Influence-on-his-poems" class="headerlink" title="Influence on his poems"></a>Influence on his poems</h3><ul>
-<li>Loneliness</li>
-<li>Reading Experience</li>
-</ul>
-<h2 id="ABOUT-THE-TIME"><a href="#ABOUT-THE-TIME" class="headerlink" title="ABOUT THE TIME"></a>ABOUT THE TIME</h2><h3 id="The-society"><a href="#The-society" class="headerlink" title="The society"></a>The society</h3><p>The capitalism developed rapidly after the middle of 19th century, and the first bus appeared in London at 1905. As a consequence, the industrialization proceeded rapidly, which caused the sharp increase of citizen population. </p>
-<p>At the time of Eliot, the society  came to a point that it is extremely mechanized, urbanized, industrialized. The world looked like a gigantic machine that was quite different from the past, and the desire for wealth accumulation distorted the traditional idea of what life was.</p>
-<p>we call the society comes to a state of <strong>alienation</strong>.</p>
-<h3 id="The-war"><a href="#The-war" class="headerlink" title="The war"></a>The war</h3><p>Beginning at the age of 1914, the first world war continued for 4 years. </p>
-<p>Then <em>The Waste Land</em> came into being at the age of 1922, by the end of the war period.</p>
-<h1 id="MODERNISM-AND-THE-POEMS"><a href="#MODERNISM-AND-THE-POEMS" class="headerlink" title="MODERNISM AND THE POEMS"></a>MODERNISM AND THE POEMS</h1><h1 id="CHINESE-POEMS-OF-THE-90S"><a href="#CHINESE-POEMS-OF-THE-90S" class="headerlink" title="CHINESE POEMS OF THE 90S"></a>CHINESE POEMS OF THE 90S</h1><p>What I do want to emphasize here is the </p>
+<p>这是给学弟学妹写的大二学习指南，希望有点用处（大雾</p>
+<p>需要注意的是虽然这写着大二学习指南，但如果你之前是和我一样只是经历了大类培养，肯定大二是没法完成的。所以，留下的坑就要自己慢慢填。同时，这是我的个人经验，仅供参考，如果不考虑自己的情况就变成小马过河了。</p>
+<p>对我校的学生来讲，大二估计最重要的科目如下：</p>
+<table>
+<thead>
+<tr>
+<th>学期</th>
+<th align="center">课程</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第三学期</td>
+<td align="center">热学（A）；光学；数学物理方法1；概率统计；电路分析</td>
+</tr>
+<tr>
+<td>第四学期</td>
+<td align="center">热力学与统计物理；理论力学；原子物理学；模拟电路；数字电路</td>
+</tr>
+<tr>
+<td>可补充内容</td>
+<td align="center">常微分，抽象代数，张量分析，量子力学</td>
+</tr>
+</tbody></table>
+<h4 id="热学-热力学与统计物理"><a href="#热学-热力学与统计物理" class="headerlink" title="热学/热力学与统计物理"></a>热学/热力学与统计物理</h4><p>主要参考书：</p>
+<p>秦允豪《热学》</p>
+<p>林宗涵《热力学与统计物理学》</p>
+<p>汪志诚《热力学·统计物理》</p>
+<p>Kardar《Statistical Physics of Particles》/《Statistical Physics of Fields》</p>
+<p>参考书：</p>
+<p>帕斯里亚《统计力学》</p>
+<p>建议学习路径：</p>
+<p>热学学习先行，但注意不要被描述性质的东西限制住。建议大家都去听听热学课程，真的讲的很好且很有用。这样，就可以同时在大二上学期时学习林宗涵的平衡热力学部分，只要你花时间，就一定可以学好！如果胡老师做了讲义，请一定仔细阅读！</p>
+<p>大二下学期在阅读汪先生的教材的同时，请仔细阅读林宗涵的书。非平衡部分可以放到日后学习所用，同时，请阅读Kardar两件套的第一件套！最后，视兴趣阅读第二件套。</p>
+<h4 id="光学"><a href="#光学" class="headerlink" title="光学"></a>光学</h4><p>主要参考书：</p>
+<p>《新概念物理教程·光学》</p>
+<p>钟锡华《现代光学基础》</p>
+<p>建议学习路径：</p>
+<p>鉴于我认真学习光学的时间相对较短，不打算详细介绍这一部分。但是，新概念看看就好，不要以为能学会光学。考试过关可以，但是想学好一定参考这本《现代光学基础》！虽然挺难的，但是也请坚持。</p>
+<h4 id="数学物理方法"><a href="#数学物理方法" class="headerlink" title="数学物理方法"></a>数学物理方法</h4><p>主要参考书：</p>
+<p>《数学物理方法》梁昆淼</p>
+<p>《数学物理方法》吴崇试</p>
+<p>建议学习路径：</p>
+<p>虽有其他参考书，同时老师也会给相应的英文书，但只会考试那点，故待补充。</p>
+<p>请先快速学完复变函数部分，抓紧时间看数理方程部分。一定努力，数理方法是学多少都学不够的！</p>
+<h4 id="理论力学"><a href="#理论力学" class="headerlink" title="理论力学"></a>理论力学</h4><p>主要参考书：</p>
+<p>周衍柏《理论力学教程》</p>
+<p>朗道《力学》&amp;Landau《Mechanics》</p>
+<p>参考书：</p>
+<p>刘川《理论力学》</p>
+<p>阿诺德《经典力学中的数学方法》</p>
+<p>陈童《理论力学新讲》</p>
+<p>Goldstein《Classical Mechanics》</p>
+<p>建议学习路径：</p>
+<p>在牛顿力学还没有忘记时，阅读周衍柏前三章加习题。并不困难。继续阅读第五章看完拉格朗日方程部分，开始阅读朗道的中文\英文对应部分，再将两本书结合起来阅读效果极好。</p>
+<p>刘川的教材没有详细看，但是可以用于在看完朗道之后、阅读朗道《经典场论》同时加深理解。</p>
+<p>陈老师的书请在知乎搜索陈童可得，作者的想法非常好，建议二次重构时阅读。</p>
+<p>阿诺德请视自己能力确定是否阅读，Goldstein请考虑阅读时间。</p>
+<p>（待更新）</p>
 ]]></content>
       <categories>
-        <category>critic</category>
+        <category>本科物理</category>
       </categories>
       <tags>
-        <tag>literature</tag>
-        <tag>critic</tag>
+        <tag>物理</tag>
+        <tag>本科物理</tag>
       </tags>
   </entry>
 </search>
