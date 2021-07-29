@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2021-07-18T13:13:34.917Z</updated>
+  <updated>2021-07-29T08:20:00.534Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -17,18 +17,60 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python面向对象编程</title>
+    <link href="https://richard-liu-physics.github.io/2021/ckrn21e3c0000ystsd44kel5z/"/>
+    <id>https://richard-liu-physics.github.io/2021/ckrn21e3c0000ystsd44kel5z/</id>
+    <published>2021-07-28T05:33:02.000Z</published>
+    <updated>2021-07-29T08:20:00.534Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Python-3-面向对象编程（1）&quot;&gt;&lt;a href=&quot;#Python-3-面向对象编程（1）&quot; class=&quot;headerlink&quot; title=&quot;Python 3 面向对象编程（1）&quot;&gt;&lt;/a&gt;Python 3 面向对象编程（1）&lt;/h1&gt;&lt;p&gt;介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据&lt;em&gt;Dusty Phillips&lt;/em&gt;所写的&lt;em&gt;Python 3面向对象编程&lt;/em&gt;一书所写笔记，希望不会咕咕咕。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="CS搬砖" scheme="https://richard-liu-physics.github.io/categories/CS%E6%90%AC%E7%A0%96/"/>
+    
+    
+    <category term="Python 3" scheme="https://richard-liu-physics.github.io/tags/Python-3/"/>
+    
+    <category term="CS搬砖教程" scheme="https://richard-liu-physics.github.io/tags/CS%E6%90%AC%E7%A0%96%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>统计物理学笔记</title>
+    <link href="https://richard-liu-physics.github.io/2021/ckrm2xe5y0000tgtsak5ucdkw/"/>
+    <id>https://richard-liu-physics.github.io/2021/ckrm2xe5y0000tgtsak5ucdkw/</id>
+    <published>2021-07-27T13:05:11.000Z</published>
+    <updated>2021-07-28T05:41:44.723Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于&lt;em&gt;Mehran Kardar&lt;/em&gt;所著的&lt;em&gt;Statistical Physics of Particles&lt;/em&gt;以及&lt;em&gt;Statistical Physics of Fields&lt;/em&gt;两本书。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>大二物理学习指南</title>
     <link href="https://richard-liu-physics.github.io/2021/ckr7whmj40000dgtsb707hjgb/"/>
     <id>https://richard-liu-physics.github.io/2021/ckr7whmj40000dgtsb707hjgb/</id>
     <published>2021-07-17T15:00:02.000Z</published>
-    <updated>2021-07-18T13:13:34.917Z</updated>
+    <updated>2021-07-27T13:06:53.575Z</updated>
     
     
     <summary type="html">&lt;p&gt;这是给学弟学妹写的大二学习指南，希望有点用处（大雾&lt;/p&gt;</summary>
     
     
     
-    <category term="本科物理" scheme="https://richard-liu-physics.github.io/categories/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86/"/>
+    <category term="本科物理指南" scheme="https://richard-liu-physics.github.io/categories/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86%E6%8C%87%E5%8D%97/"/>
     
     
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
@@ -86,7 +128,7 @@
     <link href="https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/"/>
     <id>https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/</id>
     <published>2021-07-17T14:59:59.000Z</published>
-    <updated>2021-07-17T11:21:00.000Z</updated>
+    <updated>2021-07-27T03:21:46.768Z</updated>
     
     
     <summary type="html">&lt;p&gt;这是一个个人生活记录网站。&lt;/p&gt;</summary>
