@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2021-08-01T01:38:18.585Z</updated>
+  <updated>2021-09-18T10:35:44.444Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>大三秋季学习计划</title>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1um0007dcts265i28mm/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1um0007dcts265i28mm/</id>
+    <published>2021-09-18T10:21:13.000Z</published>
+    <updated>2021-09-18T10:35:44.444Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理学习计划" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="本科物理" scheme="https://richard-liu-physics.github.io/tags/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>大二物理课内资料</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckrsj8z7y0000e4ts92unaq7l/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckrsj8z7y0000e4ts92unaq7l/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1uo0008dctsdhggb3ed/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1uo0008dctsdhggb3ed/</id>
     <published>2021-08-01T01:09:17.000Z</published>
     <updated>2021-08-01T01:38:18.585Z</updated>
     
@@ -46,8 +67,8 @@
   
   <entry>
     <title>Python面向对象编程</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckrx4ugoa000078ts8ejf68oy/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckrx4ugoa000078ts8ejf68oy/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1u60001dctsdknwdg3v/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1u60001dctsdknwdg3v/</id>
     <published>2021-07-28T05:33:02.000Z</published>
     <updated>2021-08-04T06:47:58.502Z</updated>
     
@@ -67,8 +88,8 @@
   
   <entry>
     <title>统计物理学笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckrm2xe5y0000tgtsak5ucdkw/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckrm2xe5y0000tgtsak5ucdkw/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1uv000ddctscwiz9rc1/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1uv000ddctscwiz9rc1/</id>
     <published>2021-07-27T13:05:11.000Z</published>
     <updated>2021-07-28T05:41:44.723Z</updated>
     
@@ -88,8 +109,8 @@
   
   <entry>
     <title>大二物理学习指南</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckr7whmj40000dgtsb707hjgb/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckr7whmj40000dgtsb707hjgb/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1uq0009dctscwwjdyic/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1uq0009dctscwwjdyic/</id>
     <published>2021-07-17T15:00:02.000Z</published>
     <updated>2021-07-27T13:06:53.575Z</updated>
     
@@ -109,8 +130,8 @@
   
   <entry>
     <title>或称作理想的</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckr500o2i0000osts53csbbzt/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckr500o2i0000osts53csbbzt/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1ut000cdctseb67hnac/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1ut000cdctseb67hnac/</id>
     <published>2021-07-17T15:00:01.000Z</published>
     <updated>2021-07-17T11:20:34.335Z</updated>
     
@@ -132,8 +153,8 @@
   
   <entry>
     <title>气势有别，內圣外王</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckr500o2p0003ostsffzl1nke/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckr500o2p0003ostsffzl1nke/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1x2001edcts19op38lz/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1x2001edcts19op38lz/</id>
     <published>2021-07-17T15:00:00.000Z</published>
     <updated>2021-07-17T11:20:06.647Z</updated>
     
@@ -153,8 +174,8 @@
   
   <entry>
     <title>博客简介</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckr3o5xrt0000q4tsg51tbbj7/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cktpne1ud0003dcts9nmddhfw/"/>
+    <id>https://richard-liu-physics.github.io/2021/cktpne1ud0003dcts9nmddhfw/</id>
     <published>2021-07-17T14:59:59.000Z</published>
     <updated>2021-08-04T06:49:12.904Z</updated>
     
