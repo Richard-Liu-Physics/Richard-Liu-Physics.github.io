@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客简介</title>
-    <url>/2021/cktpne1ud0003dcts9nmddhfw/</url>
-    <content><![CDATA[<p>这是一个个人生活记录网站。</p>
+    <title>About Me</title>
+    <url>/2021/about/</url>
+    <content><![CDATA[<p>Hello, I’m Richard Liu, just a student learning physics and exploring my interests. Hope my web page can  help you.</p>
 <span id="more"></span>
 
-<p>建立这个博客的初衷是为了给自己一个享受的小天地，所以更新看心情（不要试着催更），虽然最初的念头来源于机器学习的课程，希望可以有个地方记录学习体会。</p>
+<p>这是一个个人生活记录网站。建立这个博客的初衷是为了给自己一个享受的小天地，所以更新看心情（不要试着催更），部分内容也可以在我的知乎上找到。</p>
 <p>主要学习内容包括：</p>
 <ul>
 <li>物理学习的心得体会，以及自己认为适合学习物理的教材书单。这方面主要记录自己的学习经验与书目介绍。</li>
 <li>经典物理书目笔记整理。</li>
 <li>科研内容整理。包括可能的数值模拟代码、可能的公式推导、可能的参考书目等。</li>
 <li>计算机代码笔记部分。这方面也是为了记录一下，为未来可能的物理应用提供一定的回忆来源。</li>
+<li>可能会记录一些写的诗歌和业余的诗歌及文化学习内容，希望无论什么到了时候，也不会忘记浪漫对人生的意义：物理也好，诗歌也好，都是一生的浪漫。</li>
 </ul>
-<p>主要生活内容不限，我也不知道有什么可以记录的。BUT可能会记录一些写的诗歌和业余的诗歌及文化学习内容，希望无论什么到了时候，也不会忘记浪漫对人生的意义：物理也好，诗歌也好，都是一生的浪漫。</p>
 <p>生活如歌，至死少年。</p>
 ]]></content>
       <categories>
@@ -26,7 +26,7 @@
   </entry>
   <entry>
     <title>大三秋季学习计划</title>
-    <url>/2021/cktpne1um0007dcts265i28mm/</url>
+    <url>/2021/ckty9vo9b0007fcts33ui1egm/</url>
     <content><![CDATA[<p>这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。</p>
 <span id="more"></span>
 
@@ -57,10 +57,10 @@
   </entry>
   <entry>
     <title>大二物理课内资料</title>
-    <url>/2021/cktpne1uo0008dctsdhggb3ed/</url>
+    <url>/2021/ckty9vo9f0009fctsfanohn7a/</url>
     <content><![CDATA[<p>这里是19级某学姐整理的大二课内学习资料，个人觉得非常全面！求到了链接分析给大家，但此为个人分享行为，出于对老师资料版权考虑，仅在北航物理学院内部传阅，请勿外传！</p>
 <p>本网页涉及的全部内容采用协议<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">CC BY-NC-ND 4.0</a>，谨作为学习用途！</p>
-<p>为保证以上要求，现给出百度网盘链接，请需要的同学通过<strong>北航邮箱</strong>向<a href="mailto:&#55;&#48;&#52;&#51;&#51;&#x35;&#49;&#x30;&#x33;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;">&#55;&#48;&#52;&#51;&#51;&#x35;&#49;&#x30;&#x33;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;</a>发送邮件，我会回复需要的提取码。</p>
+<p>为保证以上要求，现给出百度网盘链接，请需要的同学通过<strong>北航邮箱</strong>向<a href="mailto:&#55;&#48;&#52;&#x33;&#x33;&#53;&#49;&#x30;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#55;&#48;&#52;&#x33;&#x33;&#53;&#49;&#x30;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a>发送邮件，我会回复需要的提取码。</p>
 <p>再次感谢这位热心的学姐！</p>
 <p>链接:<a href="https://pan.baidu.com/s/1OvT_oSvJiJ9cj8LlRwucaQ">https://pan.baidu.com/s/1OvT_oSvJiJ9cj8LlRwucaQ</a></p>
 ]]></content>
@@ -74,7 +74,7 @@
   </entry>
   <entry>
     <title>Python面向对象编程</title>
-    <url>/2021/cktpne1u60001dctsdknwdg3v/</url>
+    <url>/2021/ckty9vo930003fctsggwvew18/</url>
     <content><![CDATA[<h1 id="Python-3-面向对象编程（1）"><a href="#Python-3-面向对象编程（1）" class="headerlink" title="Python 3 面向对象编程（1）"></a>Python 3 面向对象编程（1）</h1><p>介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据<em>Dusty Phillips</em>所写的<em>Python 3面向对象编程</em>一书所写笔记，希望不会咕咕咕。</p>
 <span id="more"></span>
 
@@ -159,7 +159,7 @@
   </entry>
   <entry>
     <title>统计物理学笔记</title>
-    <url>/2021/cktpne1uv000ddctscwiz9rc1/</url>
+    <url>/2021/ckty9voan001efctsbefzcr9j/</url>
     <content><![CDATA[<p>此网页提供的PDF笔记主要基于<em>Mehran Kardar</em>所著的<em>Statistical Physics of Particles</em>以及<em>Statistical Physics of Fields</em>两本书。</p>
 <span id="more"></span>
 
@@ -184,7 +184,7 @@
   </entry>
   <entry>
     <title>大二物理学习指南</title>
-    <url>/2021/cktpne1uq0009dctscwwjdyic/</url>
+    <url>/2021/ckty9vo9d0008fcts88a2ffxt/</url>
     <content><![CDATA[<p>这是给学弟学妹写的大二学习指南，希望有点用处（大雾</p>
 <span id="more"></span>
 
@@ -268,7 +268,7 @@
   </entry>
   <entry>
     <title>或称作理想的</title>
-    <url>/2021/cktpne1ut000cdctseb67hnac/</url>
+    <url>/2021/ckty9vo9i000dfcts7u2e68iz/</url>
     <content><![CDATA[<p>荒原建立在</p>
 <p>春天语言的草场，</p>
 <p>天使的翅膀下护着撒旦。</p>
@@ -308,7 +308,7 @@
   </entry>
   <entry>
     <title>气势有别，內圣外王</title>
-    <url>/2021/cktpne1x2001edcts19op38lz/</url>
+    <url>/2021/ckty9vo9k000efcts69s52r52/</url>
     <content><![CDATA[<p>这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。</p>
 <span id="more"></span>
 
