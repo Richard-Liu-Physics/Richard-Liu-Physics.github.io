@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2021-09-24T11:18:19.552Z</updated>
+  <updated>2021-09-27T23:45:07.727Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>流形笔记</title>
+    <link href="https://richard-liu-physics.github.io/2021/cku9jmd0800007wtsc2p30qgh/"/>
+    <id>https://richard-liu-physics.github.io/2021/cku9jmd0800007wtsc2p30qgh/</id>
+    <published>2021-09-27T23:38:32.000Z</published>
+    <updated>2021-09-27T23:45:07.727Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于Loring W. Tu的An Introduction to</summary>
+        
+      
+    
+    
+    
+    <category term="数学笔记" scheme="https://richard-liu-physics.github.io/categories/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学笔记" scheme="https://richard-liu-physics.github.io/tags/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>About Me</title>
@@ -40,10 +65,10 @@
     <link href="https://richard-liu-physics.github.io/2021/ckty9vo9b0007fcts33ui1egm/"/>
     <id>https://richard-liu-physics.github.io/2021/ckty9vo9b0007fcts33ui1egm/</id>
     <published>2021-09-18T10:21:13.000Z</published>
-    <updated>2021-09-18T10:35:44.444Z</updated>
+    <updated>2021-10-22T00:23:48.502Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力以及经典场论部分，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。&lt;/p&gt;</summary>
     
     
     
