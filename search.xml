@@ -25,69 +25,8 @@
       </tags>
   </entry>
   <entry>
-    <title>流形笔记</title>
-    <url>/2021/cku9jmd0800007wtsc2p30qgh/</url>
-    <content><![CDATA[<p>此网页提供的PDF笔记主要基于Loring W. Tu的An Introduction to Manifolds，与统计力学笔记一样，本文档谨作为流形导论的梳理，并非完整的讲义。</p>
-]]></content>
-      <categories>
-        <category>数学笔记</category>
-      </categories>
-      <tags>
-        <tag>数学笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大三秋季学习计划</title>
-    <url>/2021/ckty9vo9b0007fcts33ui1egm/</url>
-    <content><![CDATA[<p>这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力以及经典场论部分，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。</p>
-<span id="more"></span>
-
-<p>估计除开课上教材，会详细看的书会基于以下的书单，或许实际操作顺序有所改变且数目减少orz。同时，针对相应可能出现的问题可能会查找相应的部分资料。</p>
-<h3 id="数学部分"><a href="#数学部分" class="headerlink" title="数学部分"></a>数学部分</h3><p>Basic topology</p>
-<p>群论及其在凝聚态物理中的应用</p>
-<p>Introduction to manifolds</p>
-<p>Complex analysis</p>
-<h3 id="GR-Cosmology"><a href="#GR-Cosmology" class="headerlink" title="GR-Cosmology"></a>GR-Cosmology</h3><p>时空与几何，Carroll</p>
-<p>Cosmological Inflation and Large-Scale Structure</p>
-<p>广义相对论与牛顿引力定律理论基础</p>
-<p>Gravitation and cosmology</p>
-<h3 id="Quantum"><a href="#Quantum" class="headerlink" title="Quantum"></a>Quantum</h3><p>Sakurai Modern Quantum Mechanics</p>
-<p>科恩：量子力学</p>
-<p>格雷纳：量子力学专论</p>
-<p>Quantum theory for mathematician </p>
-<h3 id="Classical-field"><a href="#Classical-field" class="headerlink" title="Classical field"></a>Classical field</h3><p>Classical field theory</p>
-<p>Landau: classical field theory </p>
-<h3 id="Statistical-physics"><a href="#Statistical-physics" class="headerlink" title="Statistical physics"></a>Statistical physics</h3><p>Statistical physics of particles </p>
-<p>Statistical physics of fields</p>
-]]></content>
-      <categories>
-        <category>物理学习计划</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>本科物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大二物理课内资料</title>
-    <url>/2021/ckty9vo9f0009fctsfanohn7a/</url>
-    <content><![CDATA[<p>这里是19级某学姐整理的大二课内学习资料，个人觉得非常全面！求到了链接分析给大家，但此为个人分享行为，出于对老师资料版权考虑，仅在北航物理学院内部传阅，请勿外传！</p>
-<p>本网页涉及的全部内容采用协议<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">CC BY-NC-ND 4.0</a>，谨作为学习用途！</p>
-<p>为保证以上要求，现给出百度网盘链接，请需要的同学通过<strong>北航邮箱</strong>向<a href="mailto:&#55;&#48;&#52;&#x33;&#x33;&#53;&#49;&#x30;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#55;&#48;&#52;&#x33;&#x33;&#53;&#49;&#x30;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a>发送邮件，我会回复需要的提取码。</p>
-<p>再次感谢这位热心的学姐！</p>
-<p>链接:<a href="https://pan.baidu.com/s/1OvT_oSvJiJ9cj8LlRwucaQ">https://pan.baidu.com/s/1OvT_oSvJiJ9cj8LlRwucaQ</a></p>
-]]></content>
-      <categories>
-        <category>本科物理指南</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>本科物理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python面向对象编程</title>
-    <url>/2021/ckty9vo930003fctsggwvew18/</url>
+    <url>/2021/cl0z62lv40003xotsfrybenpp/</url>
     <content><![CDATA[<h1 id="Python-3-面向对象编程（1）"><a href="#Python-3-面向对象编程（1）" class="headerlink" title="Python 3 面向对象编程（1）"></a>Python 3 面向对象编程（1）</h1><p>介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据<em>Dusty Phillips</em>所写的<em>Python 3面向对象编程</em>一书所写笔记，希望不会咕咕咕。</p>
 <span id="more"></span>
 
@@ -172,8 +111,8 @@
   </entry>
   <entry>
     <title>统计物理学笔记</title>
-    <url>/2021/ckty9voan001efctsbefzcr9j/</url>
-    <content><![CDATA[<p>此网页提供的PDF笔记主要基于<em>Mehran Kardar</em>所著的<em>Statistical Physics of Particles</em>以及<em>Statistical Physics of Fields</em>两本书。</p>
+    <url>/2021/cl0z62lwd000txotsaacd9sty/</url>
+    <content><![CDATA[<p>此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。</p>
 <span id="more"></span>
 
 <p>我的主要目的是构建一个基于此的思维路径，提供一个“拐杖式”的文档；同时催促自己学习orz。大多细节部分将略过，且在笔者学习过程中加以更新，希望在这个过程也可以能帮助我厘清两本书的脉络。</p>
@@ -196,92 +135,8 @@
       </tags>
   </entry>
   <entry>
-    <title>大二物理学习指南</title>
-    <url>/2021/ckty9vo9d0008fcts88a2ffxt/</url>
-    <content><![CDATA[<p>这是给学弟学妹写的大二学习指南，希望有点用处（大雾</p>
-<span id="more"></span>
-
-<p>需要注意的是虽然这写着大二学习指南，但如果你之前是和我一样只是经历了大类培养，肯定大二是没法完成的。所以，留下的坑就要自己慢慢填。同时，这是我的个人经验，仅供参考，如果不考虑自己的情况就变成小马过河了。</p>
-<p>对我校的学生来讲，大二估计最重要的科目如下：</p>
-<table>
-<thead>
-<tr>
-<th>学期</th>
-<th align="center">课程</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第三学期</td>
-<td align="center">热学（A）；光学；数学物理方法1；概率统计；电路分析</td>
-</tr>
-<tr>
-<td>第四学期</td>
-<td align="center">热力学与统计物理；理论力学；原子物理学；模拟电路；数字电路</td>
-</tr>
-<tr>
-<td>可补充内容</td>
-<td align="center">常微分，抽象代数，张量分析，量子力学，电动力学</td>
-</tr>
-</tbody></table>
-<h4 id="热学-热力学与统计物理"><a href="#热学-热力学与统计物理" class="headerlink" title="热学/热力学与统计物理"></a>热学/热力学与统计物理</h4><p>主要参考书：</p>
-<p>秦允豪《热学》</p>
-<p>林宗涵《热力学与统计物理学》</p>
-<p>汪志诚《热力学·统计物理》</p>
-<p>Kardar《Statistical Physics of Particles》/《Statistical Physics of Fields》</p>
-<p>参考书：</p>
-<p>帕斯里亚《统计力学》</p>
-<p>建议学习路径：</p>
-<p>热学学习先行，但注意不要被描述性质的东西限制住。建议大家都去听听热学课程，真的讲的很好且很有用。这样，就可以同时在大二上学期时学习林宗涵的平衡热力学部分，只要你花时间，就一定可以学好！如果胡老师做了讲义，请一定仔细阅读！</p>
-<p>大二下学期在阅读汪先生的教材的同时，请仔细阅读林宗涵的书。非平衡部分可以放到日后学习所用，同时，请阅读Kardar两件套的第一件套！最后，视兴趣阅读第二件套。</p>
-<h4 id="光学"><a href="#光学" class="headerlink" title="光学"></a>光学</h4><p>主要参考书：</p>
-<p>《新概念物理教程·光学》</p>
-<p>钟锡华《现代光学基础》</p>
-<p>建议学习路径：</p>
-<p>鉴于我认真学习光学的时间相对较短，不打算详细介绍这一部分。但是，新概念看看就好，不要以为能学会光学。考试过关可以，但是想学好一定参考这本《现代光学基础》！虽然挺难的，但是也请坚持。日后有机会我会请专业人士介绍这一方面。</p>
-<h4 id="数学物理方法"><a href="#数学物理方法" class="headerlink" title="数学物理方法"></a>数学物理方法</h4><p>主要参考书：</p>
-<p>《数学物理方法》梁昆淼</p>
-<p>《数学物理方法》吴崇试</p>
-<p>参考书：</p>
-<p>Arfken, Weber, and Harris《Mathematical Methods for Physicists》</p>
-<p>Sadri Hassani《Mathematical Physics》</p>
-<p>K.F.Riley, M.P.Hobson, S.J.Bence 《Mathematical Methods for Physics and Engineering》</p>
-<p>建议学习路径：</p>
-<p>虽有其他参考书，同时老师也会给相应的英文书，但只会考试那点，故待补充。</p>
-<p>请先快速学完复变函数部分，抓紧时间看数理方程部分。一定努力，数理方法是学多少都学不够的！</p>
-<h4 id="理论力学"><a href="#理论力学" class="headerlink" title="理论力学"></a>理论力学</h4><p>主要参考书：</p>
-<p>周衍柏《理论力学教程》</p>
-<p>朗道《力学》&amp;Landau《Mechanics》</p>
-<p>参考书：</p>
-<p>刘川《理论力学》</p>
-<p>阿诺德《经典力学中的数学方法》</p>
-<p>陈童《理论力学新讲》</p>
-<p>Goldstein《Classical Mechanics》</p>
-<p>建议学习路径：</p>
-<p>在牛顿力学还没有忘记时，阅读周衍柏前三章加习题。并不困难。继续阅读第五章看完拉格朗日方程部分，开始阅读朗道的中文\英文对应部分，再将两本书结合起来阅读效果极好。</p>
-<p>刘川的教材没有详细看，但是可以用于在看完朗道之后、阅读朗道《经典场论》同时加深理解。</p>
-<p>陈老师的书请在知乎搜索陈童可得，作者的想法非常好，建议二次重构时阅读。</p>
-<p>阿诺德请视自己能力确定是否阅读，Goldstein请考虑阅读时间。</p>
-<h4 id="常微分"><a href="#常微分" class="headerlink" title="常微分"></a>常微分</h4><p>主要参考书：</p>
-<p>王高雄《常微分方程》</p>
-<p>参考书：</p>
-<p>阿诺德《常微分方程》（中/英）</p>
-<p>这门课主要针对数学二学位所写，主要授课内容为常微分方程（组）的具体求解。这是上课的重点，但是也请好好看看微分方程的定性理论，没有什么好说的。</p>
-<h4 id="抽象代数"><a href="#抽象代数" class="headerlink" title="抽象代数"></a>抽象代数</h4><p>（待补充）</p>
-<h4 id="张量分析"><a href="#张量分析" class="headerlink" title="张量分析"></a>张量分析</h4><p>（待补充）</p>
-<p>量子力学&amp;电动力学请视时间（指大三授课是否时间冲突）以及能力（能否坚持听课）开展。这里的目的是为了给你一个这两门课程的初步印象，以便在大三学习之初便能跟上节奏。</p>
-<p>（待更新）</p>
-]]></content>
-      <categories>
-        <category>本科物理指南</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>本科物理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>或称作理想的</title>
-    <url>/2021/ckty9vo9i000dfcts7u2e68iz/</url>
+    <url>/2021/cl0z62lvc0007xots6f8ige3j/</url>
     <content><![CDATA[<p>荒原建立在</p>
 <p>春天语言的草场，</p>
 <p>天使的翅膀下护着撒旦。</p>
@@ -321,7 +176,7 @@
   </entry>
   <entry>
     <title>气势有别，內圣外王</title>
-    <url>/2021/ckty9vo9k000efcts69s52r52/</url>
+    <url>/2021/cl0z62lve0008xots22p21lc4/</url>
     <content><![CDATA[<p>这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。</p>
 <span id="more"></span>
 

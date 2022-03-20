@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2021-09-27T23:45:07.727Z</updated>
+  <updated>2021-09-24T11:18:19.552Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>流形笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/cku9jmd0800007wtsc2p30qgh/"/>
-    <id>https://richard-liu-physics.github.io/2021/cku9jmd0800007wtsc2p30qgh/</id>
-    <published>2021-09-27T23:38:32.000Z</published>
-    <updated>2021-09-27T23:45:07.727Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于Loring W. Tu的An Introduction to</summary>
-        
-      
-    
-    
-    
-    <category term="数学笔记" scheme="https://richard-liu-physics.github.io/categories/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数学笔记" scheme="https://richard-liu-physics.github.io/tags/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
   
   <entry>
     <title>About Me</title>
@@ -61,58 +36,9 @@
   </entry>
   
   <entry>
-    <title>大三秋季学习计划</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo9b0007fcts33ui1egm/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo9b0007fcts33ui1egm/</id>
-    <published>2021-09-18T10:21:13.000Z</published>
-    <updated>2021-10-22T00:23:48.502Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这个学期还是确定了自己喜欢做的工作的类型吧，虽然生活出了些小问题，但是我还是希望生活可以活得很潇洒诗意。主要希望主动学的物理方面是广相和量力以及经典场论部分，数学方面是拓扑和群论以及流形。基于下学期想做一次热统助教，估计也会再深入看看统计力学。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理学习计划" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="本科物理" scheme="https://richard-liu-physics.github.io/tags/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大二物理课内资料</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo9f0009fctsfanohn7a/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo9f0009fctsfanohn7a/</id>
-    <published>2021-08-01T01:09:17.000Z</published>
-    <updated>2021-08-01T01:38:18.585Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这里是19级某学姐整理的大二课内学习资料，个人觉得非常全面！求到了链接分析给大家，但此为个人分享行为，出于对老师资料版权考虑，仅在北航物理学院内部传阅，请勿外传！&lt;/p&gt;
-&lt;p&gt;本网页涉及的全部内容采用协议&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="本科物理指南" scheme="https://richard-liu-physics.github.io/categories/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86%E6%8C%87%E5%8D%97/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="本科物理" scheme="https://richard-liu-physics.github.io/tags/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Python面向对象编程</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo930003fctsggwvew18/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo930003fctsggwvew18/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cl0z62lv40003xotsfrybenpp/"/>
+    <id>https://richard-liu-physics.github.io/2021/cl0z62lv40003xotsfrybenpp/</id>
     <published>2021-07-28T05:33:02.000Z</published>
     <updated>2021-08-04T06:47:58.502Z</updated>
     
@@ -132,13 +58,13 @@
   
   <entry>
     <title>统计物理学笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9voan001efctsbefzcr9j/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9voan001efctsbefzcr9j/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cl0z62lwd000txotsaacd9sty/"/>
+    <id>https://richard-liu-physics.github.io/2021/cl0z62lwd000txotsaacd9sty/</id>
     <published>2021-07-27T13:05:11.000Z</published>
-    <updated>2021-07-28T05:41:44.723Z</updated>
+    <updated>2022-03-20T10:51:25.229Z</updated>
     
     
-    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于&lt;em&gt;Mehran Kardar&lt;/em&gt;所著的&lt;em&gt;Statistical Physics of Particles&lt;/em&gt;以及&lt;em&gt;Statistical Physics of Fields&lt;/em&gt;两本书。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。&lt;/p&gt;</summary>
     
     
     
@@ -152,30 +78,9 @@
   </entry>
   
   <entry>
-    <title>大二物理学习指南</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo9d0008fcts88a2ffxt/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo9d0008fcts88a2ffxt/</id>
-    <published>2021-07-17T15:00:02.000Z</published>
-    <updated>2021-07-27T13:06:53.575Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这是给学弟学妹写的大二学习指南，希望有点用处（大雾&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="本科物理指南" scheme="https://richard-liu-physics.github.io/categories/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86%E6%8C%87%E5%8D%97/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="本科物理" scheme="https://richard-liu-physics.github.io/tags/%E6%9C%AC%E7%A7%91%E7%89%A9%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>或称作理想的</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo9i000dfcts7u2e68iz/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo9i000dfcts7u2e68iz/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cl0z62lvc0007xots6f8ige3j/"/>
+    <id>https://richard-liu-physics.github.io/2021/cl0z62lvc0007xots6f8ige3j/</id>
     <published>2021-07-17T15:00:01.000Z</published>
     <updated>2021-07-17T11:20:34.335Z</updated>
     
@@ -197,8 +102,8 @@
   
   <entry>
     <title>气势有别，內圣外王</title>
-    <link href="https://richard-liu-physics.github.io/2021/ckty9vo9k000efcts69s52r52/"/>
-    <id>https://richard-liu-physics.github.io/2021/ckty9vo9k000efcts69s52r52/</id>
+    <link href="https://richard-liu-physics.github.io/2021/cl0z62lve0008xots22p21lc4/"/>
+    <id>https://richard-liu-physics.github.io/2021/cl0z62lve0008xots22p21lc4/</id>
     <published>2021-07-17T15:00:00.000Z</published>
     <updated>2021-07-17T11:20:06.647Z</updated>
     
