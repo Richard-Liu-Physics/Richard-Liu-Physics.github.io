@@ -110,31 +110,6 @@
       </tags>
   </entry>
   <entry>
-    <title>统计物理学笔记</title>
-    <url>/2021/cl0z62lwd000txotsaacd9sty/</url>
-    <content><![CDATA[<p>此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。</p>
-<span id="more"></span>
-
-<p>我的主要目的是构建一个基于此的思维路径，提供一个“拐杖式”的文档；同时催促自己学习orz。大多细节部分将略过，且在笔者学习过程中加以更新，希望在这个过程也可以能帮助我厘清两本书的脉络。</p>
-<p>本文档采用协议<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">CC BY-NC-ND 4.0</a>，对这篇笔记如果有纠错和建议，也欢迎联系我噢:)</p>
-
-
-	<div class="row">
-    <embed src="./notes.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>物理笔记</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>物理笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>或称作理想的</title>
     <url>/2021/cl0z62lvc0007xots6f8ige3j/</url>
     <content><![CDATA[<p>荒原建立在</p>
@@ -209,6 +184,31 @@
       <tags>
         <tag>literature</tag>
         <tag>critic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>统计物理学笔记</title>
+    <url>/2021/cl0z62lwd000txotsaacd9sty/</url>
+    <content><![CDATA[<p>此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。</p>
+<span id="more"></span>
+
+<p>我的主要目的是构建一个基于此的思维路径，提供一个“拐杖式”的文档；同时催促自己学习orz。大多细节部分将略过，且在笔者学习过程中加以更新，希望在这个过程也可以能帮助我厘清两本书的脉络。</p>
+<p>本文档采用协议<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">CC BY-NC-ND 4.0</a>，对这篇笔记如果有纠错和建议，也欢迎联系我噢:)</p>
+
+
+	<div class="row">
+    <embed src="./notes.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>物理笔记</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>物理笔记</tag>
       </tags>
   </entry>
 </search>
