@@ -66,7 +66,7 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2021/cl0z62lv40003xotsfrybenpp/" class="article-date">
+      <a href="/2021/cl1io6m8q0003bwts2z2n9o6t/" class="article-date">
   <time datetime="2021-07-28T05:33:02.000Z" itemprop="datePublished">2021-07-28</time>
 </a> 
   <div class="article-category">
@@ -104,7 +104,6 @@
        
   <h1 id="Python-3-面向对象编程（1）"><a href="#Python-3-面向对象编程（1）" class="headerlink" title="Python 3 面向对象编程（1）"></a>Python 3 面向对象编程（1）</h1><p>介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据<em>Dusty Phillips</em>所写的<em>Python 3面向对象编程</em>一书所写笔记，希望不会咕咕咕。</p>
 <span id="more"></span>
-
 <h2 id="一-面向对象设计"><a href="#一-面向对象设计" class="headerlink" title="一.面向对象设计"></a>一.面向对象设计</h2><p><strong>对象</strong>：数据和相关行为的集合。</p>
 <p><strong>面对对象</strong>：通过数据和行为来描述一系列相互作用的对象。在这一概念下，还有小概念：</p>
 <ul>
@@ -124,8 +123,7 @@
 </li>
 <li><p>设计是开放式的，但是只针对必须的内容建模。</p>
 </li>
-<li><p>设计接口时，一般需要有较强的隐私意识。</p>
-</li>
+<li>设计接口时，一般需要有较强的隐私意识。</li>
 </ul>
 <h3 id="c-组合与继承"><a href="#c-组合与继承" class="headerlink" title="c.组合与继承"></a>c.组合与继承</h3><p><strong>组合</strong>与<strong>继承</strong>是两个基本的面向对象原则，组合是将几个对象收集在一起生成新的对象的行为，而继承是描述“是一个”这类关系的原则，一个类可以从另一个类中继承属性和方法。</p>
 <p>还有一种与组合类似的概念，当对象可以独立存在时，我们称这种收集在一起的行为为<strong>聚合</strong>。或者说，组合的外部与相关的（内部）对象相对独立，或者内部对象生命周期比组合对象长，我们便最好称为聚合。<strong>所有的组合关系也是聚合关系，反之不一定。</strong></p>
@@ -146,34 +144,26 @@
 <p>点标记法(dot notation)为对象赋值    &lt;对象&gt;.&lt;属性&gt;=&lt;值&gt;</p>
 <p>所有的方法都需要有一个必要的参数，一般记作self，该参数就是对方法调用对象的引用。除去&lt;对象&gt;.&lt;方法&gt;这一用法，我们还可以明确的写出&lt;类&gt;.&lt;方法&gt;(对象)</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">reset</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.x = <span class="number">0</span></span><br><span class="line">        self.y = <span class="number">0</span></span><br><span class="line">    </span><br><span class="line">p=Point()</span><br><span class="line">p.reset()</span><br><span class="line"><span class="built_in">print</span>(p.x,p.y)</span><br></pre></td></tr></table></figure>
-
 <p><strong>小tip：</strong> assert函数是一个简单的测试工具，如果括号内为False（或者0，None，空值）那么程序将退出(显示AssertionError)。用法为：assert 检测语句 “自设报错信息”</p>
 <h3 id="初始化对象"><a href="#初始化对象" class="headerlink" title="初始化对象"></a>初始化对象</h3><p>大多数面向对象编程语言都有构造函数(constructor)的概念，在这里完成创建对象和初始化；但对Python而言，它同时拥有构造函数和初始化方法。初始化方法即<code>__init__</code>，例子如下所示：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self,x,y</span>):</span></span><br><span class="line">        self.move(x,y)</span><br><span class="line">        </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">self,x,y</span>):</span></span><br><span class="line">        self.x=x</span><br><span class="line">        self.y=y</span><br><span class="line">point=Point(<span class="number">3</span>,<span class="number">5</span>)</span><br><span class="line"><span class="built_in">print</span>(point.x,point.y)</span><br></pre></td></tr></table></figure>
-
 <p>其中<code>def __init__(self,x,y)</code>可以改为<code>def __init__(self,x=0,y=0)</code>以提供默认参数。</p>
 <p>与<code>__init__</code>相对应的我们还有构造函数<code>__new__</code>，它只接收一个参数（不是self）同时返回新创建的对象。但此构造函数我们很少用到。</p>
 <p>另外，为了提高程序的可读性，我们需要添加注释。Python通过字符串文档来支持注释，可以在每个类、函数、方法的定义语句之后添加字符串作为第一行。如“  ”，‘  ’，‘’‘   ’‘’。三者用途从略。</p>
 <h3 id="模块和包"><a href="#模块和包" class="headerlink" title="模块和包"></a>模块和包</h3><p>模块(module)就是包含多个文件的项目中的每一个Python文件。import语句用于导入模块、类、函数。import语法有几种均可访问模块中的类，若我们想导入database.py中的Datebase类 ，我们可以：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#第一种方法</span></span><br><span class="line"><span class="keyword">import</span> database</span><br><span class="line">db=database.Database()</span><br><span class="line"></span><br><span class="line"><span class="comment">#第二种方法</span></span><br><span class="line"><span class="keyword">from</span> database <span class="keyword">import</span> Database</span><br><span class="line">db=Database()</span><br><span class="line"></span><br><span class="line"><span class="comment">#第三种方法</span></span><br><span class="line"><span class="keyword">from</span> database <span class="keyword">import</span> Database <span class="keyword">as</span> DB</span><br><span class="line">db=DB()</span><br><span class="line"></span><br><span class="line"><span class="comment">#导入多个类</span></span><br><span class="line"><span class="keyword">from</span> database <span class="keyword">import</span> Database， Query</span><br></pre></td></tr></table></figure>
-
-<p>一个<strong>包</strong>是一个目录下模块的集合，包的名字就是目录的名字，只需要在目录下添加一个名为_<em>init</em>_.py的文件（通常是空文件）就可以告诉Python这个目录是一个包。我们考虑如下的层级：</p>
+<p>一个<strong>包</strong>是一个目录下模块的集合，包的名字就是目录的名字，只需要在目录下添加一个名为__init__.py的文件（通常是空文件）就可以告诉Python这个目录是一个包。我们考虑如下的层级：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">parent_directory/</span><br><span class="line">	main.py</span><br><span class="line">	ecommerce/</span><br><span class="line">		__init__.py</span><br><span class="line">		database.py</span><br><span class="line">		products.py</span><br><span class="line">		payments/</span><br><span class="line">			__init__.py</span><br><span class="line">			square.py</span><br><span class="line">			stripe.py</span><br></pre></td></tr></table></figure>
-
 <p>在包之间导入模块的语法有以下两种：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#绝对导入：指定我们想导入的模块、函数或路径的完整路径</span></span><br><span class="line"><span class="keyword">import</span> ecommerce.products</span><br><span class="line">product = ecommerce.products.Product()</span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"><span class="keyword">from</span> ecommerce.products <span class="keyword">import</span> Product</span><br><span class="line">product = Product()</span><br><span class="line"><span class="comment">#相对导入：当处理同一个包下的相关模块时，我们寻找与当前模块在位置上有相对关系的类、函数、或模块。</span></span><br><span class="line"><span class="comment">#对products.py</span></span><br><span class="line"><span class="keyword">from</span> .database <span class="keyword">import</span> Database<span class="comment">#同一级加.</span></span><br><span class="line"><span class="comment">#对square.py</span></span><br><span class="line"><span class="keyword">from</span> ..database <span class="keyword">import</span> Database<span class="comment">#上一级加..</span></span><br></pre></td></tr></table></figure>
-
-<p>最后，我们可以从包里导入代码，而不仅仅是模块。如果在ecommerce/_<em>init</em>_.py文件里写入<code>from .database import db</code>我们就可以在main.py模块里直接访问db属性<code>from ecommerce import db</code>而不用写入完整路径了。</p>
+<p>最后，我们可以从包里导入代码，而不仅仅是模块。如果在ecommerce/__init__.py文件里写入<code>from .database import db</code>我们就可以在main.py模块里直接访问db属性<code>from ecommerce import db</code>而不用写入完整路径了。</p>
 <h3 id="组织模块内容"><a href="#组织模块内容" class="headerlink" title="组织模块内容"></a>组织模块内容</h3><p><strong>延迟创建全局变量</strong>：在我们导入模块层代码时，所有模块层的代码将会立刻执行，而对其中的方法或函数，只会创建函数而不会执行内部代码（除非你调用了这个方法或函数）。样例如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Database</span>:</span></span><br><span class="line">    <span class="comment">#数据库的实现</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line">database=<span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">initialize_db</span>():</span></span><br><span class="line">    <span class="keyword">global</span> database</span><br><span class="line">    database=Database()</span><br></pre></td></tr></table></figure>
-
 <p>通常在写实用程序时，我们需要调用其他程序的类或方法，但是不想运行模块所在的全部代码层。这时我们通常将启动代码放到一个函数里，只有在将模块作为脚本运行是时才会执行这一函数：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UsefulClass</span>:</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;This class might be useful to other modules&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;creates a useful class and does something with it for our</span></span><br><span class="line"><span class="string">    module.这里写这个模块单独执行的代码&#x27;&#x27;&#x27;</span></span><br><span class="line">    useful=UsefulClass()</span><br><span class="line">    <span class="built_in">print</span>(useful)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
-
 <p>方法定义在类里，类定义在模块里，模块存于包中，这是Python的典型顺序，但不是唯一可能出现的情况。类可以在任何地方定义，比如函数和方法的内部。由于是在函数内部作用域内创建的，因此从函数外无法获取这个类。在Python里，函数可以嵌套定义。</p>
 <h3 id="谁可以访问我的数据"><a href="#谁可以访问我的数据" class="headerlink" title="谁可以访问我的数据"></a>谁可以访问我的数据</h3><p>在Python中，类的所有方法和属性都是对外公开的，如果我们想说明某个方法不应该公开使用，可以在文档字符串中表明这一点。依据惯例，我们可以在属性或者方法前加上一个下划线_的前缀，提示这是一个内部变量。另外，我们可以用双下划线__来作为前缀，对相关的属性或方法实现<strong>命名改装</strong>。此时，属性被加上了_&lt;类名&gt;的前缀，当方法在类内部访问变量时，会自动改回去；当外部的类要访问时，需要自己进行命名改装。外部对象虽然可以调用该方法但是需要额外的工作，从这种意义上强调此方法为私有。但是一般而言，我们采用单下划线提醒的方式，以免与系统本身的特殊方法冲突。命名改装例子如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SecretString</span>:</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;A not-at-all secure way to store a secret string&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self,plain_string,pass_phrase</span>):</span></span><br><span class="line">        self.__plain_string=plain_string</span><br><span class="line">        self.__pass_phrase=pass_phrase</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">decode</span>(<span class="params">self,pass_phrase</span>):</span></span><br><span class="line">        <span class="keyword">if</span> pass_phrase==self.__pass_phrase:</span><br><span class="line">            <span class="keyword">return</span> self.__plain_string</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">secretstring=SecretString(<span class="string">&quot;girlfriendJY&quot;</span>,<span class="string">&#x27;love&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(secretstring.decode(<span class="string">&quot;love&quot;</span>))</span><br><span class="line"><span class="comment">#输出正确结果</span></span><br><span class="line"><span class="built_in">print</span>(secretstring.__plain_string)</span><br><span class="line"><span class="comment">#输出错误</span></span><br><span class="line"><span class="built_in">print</span>(secretstring._SecretString__plain_string)</span><br><span class="line"><span class="comment">#输出正确结果</span></span><br></pre></td></tr></table></figure>
-
 <h3 id="第三方库与案例学习"><a href="#第三方库与案例学习" class="headerlink" title="第三方库与案例学习"></a>第三方库与案例学习</h3><p>见书p46，逃^-^</p>
  
       <!-- reward -->
@@ -239,7 +229,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://richard-liu-physics.github.io/2021/cl0z62lv40003xotsfrybenpp/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://richard-liu-physics.github.io/2021/cl1io6m8q0003bwts2z2n9o6t/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -262,7 +252,7 @@
       </a>
     
     
-      <a href="/2021/cl0z62lwd000txotsaacd9sty/" class="article-nav-link">
+      <a href="/2021/cl1io6m9j000tbwts6o1k6w9m/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
         <div class="article-nav-title">统计物理学笔记</div>
       </a>
@@ -610,6 +600,29 @@
     viewer_init()
 </script> 
 <!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
 
 <!-- Katex -->
 

@@ -1,123 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>荒原</title>
-  <icon>https://www.gravatar.com/avatar/5cf780da85081f5fca38fb9ea91e0f7a</icon>
+  <title>{{ config.title }}</title>
+  <icon>{{ icon }}</icon>
   
-  <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
+  <link href="{{ feed_url | uriencode }}" rel="self"/>
   
-  <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2021-09-24T11:18:19.552Z</updated>
-  <id>https://richard-liu-physics.github.io/</id>
+  <link href="{{ url | uriencode }}"/>
+  <updated>{{ posts.first().updated.toISOString() }}</updated>
+  <id>{{ url | uriencode }}</id>
   
   <author>
-    <name>Richard Liu</name>
-    <email>19377111@buaa.edu.cn</email>
+    <name>{{ config.author }}</name>
+    <email>{{ config.email }}</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>About Me</title>
-    <link href="https://richard-liu-physics.github.io/2021/about/"/>
-    <id>https://richard-liu-physics.github.io/2021/about/</id>
-    <published>2021-09-24T11:05:43.000Z</published>
-    <updated>2021-09-24T11:18:19.552Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
-    <summary type="html">&lt;p&gt;Hello, I’m Richard Liu, just a student learning physics and exploring my interests. Hope my web page can  help you.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="简介" scheme="https://richard-liu-physics.github.io/categories/%E7%AE%80%E4%BB%8B/"/>
-    
-    
-    <category term="简介" scheme="https://richard-liu-physics.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python面向对象编程</title>
-    <link href="https://richard-liu-physics.github.io/2021/cl0z62lv40003xotsfrybenpp/"/>
-    <id>https://richard-liu-physics.github.io/2021/cl0z62lv40003xotsfrybenpp/</id>
-    <published>2021-07-28T05:33:02.000Z</published>
-    <updated>2021-08-04T06:47:58.502Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;Python-3-面向对象编程（1）&quot;&gt;&lt;a href=&quot;#Python-3-面向对象编程（1）&quot; class=&quot;headerlink&quot; title=&quot;Python 3 面向对象编程（1）&quot;&gt;&lt;/a&gt;Python 3 面向对象编程（1）&lt;/h1&gt;&lt;p&gt;介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据&lt;em&gt;Dusty Phillips&lt;/em&gt;所写的&lt;em&gt;Python 3面向对象编程&lt;/em&gt;一书所写笔记，希望不会咕咕咕。&lt;/p&gt;</summary>
+    <summary type="html">{{ post.excerpt }}</summary>
     
     
     
-    <category term="CS搬砖" scheme="https://richard-liu-physics.github.io/categories/CS%E6%90%AC%E7%A0%96/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="Python 3" scheme="https://richard-liu-physics.github.io/tags/Python-3/"/>
-    
-    <category term="CS搬砖教程" scheme="https://richard-liu-physics.github.io/tags/CS%E6%90%AC%E7%A0%96%E6%95%99%E7%A8%8B/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
   <entry>
-    <title>统计物理学笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/cl0z62lwd000txotsaacd9sty/"/>
-    <id>https://richard-liu-physics.github.io/2021/cl0z62lwd000txotsaacd9sty/</id>
-    <published>2021-07-27T13:05:11.000Z</published>
-    <updated>2022-03-20T10:51:25.229Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
-    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。&lt;/p&gt;</summary>
+    <summary type="html">{{ post.excerpt }}</summary>
     
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
   <entry>
-    <title>或称作理想的</title>
-    <link href="https://richard-liu-physics.github.io/2021/cl0z62lvc0007xots6f8ige3j/"/>
-    <id>https://richard-liu-physics.github.io/2021/cl0z62lvc0007xots6f8ige3j/</id>
-    <published>2021-07-17T15:00:01.000Z</published>
-    <updated>2021-07-17T11:20:34.335Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
-    <summary type="html">&lt;p&gt;荒原建立在&lt;/p&gt;
-&lt;p&gt;春天语言的草场，&lt;/p&gt;
-&lt;p&gt;天使的翅膀下护着撒旦。&lt;/p&gt;</summary>
+    <summary type="html">{{ post.excerpt }}</summary>
     
     
     
-    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
-    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
   <entry>
-    <title>气势有别，內圣外王</title>
-    <link href="https://richard-liu-physics.github.io/2021/cl0z62lve0008xots22p21lc4/"/>
-    <id>https://richard-liu-physics.github.io/2021/cl0z62lve0008xots22p21lc4/</id>
-    <published>2021-07-17T15:00:00.000Z</published>
-    <updated>2021-07-17T11:20:06.647Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
-    <summary type="html">&lt;p&gt;这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。&lt;/p&gt;</summary>
+    <summary type="html">{{ post.excerpt }}</summary>
     
     
     
-    <category term="critic" scheme="https://richard-liu-physics.github.io/categories/critic/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
-    <category term="critic" scheme="https://richard-liu-physics.github.io/tags/critic/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+  </entry>
+  
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
+    
+    
+    <summary type="html">{{ post.excerpt }}</summary>
+    
+    
+    
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
+    
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+  </entry>
+  
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
+    
+    
+    <summary type="html">{{ post.excerpt }}</summary>
+    
+    
+    
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
+    
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
