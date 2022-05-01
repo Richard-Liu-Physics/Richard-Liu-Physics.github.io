@@ -145,7 +145,7 @@ G^A_{lj}= \sum_{p=1}^{N_A}V_{lp}^\dagger \Lambda_pV_{pj},\Lambda_p \in [0,1]\\
 <h2 id="MPS-for-free-fermion-state"><a href="#MPS-for-free-fermion-state" class="headerlink" title="MPS for free fermion state"></a>MPS for free fermion state</h2><p>For MPS approximation, there is two way of doing truncation for free fermion systems. The first is Gaussian truncation, and the second is SVD truncation. The former keeps the nature of Gaussian state, in other words, stay to be the free fermion states. <strong>This can be seen in the paper: M. T. Fishman &amp; S. R. White, Phys. Rev. B 92, 075132 (2015).</strong></p>
 <p>As equation (1) shown that free  fermion state created by $f^\dagger $ is the eigenvector of the reduced density matrix, (NOTICE: the state is not necessarily to be the ground state) so The Schmidt decomposition can be computed exactly for free fermion systems.</p>
 <p>So to write a free fermion state into MPS form require bipartitions steps, below is one example:</p>
-<p><img src="C:\Users\Richard\Desktop\暑研_HH Tu\image-20220501191117191.png" alt="image-20220501191117191"></p>
+<p><img src="1.png" alt=""></p>
 <p>Any state $|\alpha \rangle $ can be written as a combination of $|\beta \rangle \bigotimes |n \rangle $:</p>
 <script type="math/tex; mode=display">
 |\alpha \rangle =\sum_{\beta, n}A_{\beta\alpha}^{n} |\beta \rangle \bigotimes |n \rangle</script><p>what should be claimed here is that $A_{\beta\alpha}^n$ is in a block diagonal form. Now we compute the coefficients using the results gained from correlation matrix and assuming $n=0$:</p>
