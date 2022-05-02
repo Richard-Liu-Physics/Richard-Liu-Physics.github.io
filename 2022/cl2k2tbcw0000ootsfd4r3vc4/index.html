@@ -78,7 +78,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.1k</span>
+            <span class="post-count">1.5k</span>
         </span>
     </span>
 
@@ -87,7 +87,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">6 分钟</span>
+            <span class="post-count">9 分钟</span>
         </span>
     </span>
 </div>
@@ -159,7 +159,66 @@ G^A_{lj}= \sum_{p=1}^{N_A}V_{lp}^\dagger \Lambda_pV_{pj},\Lambda_p \in [0,1]\\
 A^0_{\beta\alpha} = (\langle 0|\bigotimes\langle\beta|)|\alpha \rangle = \langle 0|\prod_{p=m}^{1}\sum^{i}_{j=1}c_j \tilde V_{jp}\prod_{p'=1}^{m}\sum^i_{j'=1}c_{j'}^\dagger V_{j'p'}^\dagger |0\rangle</script><p><strong>(Personal statement)</strong>Similarly, we can compute $A_{\beta\alpha}^{1}$, which requires different meaning of $\tilde V^\dagger$. Noticing the order of creators:</p>
 <script type="math/tex; mode=display">
 |\beta \rangle \bigotimes |1 \rangle = \tilde f_1^\dagger \cdots \tilde f_{m-1}^\dagger c_i^\dagger|0 \rangle_{1\rightarrow i-1}\bigotimes |0 \rangle_i =\prod_{p=1}^{m}\sum^i_{j=1}c_j^\dagger \tilde V_{jp}^\dagger |0 \rangle_{1\rightarrow i}</script><p>The following procedure ends up with the same answer. In this way we can write down the MPS form of free fermion state.</p>
-<h2 id="Convert-a-Fermion-sea-into-MPS-state"><a href="#Convert-a-Fermion-sea-into-MPS-state" class="headerlink" title="Convert a Fermion sea into MPS state"></a>Convert a Fermion sea into MPS state</h2><h2 id="Truncation-procedure-for-MPO-MPS-evolution"><a href="#Truncation-procedure-for-MPO-MPS-evolution" class="headerlink" title="Truncation procedure for MPO-MPS evolution"></a>Truncation procedure for MPO-MPS evolution</h2> 
+<h2 id="Convert-a-Fermion-sea-into-MPS-state"><a href="#Convert-a-Fermion-sea-into-MPS-state" class="headerlink" title="Convert a Fermion sea into MPS state"></a>Convert a Fermion sea into MPS state</h2><p>According to the creators and annihilators for different eigenstates of energy modes, these operators is just a combination of that according to sites:</p>
+<script type="math/tex; mode=display">
+\begin{align}
+d_m^\dagger &= \sum_{l=1}^{N}A_{ml}c^\dagger_l\\
+& = 
+\begin{pmatrix}
+0    &1
+\end{pmatrix}
+\begin{pmatrix}
+1    &0\\
+A_{m1}c_1^\dagger &1\\
+\end{pmatrix}
+\begin{pmatrix}
+1    &0\\
+A_{m2}c_2^\dagger &1\\
+\end{pmatrix}
+\cdots
+\begin{pmatrix}
+1    &0\\
+A_{mN}c_N^\dagger &1\\
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+0\\
+\end{pmatrix}
+\end{align}</script><p>What should be noticed is that matrix $A$ and matrix $U$ is not the same, i.e. $A = (U^\dagger)^T = U^*$ . Here we use use Jordan-Wigner transformation to introduce a correspondence between fermion creators and spin operators:</p>
+<script type="math/tex; mode=display">
+c_l^\dagger = (-\sigma_1^z)\cdots(-\sigma_{l-1}^z)\sigma_l^+</script><p><strong>(For Jordan-Wigner transformation, there is a statement to check:注意横场伊辛模型和变换后的 Kitaev chain 有相同的能谱和相变点，但后者存在对称性保护的拓扑超导相，相应的在边缘会有 Majorana zero mode， 但在横场伊辛模型中，该零能模式表现为对称性自发破缺的基态简并。)</strong></p>
+<p>In that case, we have:</p>
+<script type="math/tex; mode=display">
+d_m^\dagger =
+\begin{pmatrix}
+0    &1
+\end{pmatrix}
+\begin{pmatrix}
+1    &0\\
+A_{m1}\sigma_1^+ &-\sigma_1^z\\
+\end{pmatrix}
+\begin{pmatrix}
+1    &0\\
+A_{m2}\sigma_2^+ &-\sigma_2^z\\
+\end{pmatrix}
+\cdots
+\begin{pmatrix}
+1    &0\\
+A_{mN}\sigma_N^+ &-\sigma_N^z\\
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+0\\
+\end{pmatrix}</script><p>So here we have successfully written the creator as a MPO. Graphically, that is as follows.</p>
+<p><img src="2.png" alt=""></p>
+<p>The different quantities for different indexes is as follows: <img src="3.png" alt=""></p>
+<p>In a nutshell, the Fermi sea can be written in a sequence of MPO. As a consequence, the bond dimension will increase exponentially. So at some point truncation is needed. High fidelity compression requires low-entanglement “intermediate” states (This statement can be seen as the result of Jensen Inequality).</p>
+<h2 id="Truncation-procedure-for-MPO-MPS-evolution"><a href="#Truncation-procedure-for-MPO-MPS-evolution" class="headerlink" title="Truncation procedure for MPO-MPS evolution"></a>Truncation procedure for MPO-MPS evolution</h2><h3 id="SVD-truncation-for-a-given-MPS"><a href="#SVD-truncation-for-a-given-MPS" class="headerlink" title="SVD truncation for a given MPS"></a>SVD truncation for a given MPS</h3><p>The truncation is a process described as follows graphically :</p>
+<p><img src="4.png" alt=""></p>
+<p>To understand what I’m doing here, you may consult the previous article.</p>
+<a href="/2022/cl1iojk4o00006ots7mxo7fjm/" title="From Matrix Product State(MPS) to DMRG（1）">From Matrix Product State(MPS) to DMRG（1）</a>
+<p>What should be stressed here is the process of QR decomposition: as we want to use SVD decomposition to maximize the approximation, we should put the MPS state in the canonical form, i.e. the state should consisted of Schmidt vectors for different blocks.</p>
+<h2 id="Truncation-procedure-for-MPO-MPS-evolution-1"><a href="#Truncation-procedure-for-MPO-MPS-evolution-1" class="headerlink" title="Truncation procedure for MPO-MPS evolution"></a>Truncation procedure for MPO-MPS evolution</h2> 
       <!-- reward -->
       
     </div>
