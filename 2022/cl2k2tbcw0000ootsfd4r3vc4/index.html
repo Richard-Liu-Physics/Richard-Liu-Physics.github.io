@@ -78,7 +78,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.5k</span>
+            <span class="post-count">1.8k</span>
         </span>
     </span>
 
@@ -87,7 +87,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">9 分钟</span>
+            <span class="post-count">10 分钟</span>
         </span>
     </span>
 </div>
@@ -102,7 +102,7 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>这是笔者的暑研笔记，参考为暑研老师的Lectures。（未完待更新）</p>
+  <p>这是笔者的暑研笔记，参考为HH Tu老师的TENSOR NETWORKS (SS2021)  Lecture 10&amp;11。</p>
 <span id="more"></span>
 <h2 id="Correlation-matrix"><a href="#Correlation-matrix" class="headerlink" title="Correlation matrix"></a>Correlation matrix</h2><p>For free fermionic system, providing $T_{ij}$ is symmetric, the generic Hamiltonian is:</p>
 <script type="math/tex; mode=display">
@@ -117,7 +117,7 @@ G_{lj} = \langle\psi|c_j^\dagger c_l|\psi\rangle</script><p>It has the property 
 \begin{align}
 (UGU^\dagger)_{m'm} &= \sum_{j,l=1}^{N}U_{m'l}\langle\psi|c_j^\dagger c_l|\psi\rangle U^\dagger _{jm}\\
 &=\langle\psi|d_m^\dagger d_{m'}|\psi\rangle
-\end{align}</script><p>For general pure state, the single-particle basis which diagonalizes 𝐺 defines <em>natural orbitals</em>, which means although the pure state is not the ground state, then there is possible that some modes(orbitals) may be not occupied.<strong>(Really this is what it means?)</strong></p>
+\end{align}</script><p>For general pure state, the single-particle basis which diagonalizes 𝐺 defines <em>natural orbitals</em>, which means even though the pure state is not the ground state, then there is possible that some modes(orbitals) may be not occupied.</p>
 <h2 id="Calculating-the-reduced-density-matrix"><a href="#Calculating-the-reduced-density-matrix" class="headerlink" title="Calculating the reduced density matrix"></a>Calculating the reduced density matrix</h2><p>As mentioned above, for free fermions, the correlation matrix can be shown as:</p>
 <script type="math/tex; mode=display">
 \begin{align}
@@ -186,8 +186,7 @@ A_{mN}c_N^\dagger &1\\
 \end{pmatrix}
 \end{align}</script><p>What should be noticed is that matrix $A$ and matrix $U$ is not the same, i.e. $A = (U^\dagger)^T = U^*$ . Here we use use Jordan-Wigner transformation to introduce a correspondence between fermion creators and spin operators:</p>
 <script type="math/tex; mode=display">
-c_l^\dagger = (-\sigma_1^z)\cdots(-\sigma_{l-1}^z)\sigma_l^+</script><p><strong>(For Jordan-Wigner transformation, there is a statement to check:注意横场伊辛模型和变换后的 Kitaev chain 有相同的能谱和相变点，但后者存在对称性保护的拓扑超导相，相应的在边缘会有 Majorana zero mode， 但在横场伊辛模型中，该零能模式表现为对称性自发破缺的基态简并。)</strong></p>
-<p>In that case, we have:</p>
+c_l^\dagger = (-\sigma_1^z)\cdots(-\sigma_{l-1}^z)\sigma_l^+</script><p>In that case, we have:</p>
 <script type="math/tex; mode=display">
 d_m^\dagger =
 \begin{pmatrix}
@@ -218,7 +217,20 @@ A_{mN}\sigma_N^+ &-\sigma_N^z\\
 <p>To understand what I’m doing here, you may consult the previous article.</p>
 <a href="/2022/cl1iojk4o00006ots7mxo7fjm/" title="From Matrix Product State(MPS) to DMRG（1）">From Matrix Product State(MPS) to DMRG（1）</a>
 <p>What should be stressed here is the process of QR decomposition: as we want to use SVD decomposition to maximize the approximation, we should put the MPS state in the canonical form, i.e. the state should consisted of Schmidt vectors for different blocks.</p>
-<h2 id="Truncation-procedure-for-MPO-MPS-evolution-1"><a href="#Truncation-procedure-for-MPO-MPS-evolution-1" class="headerlink" title="Truncation procedure for MPO-MPS evolution"></a>Truncation procedure for MPO-MPS evolution</h2> 
+<p>If you are not satisfied with the accuracy of SVD truncation, you may use DMRG to “sweep” to get a better result.</p>
+<h3 id="Different-type-of-oporators"><a href="#Different-type-of-oporators" class="headerlink" title="Different type of oporators"></a>Different type of oporators</h3><p>As we mentioned above, in the process of applying the MPOs, we need <em>low-entanglement “intermediate” states</em>. For $d_m^\dagger$, it usually create the non-local particle mode. You can easily check the 1D chain of tight binding model to verify the statement.</p>
+<p>Here we want to deduce more local creators using the negative energy mode, which can’t be the the initial $c_i^\dagger$ for there exist positive energy mode. We use the position operator $X = \sum_llc_l^\dagger c_l$, i.e. $X$ can give the expectation value of state’s position.</p>
+<p>Construct the matrix $\tilde X_{nm} = \langle 0|d_m^\dagger d_{m’}|0\rangle$ and diagonal the matrix, we get a spectrum of position operator and a unitary matrix $U$. Then we can construct $f_r^\dagger$:</p>
+<script type="math/tex; mode=display">
+U\tilde X U^\dagger = diag(x_1,\ldots,x_M)\\
+f_r^\dagger = \sum_{l=1}^MU_{rl}d^\dagger_l = \sum_{l=1}^N(UA)_{rl}c^\dagger_l</script><p><strong>Q: Why this represent Wannier orbitals?</strong></p>
+<p><img src="5.png" alt=""></p>
+<p>From what is shown in the Proof picture, we know that we can use the new operators to get a state created by the old ones up to a trivial phase factor. As a trick to suppress entanglement growth, we may use “left meet right” way instead of creating from left to right.</p>
+<h2 id="Time-evolution-in-MPO-MPS-form"><a href="#Time-evolution-in-MPO-MPS-form" class="headerlink" title="Time evolution in MPO-MPS form"></a>Time evolution in MPO-MPS form</h2><p>When we discuss evolution of states, we may translate that process into MPS-MPS form. Especially for imaginary-time evolution, which is heading towards th ground state of the system.</p>
+<p>For lattice model,  we may separate different part of Hamiltonian and manipulate the MPO in a sequence. For the separated parts commute with each other, we just do two steps of MPO. Notice: Here SVD(QR) decomposition is some what used.</p>
+<p><img src="6.png" alt=""></p>
+<p>For non-commuting case, we just divide the time evolution into small steps, just as what we do in deducing the path integral formula. This will require a long sequence of MPO.</p>
+ 
       <!-- reward -->
       
     </div>
