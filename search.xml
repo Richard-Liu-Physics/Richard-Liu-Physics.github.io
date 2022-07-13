@@ -57,7 +57,6 @@
       <tags>
         <tag>{{ tag }}</tag>
         <tag>{{ tag }}</tag>
-        <tag>{{ tag }}</tag>
       </tags>
   </entry>
   <entry>
@@ -80,6 +79,7 @@
         <category>{{ category }}</category>
       </categories>
       <tags>
+        <tag>{{ tag }}</tag>
         <tag>{{ tag }}</tag>
         <tag>{{ tag }}</tag>
       </tags>
