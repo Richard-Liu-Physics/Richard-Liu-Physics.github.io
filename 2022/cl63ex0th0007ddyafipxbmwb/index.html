@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>About Me |  The Waste Lands</title>
+      <title>Lecture Notes on Fermionic Systems |  The Waste Lands</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/images/1111.jpg" />
@@ -59,7 +59,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-About-Me"
+  id="post-Lecture-Note-on-Free-Fermion-System"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -70,7 +70,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  About Me
+  Lecture Notes on Fermionic Systems
 </h1>
  
 
@@ -78,11 +78,11 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2021/about/" class="article-date">
-  <time datetime="2021-09-24T11:05:43.000Z" itemprop="datePublished">2021-09-24</time>
+      <a href="/2022/cl63ex0th0007ddyafipxbmwb/" class="article-date">
+  <time datetime="2022-04-29T06:54:42.000Z" itemprop="datePublished">2022-04-29</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E7%AE%80%E4%BB%8B/">简介</a>
+    <a class="article-category-link" href="/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/">物理笔记</a>
   </div>
   
 <div class="word_count">
@@ -90,7 +90,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">288</span>
+            <span class="post-count">1.9k</span>
         </span>
     </span>
 
@@ -99,37 +99,61 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1 分钟</span>
+            <span class="post-count">11 分钟</span>
         </span>
     </span>
 </div>
  
     </div>
       
+    <div class="tocbot"></div>
+
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>Hello, I’m Richard Liu, just a student learning physics and exploring my interests. Hope my web page can  help you.</p>
+  <p>这是笔者的暑研笔记，参考为HH Tu老师的TENSOR NETWORKS (SS2021)  Lecture 10&amp;11。</p>
 <span id="more"></span>
 
 
-    <div id="aplayer-pqtTbCAg" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="1373017417" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    <div id="aplayer-kPkHXLcD" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="497572729" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
-<p>这是一个个人生活记录网站。建立这个博客的初衷是为了给自己一个享受的小天地，所以更新看心情（不要试着催更），部分内容也可以在我的知乎上找到。</p>
-<p>主要学习内容包括：</p>
-<ul>
-<li>物理学习的心得体会，以及自己认为适合学习物理的教材书单。这方面主要记录自己的学习经验与书目介绍。</li>
-<li>经典物理书目笔记整理。</li>
-<li>科研内容整理。包括可能的数值模拟代码、可能的公式推导、可能的参考书目等。</li>
-<li>计算机代码笔记部分。这方面也是为了记录一下，为未来可能的物理应用提供一定的回忆来源。</li>
-<li>可能会记录一些写的诗歌和业余的诗歌及文化学习内容，希望无论什么到了时候，也不会忘记浪漫对人生的意义：物理也好，诗歌也好，都是一生的浪漫。</li>
-</ul>
-<p>生活如歌，至死少年。</p>
+<h2 id="Correlation-matrix"><a href="#Correlation-matrix" class="headerlink" title="Correlation matrix"></a>Correlation matrix</h2><p>For free fermionic system, providing $T_{ij}$ is symmetric, the generic Hamiltonian is:<br>$$<br>H &#x3D; \sum_{j,l&#x3D;1}^{N}c_j^{\dagger}T_{jl}c_l<br>$$<br>Diagonalizing $T_{ij}$ will give the operator $d_m^\dagger,d_m$,which is the creator&#x2F;annihilator according to the energy of the mode:<br>$$<br>H&#x3D; \sum_{j,l&#x3D;1}^{N}c_j^{\dagger}T_{jl}c_l &#x3D;\sum_{m&#x3D;1}^{N}\varepsilon_md_m^\dagger d_m<br>$$</p>
+<p>Selecting the negative energy mode which number is M gives the ground state:<br>$$<br>|\psi \rangle &#x3D; \prod_{m&#x3D;1}^{M}d_m^\dagger |0 \rangle<br>$$<br>Define the correlation matrix (correlation function in matrix form):<br>$$<br>G_{lj} &#x3D; \langle\psi|c_j^\dagger c_l|\psi\rangle<br>$$<br>It has the property that the energy mode creators and annihilators diagonal the correlation matrix as follows:<br>$$<br>\begin{align}<br>(UGU^\dagger)<em>{m’m} &amp;&#x3D; \sum</em>{j,l&#x3D;1}^{N}U_{m’l}\langle\psi|c_j^\dagger c_l|\psi\rangle U^\dagger <em>{jm}\<br>&amp;&#x3D;\langle\psi|d_m^\dagger d</em>{m’}|\psi\rangle<br>\end{align}<br>$$<br>For general pure state, the single-particle basis which diagonalizes 𝐺 defines <em>natural orbitals</em>, which means even though the pure state is not the ground state, then there is possible that some modes(orbitals) may be not occupied.</p>
+<h2 id="Calculating-the-reduced-density-matrix"><a href="#Calculating-the-reduced-density-matrix" class="headerlink" title="Calculating the reduced density matrix"></a>Calculating the reduced density matrix</h2><p>As mentioned above, for free fermions, the correlation matrix can be shown as:<br>$$<br>\begin{align}<br>G_{lj}^A &amp;&#x3D; \langle\psi|c_j^\dagger c_l|\psi\rangle\<br>&amp; &#x3D; tr|\psi\rangle\langle\psi|c_j^\dagger c_l\<br>&amp; &#x3D; tr_A{}tr_B \rho c_j^\dagger c_l \<br>&amp; &#x3D; tr_A(\rho_Ac_j^\dagger c_l)<br>\end{align}<br>$$<br>If we diagonal the $G^A$ , we have:<br>$$<br>G^A_{lj}&#x3D; \sum_{p&#x3D;1}^{N_A}V_{lp}^\dagger \Lambda_pV_{pj},\Lambda_p \in [0,1]\<br>\Lambda_p\delta_{pp’} &#x3D; \sum_{j,l &#x3D; 1}^{N_A}V_{pl}G^A_{lj}V^\dagger_{jp’}&#x3D; \sum_{j,l &#x3D; 1}^{N_A}V_{pl}tr_A(\rho_Ac_j^\dagger c_l)V^\dagger_{jp’} &#x3D; tr_A(\rho_Af^\dagger_{p’}f_p)<br>$$<br>Meanwhile, if $p\not&#x3D; p’$, then $tr_A(\rho_Af^\dagger_{p’}f_p) &#x3D; 0$. What should be said is that here we defined a new set of creators and annihilators. From above, we have:<br>$$<br>\Lambda_p &#x3D; tr_A(\rho_Af^\dagger_{p}f_p)\<br>1-\Lambda_p &#x3D; tr_A(\rho_Af_pf^\dagger_{p})<br>$$<br>From a clever perspective, we have:<br>$$<br>\rho_A &#x3D; \prod_{p&#x3D;1}^{N_A}[\Lambda_pf^\dagger_{p}f_p+(1-\Lambda_p )f_pf^\dagger_{p}]<br>$$<br>This expression means that for free fermion system, the reduced density matrix can be writen as some direct products of two level system.</p>
+<p>If we generate state vectors using $f^\dagger$, which means$|\alpha \rangle &#x3D;|n_1,n_2,\ldots,n_{N_A}\rangle$, then:<br>$$<br>\rho_A|\alpha\rangle &#x3D; \prod_{p&#x3D;1}^{N_A}[\Lambda_pn_p+(1-\Lambda_p )(1-n_p)]|\alpha\rangle<br>$$<br>In other words, $|\alpha \rangle$ is the eigenvector of the reduced density matrix. Here, we define the entanglement spectrum as the eigenvalues of $-\ln\rho_A$, and the entanglement Hamiltonian as $\rho_A &#x3D; e^{-H}$.</p>
+<p>Because of the special property of anticommutation of fermion operator we can know that:<br>$$<br>\rho_A \propto \exp[-\sum_{p&#x3D;1}^{N_A}-\ln(\frac{\Lambda_p}{1-\Lambda_p})f_p^\dagger f_p]&#x3D;\exp(-\sum_{p&#x3D;1}^{N_A}\tilde\varepsilon_p f_p^\dagger f_p)<br>$$<br>which means zero mode indicates degeneracy in entanglement spectrum.</p>
+<p>As equation (1) shown that free  fermion state created by $f^\dagger $​ is the eigenvector of the reduced density matrix, (NOTICE: the state is not necessarily to be the ground state) so The Schmidt decomposition can be computed exactly for free fermion systems.</p>
+<p>If you want to calculate the entanglement entropy of the system, you can  do it via what is said above. You can also  compute the central charge of the system via entanglement entropy. (<strong>Maybe I should calculate one here.</strong>)</p>
+<h2 id="MPS-for-free-fermion-state"><a href="#MPS-for-free-fermion-state" class="headerlink" title="MPS for free fermion state"></a>MPS for free fermion state</h2><p>For MPS approximation, there is two way of doing truncation for free fermion systems. The first is Gaussian truncation, and the second is SVD truncation. The former keeps the nature of Gaussian state, in other words, stay to be the free fermion states. <strong>This can be seen in the paper: M. T. Fishman &amp; S. R. White, Phys. Rev. B 92, 075132 (2015).</strong></p>
+<p>As equation (1) shown that free  fermion state created by $f^\dagger $ is the eigenvector of the reduced density matrix, (NOTICE: the state is not necessarily to be the ground state) so The Schmidt decomposition can be computed exactly for free fermion systems.</p>
+<p>So to write a free fermion state into MPS form require bipartitions steps, below is one example:</p>
+<p><img src="/2022/cl63ex0th0007ddyafipxbmwb/1.png"></p>
+<p>Any state $|\alpha \rangle $ can be written as a combination of $|\beta \rangle \bigotimes |n \rangle $:<br>$$<br>|\alpha \rangle &#x3D;\sum_{\beta, n}A_{\beta\alpha}^{n} |\beta \rangle \bigotimes |n \rangle<br>$$<br>what should be claimed here is that $A_{\beta\alpha}^n$ is in a block diagonal form. Now we compute the coefficients using the results gained from correlation matrix and assuming $n&#x3D;0$:<br>$$<br>\begin{align}<br>|\alpha \rangle &amp;&#x3D; f_1^\dagger \cdots f_m^\dagger |0 \rangle_{1\rightarrow i}<br>&#x3D;\prod_{p&#x3D;1}^{m}\sum^i_{j&#x3D;1}c_j^\dagger V_{jp}^\dagger |0 \rangle_{1\rightarrow i}&#x3D;\prod_{p&#x3D;1}^{m}\sum^i_{j&#x3D;1}c_j^\dagger V_{jp}^\dagger |0 \rangle_{1\rightarrow i-1}\bigotimes |0 \rangle_i\<br>|\beta \rangle &amp;&#x3D; \tilde f_1^\dagger \cdots \tilde f_m^\dagger |0 \rangle_{1\rightarrow i-1}&#x3D;\prod_{p&#x3D;1}^{m}\sum^{i-1}<em>{j&#x3D;1}c_j^\dagger V{‘}</em>{jp}^\dagger |0 \rangle_{1\rightarrow i-1}&#x3D;\prod_{p&#x3D;1}^{m}\sum^{i}<em>{j&#x3D;1}c_j^\dagger \tilde V</em>{jp}^\dagger |0 \rangle_{1\rightarrow i-1}<br>\end{align}<br>$$<br>Remember in mind, $\tilde V^\dagger$ is irreversible. As the set of $|\beta \rangle \bigotimes |n \rangle$ forms the Schmidt vectors, we have:<br>$$<br>A^0_{\beta\alpha} &#x3D; (\langle 0|\bigotimes\langle\beta|)|\alpha \rangle &#x3D; \langle 0|\prod_{p&#x3D;m}^{1}\sum^{i}<em>{j&#x3D;1}c_j \tilde V</em>{jp}\prod_{p’&#x3D;1}^{m}\sum^i_{j’&#x3D;1}c_{j’}^\dagger V_{j’p’}^\dagger |0\rangle<br>$$<br>**(Personal statement)**Similarly, we can compute $A_{\beta\alpha}^{1}$, which requires different meaning of $\tilde V^\dagger$. Noticing the order of creators:<br>$$<br>|\beta \rangle \bigotimes |1 \rangle &#x3D; \tilde f_1^\dagger \cdots \tilde f_{m-1}^\dagger c_i^\dagger|0 \rangle_{1\rightarrow i-1}\bigotimes |0 \rangle_i &#x3D;\prod_{p&#x3D;1}^{m}\sum^i_{j&#x3D;1}c_j^\dagger \tilde V_{jp}^\dagger |0 \rangle_{1\rightarrow i}<br>$$<br>The following procedure ends up with the same answer. In this way we can write down the MPS form of free fermion state.</p>
+<h2 id="Convert-a-Fermion-sea-into-MPS-state"><a href="#Convert-a-Fermion-sea-into-MPS-state" class="headerlink" title="Convert a Fermion sea into MPS state"></a>Convert a Fermion sea into MPS state</h2><p>According to the creators and annihilators for different eigenstates of energy modes, these operators is just a combination of that according to sites:<br>$$<br>\begin{align}<br>d_m^\dagger &amp;&#x3D; \sum_{l&#x3D;1}^{N}A_{ml}c^\dagger_l\<br>&amp; &#x3D;<br>\begin{pmatrix}<br>0	&amp;1<br>\end{pmatrix}<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{m1}c_1^\dagger &amp;1\<br>\end{pmatrix}<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{m2}c_2^\dagger &amp;1\<br>\end{pmatrix}<br>\cdots<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{mN}c_N^\dagger &amp;1\<br>\end{pmatrix}<br>\begin{pmatrix}<br>1\<br>0\<br>\end{pmatrix}<br>\end{align}<br>$$<br>What should be noticed is that matrix $A$ and matrix $U$ is not the same, i.e. $A &#x3D; (U^\dagger)^T &#x3D; U^*$ . Here we use use Jordan-Wigner transformation to introduce a correspondence between fermion creators and spin operators:<br>$$<br>c_l^\dagger &#x3D; (-\sigma_1^z)\cdots(-\sigma_{l-1}^z)\sigma_l^+<br>$$<br>In that case, we have:<br>$$<br>d_m^\dagger &#x3D;<br>\begin{pmatrix}<br>0	&amp;1<br>\end{pmatrix}<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{m1}\sigma_1^+ &amp;-\sigma_1^z\<br>\end{pmatrix}<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{m2}\sigma_2^+ &amp;-\sigma_2^z\<br>\end{pmatrix}<br>\cdots<br>\begin{pmatrix}<br>1	&amp;0\<br>A_{mN}\sigma_N^+ &amp;-\sigma_N^z\<br>\end{pmatrix}<br>\begin{pmatrix}<br>1\<br>0\<br>\end{pmatrix}<br>$$<br>So here we have successfully written the creator as a MPO. Graphically, that is as follows.</p>
+<p><img src="/2022/cl63ex0th0007ddyafipxbmwb/2.png"></p>
+<p>The different quantities for different indexes is as follows: <img src="/2022/cl63ex0th0007ddyafipxbmwb/3.png"></p>
+<p>In a nutshell, the Fermi sea can be written in a sequence of MPO. As a consequence, the bond dimension will increase exponentially. So at some point truncation is needed. High fidelity compression requires low-entanglement “intermediate” states (This statement can be seen as the result of Jensen Inequality).</p>
+<h2 id="Truncation-procedure-for-MPO-MPS-evolution"><a href="#Truncation-procedure-for-MPO-MPS-evolution" class="headerlink" title="Truncation procedure for MPO-MPS evolution"></a>Truncation procedure for MPO-MPS evolution</h2><h3 id="SVD-truncation-for-a-given-MPS"><a href="#SVD-truncation-for-a-given-MPS" class="headerlink" title="SVD truncation for a given MPS"></a>SVD truncation for a given MPS</h3><p>The truncation is a process described as follows graphically :</p>
+<p><img src="/2022/cl63ex0th0007ddyafipxbmwb/4.png"></p>
+<p>To understand what I’m doing here, you may consult the previous article.</p>
+<a href="/2022/cl63ex0tg0003ddya75oshxll/" title="From Matrix Product State(MPS) to DMRG（1）">From Matrix Product State(MPS) to DMRG（1）</a>
+
+<p>What should be stressed here is the process of QR decomposition: as we want to use SVD decomposition to maximize the approximation, we should put the MPS state in the canonical form, i.e. the state should consisted of Schmidt vectors for different blocks.</p>
+<p>If you are not satisfied with the accuracy of SVD truncation, you may use DMRG to “sweep” to get a better result.</p>
+<h3 id="Different-type-of-oporators"><a href="#Different-type-of-oporators" class="headerlink" title="Different type of oporators"></a>Different type of oporators</h3><p>As we mentioned above, in the process of applying the MPOs, we need <em>low-entanglement “intermediate” states</em>. For $d_m^\dagger$, it usually create the non-local particle mode. You can easily check the 1D chain of tight binding model to verify the statement.</p>
+<p>Here we want to deduce more local creators using the negative energy mode, which can’t be the the initial $c_i^\dagger$ for there exist positive energy mode. We use the position operator $X &#x3D; \sum_llc_l^\dagger c_l$, i.e. $X$ can give the expectation value of state’s position.</p>
+<p>Construct the matrix $\tilde X_{nm} &#x3D; \langle 0|d_m^\dagger d_{m’}|0\rangle$ and diagonal the matrix, we get a spectrum of position operator and a unitary matrix $U$. Then we can construct $f_r^\dagger$:<br>$$<br>U\tilde X U^\dagger &#x3D; diag(x_1,\ldots,x_M)\<br>f_r^\dagger &#x3D; \sum_{l&#x3D;1}^MU_{rl}d^\dagger_l &#x3D; \sum_{l&#x3D;1}^N(UA)_{rl}c^\dagger_l<br>$$<br><strong>Q: Why this represent Wannier orbitals?</strong></p>
+<p><img src="/2022/cl63ex0th0007ddyafipxbmwb/5.png"></p>
+<p>From what is shown in the Proof picture, we know that we can use the new operators to get a state created by the old ones up to a trivial phase factor. As a trick to suppress entanglement growth, we may use “left meet right” way instead of creating from left to right.</p>
+<h2 id="Time-evolution-in-MPO-MPS-form"><a href="#Time-evolution-in-MPO-MPS-form" class="headerlink" title="Time evolution in MPO-MPS form"></a>Time evolution in MPO-MPS form</h2><p>When we discuss evolution of states, we may translate that process into MPS-MPS form. Especially for imaginary-time evolution, which is heading towards th ground state of the system.</p>
+<p>For lattice model,  we may separate different part of Hamiltonian and manipulate the MPO in a sequence. For the separated parts commute with each other, we just do two steps of MPO. Notice: Here SVD(QR) decomposition is some what used.</p>
+<p><img src="/2022/cl63ex0th0007ddyafipxbmwb/6.png"></p>
+<p>For non-commuting case, we just divide the time evolution into small steps, just as what we do in deducing the path integral formula. This will require a long sequence of MPO.</p>
  
       <!-- reward -->
       
@@ -194,12 +218,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://richard-liu-physics.github.io/2021/about/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://richard-liu-physics.github.io/2022/cl63ex0th0007ddyafipxbmwb/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%80%E4%BB%8B/" rel="tag">简介</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%A9%E7%90%86/" rel="tag">物理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/" rel="tag">物理笔记</a></li></ul>
 
     </footer>
   </div>
@@ -207,19 +231,19 @@
    
   <nav class="article-nav">
     
-      <a href="/2022/cl63ex0tg0003ddya75oshxll/" class="article-nav-link">
+      <a href="/2022/cl63ex0tj000eddya62gmc8sy/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            From Matrix Product State(MPS) to DMRG（1）
+            我的自画像
           
         </div>
       </a>
     
     
-      <a href="/2021/cl63ex0ti0008ddya9k8o7lkv/" class="article-nav-link">
+      <a href="/2022/cl63ex0ti0009ddyaehq22cxv/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Python面向对象编程</div>
+        <div class="article-nav-title">TRG代码</div>
       </a>
     
   </nav>
