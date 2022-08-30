@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Tag: critic |  The Waste Lands</title>
+      <title>Notes on strong correlated system(1) |  The Waste Lands</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/images/1111.JPG" />
@@ -55,56 +55,186 @@
       
     <main class="content on">
       <section class="outer">
-  
-  
-  <article class="articles">
+  <article
+  id="post-Notes-on-strong-correlated-system"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
     
-    
-    <h1 class="page-type-title">#&nbspcritic</h1>
-    
-    
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2021" class="archive-year">2021</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/cl7fizy1e0022rnfy1i6l6xwu/" class="archive-article-date">
-  <time datetime="2021-07-17T15:00:00.000Z" itemprop="datePublished">07/17</time>
-</a>
+    <header class="article-header">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/cl7fizy1e0022rnfy1i6l6xwu/"
-    >气势有别，內圣外王</a> 
-</h2>
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Notes on strong correlated system(1)
+</h1>
  
 
+      
     </header>
-    
-    
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/critic/" rel="tag">critic</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/literature/" rel="tag">literature</a></li></ul>
-
-    
+     
+    <div class="article-meta">
+      <a href="/2022/cl7fizy180008rnfy2xgehwwi/" class="article-date">
+  <time datetime="2022-08-17T01:42:23.000Z" itemprop="datePublished">2022-08-17</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/">物理笔记</a>
   </div>
-</article>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">573</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">3 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
       
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>This is a note for the reading of the 2nd yellow book by <em>Nagaosa</em>.</p>
+<span id="more"></span>
+
+<h1 id="Bosonization"><a href="#Bosonization" class="headerlink" title="Bosonization"></a>Bosonization</h1><p>The example we will discuss is one of the so-called Tomonaga-Luttinger liquids, XXZ model.</p>
+<p>For XXZ model, the Halmiltonian is:<br>$$<br>H &#x3D; J_\perp\sum_i(S^x_iS^x_{i+1}+S^y_iS^y_{i+1})+J_z\sum_iS_i^zS_{i+1}^z&#x3D;\frac{J_\perp}{2}\sum_i(S^+<em>iS^-</em>{i+1}+S^-<em>iS^+</em>{i+1})+J_z\sum_iS_i^zS_{i+1}^z<br>$$</p>
+<p>For the discrete case, we have the Hamiltonian (Using the technique of Jordan-Wigner Transformation):<br>$$<br>H &#x3D; -\frac{J_\perp}{2}\sum_{i&#x3D;1}^{N}(f_i^\dagger f_{i+1}+f_{i+1}^\dagger f_i)+J_z\sum_{i&#x3D;1}^{N}(f_i^\dagger f_i-\frac{1}{2})(f_{i+1}^\dagger f_{i+1}-\frac{1}{2}) &#x3D; H_1+H_2<br>$$<br>If we introduce the Fourier transformation:<br>$$<br>f_n &#x3D; \frac{1}{\sqrt{N} }\sum_kf_ke^{ikn},f_n^\dagger &#x3D; \frac{1}{\sqrt{N} }\sum_kf_k^\dagger e^{-ikn}<br>$$<br>Then we have:<br>$$<br>H_1 &#x3D; \sum_k (-J_\perp \cos k)f_k^\dagger f_k<br>$$<br>We treat $J_z$ as perturbation, and in case that $S_{tot}^z &#x3D; 0$, we have the the ground state of $H_1$ is just the Fermi sea state (just from the fact that $S_i^z &#x3D; f_i^\dagger f_i-\frac{1}{2}$). We can see immediately that $H_2$ is the particle-hole excitation as we look back at the original Hamiltonian that $H_2$ will not change the z-spin of each site.</p>
+<p>From the perspective of perturbation, the low-energy particle-hole exitation near the Fermi surface will be dominant.</p>
+<h2 id="1st-step-Linearization"><a href="#1st-step-Linearization" class="headerlink" title="1st step: Linearization"></a>1st step: Linearization</h2><p>In case that only the vicinity of the Fermi surface that counts, we replace the dispersion relation $\varepsilon_k &#x3D; -J_\perp \cos k$ by two linearized dispersion relationship, and also only consider the creation&#x2F;annihilation of $k_F$ then we have:<br>$$<br>f_n &#x3D;\frac{1}{\sqrt{N} }\sum_kf_ke^{ikn}&#x3D; R(x_n)e^{ik_Fx_n}+L(x_n)e^{-ik_Fx_n}<br>$$<br><strong>And because $R(x_n),L(x_n)$ contain only the long wavelength components, then we consider it to be continuous.</strong>  We write:<br>$$<br>\psi(x) &#x3D;<br>\begin{pmatrix}<br>R(x)\<br>L(x)\<br>\end{pmatrix}<br>$$<br>Then we have:<br>$$<br>H_1 &#x3D; -J_\perp \int dx \bar{\psi} i \gamma_1\partial_x\psi<br>$$<br><strong>Notes on proof:</strong><br>$$<br>\bar{\psi} i \gamma_1\partial_x\psi &#x3D; i(R^\dagger\partial_xR-L^\dagger\partial_xL)\<br>\begin{align}<br>f_l^\dagger f_{l+1}+f_{l+1}^\dagger f_l &amp;&#x3D; (R^\dagger_le^{-ik_Fl}+L^\dagger_le^{ik_Fl})(R_{l+1}e^{ik_F(l+1)}+L_{l+1}e^{-ik_F(l+1)})+h.c.\<br>&amp; &#x3D; R^\dagger_le^{ik_F}R_{l+1}+R^\dagger_le^{-ik_F(2l+1)}L_{l+1}+L^\dagger_le^{ik_F(2l+1)}R_{l+1}+L^\dagger_le^{-ik_F}L_{l+1}+h.c.\<br>&amp;&#x3D; iR_l^\dagger R_{l+1}-i(-1)^lR_l^\dagger L_{l+1}+i(-1)^lL^\dagger_lR_{l+1}-iL^\dagger_l L_{l+1}+h.c.\<br>&amp;\approx iR_l^\dagger R_{l+1}-iL^\dagger_l L_{l+1}+h.c.\<br>\end{align}<br>$$<br>Performing a Fourier transformation, we have:<br>$$<br>R(x) &#x3D; \frac{1}{2\pi}\int dk e^{ikx}R(k), \partial_xR &#x3D; \frac{1}{2\pi}\int dk e^{ikx}ikR(k)\<br>H_1 &#x3D; \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))<br>$$<br>To compute the $J_z$ term, we need to figure out:<br>$$<br>f^\dagger_nf_n &#x3D; R_n^\dagger R_n+L^\dagger_nL_n+e^{2ik_Fn}(R_n^\dagger L_n+L^\dagger_nR_n)<br>$$</p>
+ 
+      <!-- reward -->
       
     </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://richard-liu-physics.github.io/2022/cl7fizy180008rnfy2xgehwwi/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%A9%E7%90%86/" rel="tag">物理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/" rel="tag">物理笔记</a></li></ul>
+
+    </footer>
   </div>
-  
-  
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2022/cl7fizy170007rnfyals671d7/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">Notes on Quantum Phase Transition</div>
+      </a>
+    
+  </nav>
 
   
+   
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
+
+
+<script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
+
+
+<script src="https://cdn.staticfile.org/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: '3eec04363df891e1b915',
+    clientSecret: '35abd6378aad4642c36f0b85318aff680997e03c',
+    repo: 'comment',
+    owner: 'Richard-Liu-Physics',
+    admin: ['Richard-Liu-Physics'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -247,6 +377,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link
