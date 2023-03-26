@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Waste Lands</title>
+  <icon>https://www.gravatar.com/avatar/df71ff776bda32e389a4cbe788eb074a</icon>
+  
+  <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://richard-liu-physics.github.io/"/>
+  <updated>2023-03-26T14:30:24.048Z</updated>
+  <id>https://richard-liu-physics.github.io/</id>
+  
+  <author>
+    <name>Richard Liu</name>
+    <email>richard.liu.physics@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕设日记本</title>
+    <link href="https://richard-liu-physics.github.io/2023/clfpi2onl002mhrfy79hn9dpr/"/>
+    <id>https://richard-liu-physics.github.io/2023/clfpi2onl002mhrfy79hn9dpr/</id>
+    <published>2023-02-09T03:21:20.000Z</published>
+    <updated>2023-03-26T14:30:24.048Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;​        本科毕业的日子日渐接近了，自己也变得越来越佛系。但是毕设并不是一件轻松的事情，之前因为感情受挫无比摆烂的恶果也只能吞下。干脆开坑记录一下毕设期间的内容和时间线，希望可以学到一些东西，也希望找到自己的光。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="科研笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%A7%91%E7%A0%94%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理科研" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%A7%91%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>“重新变成一个人”</title>
+    <link href="https://richard-liu-physics.github.io/2023/clfpi2onf000jhrfy1hd0d7cl/"/>
+    <id>https://richard-liu-physics.github.io/2023/clfpi2onf000jhrfy1hd0d7cl/</id>
+    <published>2023-02-02T14:31:26.000Z</published>
+    <updated>2023-02-04T04:27:29.580Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有的时候，对你来说的列车到站，可能是别人的坐过站。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于紧束缚模型对称性的拓扑性质</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onf000qhrfyc37f9jwx/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onf000qhrfyc37f9jwx/</id>
+    <published>2022-10-14T11:17:53.000Z</published>
+    <updated>2022-10-14T11:22:11.005Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a Chinese essay of the research on the SSH model and the Haldane model.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="科研笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%A7%91%E7%A0%94%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理科研" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%A7%91%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on the CFT yellow book(1)</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond000ehrfy3dyh2uh1/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2ond000ehrfy3dyh2uh1/</id>
+    <published>2022-10-14T11:01:54.000Z</published>
+    <updated>2022-10-14T11:04:34.999Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of the CFT yellow book, chapter 2.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on Free Field, David Tong</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onc0007hrfy54yl8jty/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onc0007hrfy54yl8jty/</id>
+    <published>2022-10-14T10:42:07.000Z</published>
+    <updated>2022-10-14T11:01:05.792Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of QFT, chapter 2, David Tong. The new thing I learn from this book is non-relativistic field theory.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on strong correlated system(1)</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond000dhrfyda3z5kby/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2ond000dhrfyda3z5kby/</id>
+    <published>2022-08-17T01:42:23.000Z</published>
+    <updated>2022-10-14T11:19:28.383Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a note for the reading of the 2nd yellow book by &lt;em&gt;Nagaosa&lt;/em&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on Quantum Phase Transition</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond0009hrfy1zl0e2ch/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2ond0009hrfy1zl0e2ch/</id>
+    <published>2022-07-31T03:18:46.000Z</published>
+    <updated>2022-10-14T11:04:21.223Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of &lt;em&gt;Quantum Phase Transition chapter 5, Subir Sachdev&lt;/em&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>存在，抑或回忆</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2ong000vhrfy94aecdoi/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2ong000vhrfy94aecdoi/</id>
+    <published>2022-07-19T16:24:00.000Z</published>
+    <updated>2022-07-20T00:48:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;div id=&quot;aplayer-KAGHxbRi&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
+         data-id=&quot;1949108901&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#ad7a86&quot;
+    &gt;&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无题</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onk002lhrfy52lh4zt0/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onk002lhrfy52lh4zt0/</id>
+    <published>2022-06-10T08:46:01.000Z</published>
+    <updated>2022-06-10T08:50:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我要在这张纸上堆起一个小土堆&lt;/p&gt;
+&lt;p&gt;把我的稚嫩和爱都埋进去&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的自画像</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2ong000xhrfyc8ek6dqq/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2ong000xhrfyc8ek6dqq/</id>
+    <published>2022-05-24T15:14:00.000Z</published>
+    <updated>2022-05-24T15:29:18.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;（作于22岁生日前夜）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on Fermionic Systems</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onb0003hrfygkaufyqt/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onb0003hrfygkaufyqt/</id>
+    <published>2022-04-29T06:54:42.000Z</published>
+    <updated>2022-10-25T12:55:05.635Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is the note of my summer research after my junior year，the reference is the note of HH Tu,TENSOR NETWORKS (SS2021)  Lecture 10&amp;amp;11。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TRG Code</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onf000nhrfyb8vgh53t/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onf000nhrfyb8vgh53t/</id>
+    <published>2022-04-05T02:56:42.000Z</published>
+    <updated>2022-07-28T09:20:34.142Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is the code for calculating the partition function of 2D Ising model, using TRG(Tensor Renormalization Group)  algorithm. The notes of this method might be updated in the future.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="code" scheme="https://richard-liu-physics.github.io/categories/code/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
+    
+    <category term="Code" scheme="https://richard-liu-physics.github.io/tags/Code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>From Matrix Product State(MPS) to DMRG（1）</title>
+    <link href="https://richard-liu-physics.github.io/2022/clfpi2onc0008hrfycexshl2y/"/>
+    <id>https://richard-liu-physics.github.io/2022/clfpi2onc0008hrfycexshl2y/</id>
+    <published>2022-04-03T01:53:00.000Z</published>
+    <updated>2022-07-28T09:21:28.384Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This note is originally from review article &lt;em&gt;arXiv:1008.3477v2&lt;/em&gt;. Notice: This note is written in Chinese.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/categories/Numerical-Physics/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="https://richard-liu-physics.github.io/2021/about/"/>
+    <id>https://richard-liu-physics.github.io/2021/about/</id>
+    <published>2021-09-24T11:05:43.000Z</published>
+    <updated>2023-03-22T09:03:01.826Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hello, I’m Richard Liu, just a student learning physics and exploring my interests. Hope my web page can  help you.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="简介" scheme="https://richard-liu-physics.github.io/categories/%E7%AE%80%E4%BB%8B/"/>
+    
+    
+    <category term="简介" scheme="https://richard-liu-physics.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python面向对象编程</title>
+    <link href="https://richard-liu-physics.github.io/2021/clfpi2one000ihrfyerzp02eu/"/>
+    <id>https://richard-liu-physics.github.io/2021/clfpi2one000ihrfyerzp02eu/</id>
+    <published>2021-07-28T05:33:02.000Z</published>
+    <updated>2022-07-28T09:25:00.576Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Python-3-OOP（1）&quot;&gt;&lt;a href=&quot;#Python-3-OOP（1）&quot; class=&quot;headerlink&quot; title=&quot;Python 3 OOP（1）&quot;&gt;&lt;/a&gt;Python 3 OOP（1）&lt;/h1&gt;&lt;p&gt;This is a note in Chinese.&lt;/p&gt;
+&lt;p&gt;介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据&lt;em&gt;Dusty Phillips&lt;/em&gt;所写的&lt;em&gt;Python 3面向对象编程&lt;/em&gt;一书所写笔记，希望不会咕咕咕。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="CS搬砖" scheme="https://richard-liu-physics.github.io/categories/CS%E6%90%AC%E7%A0%96/"/>
+    
+    
+    <category term="Python 3" scheme="https://richard-liu-physics.github.io/tags/Python-3/"/>
+    
+    <category term="CS搬砖教程" scheme="https://richard-liu-physics.github.io/tags/CS%E6%90%AC%E7%A0%96%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>统计物理学笔记</title>
+    <link href="https://richard-liu-physics.github.io/2021/clfpi2onl002qhrfy59iobwf8/"/>
+    <id>https://richard-liu-physics.github.io/2021/clfpi2onl002qhrfy59iobwf8/</id>
+    <published>2021-07-27T13:05:11.000Z</published>
+    <updated>2022-08-06T08:45:55.158Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>或称作理想的</title>
+    <link href="https://richard-liu-physics.github.io/2021/clfpi2onh0011hrfy3xcv586i/"/>
+    <id>https://richard-liu-physics.github.io/2021/clfpi2onh0011hrfy3xcv586i/</id>
+    <published>2021-07-17T15:00:01.000Z</published>
+    <updated>2021-07-17T11:20:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;荒原建立在&lt;/p&gt;
+&lt;p&gt;春天语言的草场，&lt;/p&gt;
+&lt;p&gt;天使的翅膀下护着撒旦。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/categories/poetry/"/>
+    
+    
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>气势有别，內圣外王</title>
+    <link href="https://richard-liu-physics.github.io/2021/clfpi2onl002ohrfy16hm7wsw/"/>
+    <id>https://richard-liu-physics.github.io/2021/clfpi2onl002ohrfy16hm7wsw/</id>
+    <published>2021-07-17T15:00:00.000Z</published>
+    <updated>2021-07-17T11:20:08.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="critic" scheme="https://richard-liu-physics.github.io/categories/critic/"/>
+    
+    
+    <category term="literature" scheme="https://richard-liu-physics.github.io/tags/literature/"/>
+    
+    <category term="critic" scheme="https://richard-liu-physics.github.io/tags/critic/"/>
+    
+  </entry>
+  
+</feed>
