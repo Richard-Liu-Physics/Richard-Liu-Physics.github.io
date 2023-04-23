@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2023-03-26T14:30:24.048Z</updated>
+  <updated>2023-04-23T14:22:55.567Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>毕设日记本</title>
-    <link href="https://richard-liu-physics.github.io/2023/clfpi2onl002mhrfy79hn9dpr/"/>
-    <id>https://richard-liu-physics.github.io/2023/clfpi2onl002mhrfy79hn9dpr/</id>
+    <link href="https://richard-liu-physics.github.io/2023/clgti202p002x6qfy055485sf/"/>
+    <id>https://richard-liu-physics.github.io/2023/clgti202p002x6qfy055485sf/</id>
     <published>2023-02-09T03:21:20.000Z</published>
-    <updated>2023-03-26T14:30:24.048Z</updated>
+    <updated>2023-04-23T14:22:55.567Z</updated>
     
     
     <summary type="html">&lt;p&gt;​        本科毕业的日子日渐接近了，自己也变得越来越佛系。但是毕设并不是一件轻松的事情，之前因为感情受挫无比摆烂的恶果也只能吞下。干脆开坑记录一下毕设期间的内容和时间线，希望可以学到一些东西，也希望找到自己的光。&lt;/p&gt;</summary>
@@ -39,10 +39,10 @@
   
   <entry>
     <title>“重新变成一个人”</title>
-    <link href="https://richard-liu-physics.github.io/2023/clfpi2onf000jhrfy1hd0d7cl/"/>
-    <id>https://richard-liu-physics.github.io/2023/clfpi2onf000jhrfy1hd0d7cl/</id>
+    <link href="https://richard-liu-physics.github.io/2023/clgti202j000n6qfy63j27wn6/"/>
+    <id>https://richard-liu-physics.github.io/2023/clgti202j000n6qfy63j27wn6/</id>
     <published>2023-02-02T14:31:26.000Z</published>
-    <updated>2023-02-04T04:27:29.580Z</updated>
+    <updated>2023-04-23T14:20:02.160Z</updated>
     
     
     <summary type="html">&lt;p&gt;有的时候，对你来说的列车到站，可能是别人的坐过站。&lt;/p&gt;</summary>
@@ -54,12 +54,14 @@
     
     <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
     
+    <category term="poetry" scheme="https://richard-liu-physics.github.io/tags/poetry/"/>
+    
   </entry>
   
   <entry>
     <title>基于紧束缚模型对称性的拓扑性质</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onf000qhrfyc37f9jwx/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onf000qhrfyc37f9jwx/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202j000p6qfy5w9xaeqx/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202j000p6qfy5w9xaeqx/</id>
     <published>2022-10-14T11:17:53.000Z</published>
     <updated>2022-10-14T11:22:11.005Z</updated>
     
@@ -79,8 +81,8 @@
   
   <entry>
     <title>Notes on the CFT yellow book(1)</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond000ehrfy3dyh2uh1/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2ond000ehrfy3dyh2uh1/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202h000e6qfy9gpu746j/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202h000e6qfy9gpu746j/</id>
     <published>2022-10-14T11:01:54.000Z</published>
     <updated>2022-10-14T11:04:34.999Z</updated>
     
@@ -92,16 +94,16 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Notes on Free Field, David Tong</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onc0007hrfy54yl8jty/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onc0007hrfy54yl8jty/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202g00086qfy7vdrdg8b/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202g00086qfy7vdrdg8b/</id>
     <published>2022-10-14T10:42:07.000Z</published>
     <updated>2022-10-14T11:01:05.792Z</updated>
     
@@ -113,16 +115,16 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Notes on strong correlated system(1)</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond000dhrfyda3z5kby/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2ond000dhrfyda3z5kby/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202h000d6qfyhofeatqz/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202h000d6qfyhofeatqz/</id>
     <published>2022-08-17T01:42:23.000Z</published>
     <updated>2022-10-14T11:19:28.383Z</updated>
     
@@ -134,16 +136,16 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Notes on Quantum Phase Transition</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2ond0009hrfy1zl0e2ch/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2ond0009hrfy1zl0e2ch/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202g00096qfy0etsb4ff/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202g00096qfy0etsb4ff/</id>
     <published>2022-07-31T03:18:46.000Z</published>
     <updated>2022-10-14T11:04:21.223Z</updated>
     
@@ -155,21 +157,21 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>存在，抑或回忆</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2ong000vhrfy94aecdoi/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2ong000vhrfy94aecdoi/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202j000u6qfy1gi31ofr/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202j000u6qfy1gi31ofr/</id>
     <published>2022-07-19T16:24:00.000Z</published>
     <updated>2022-07-20T00:48:00.000Z</updated>
     
     
-    <summary type="html">&lt;div id=&quot;aplayer-KAGHxbRi&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
+    <summary type="html">&lt;div id=&quot;aplayer-fqOpsBFu&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
          data-id=&quot;1949108901&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#ad7a86&quot;
     &gt;&lt;/div&gt;</summary>
     
@@ -186,8 +188,8 @@
   
   <entry>
     <title>无题</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onk002lhrfy52lh4zt0/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onk002lhrfy52lh4zt0/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202k00116qfyg1zp2ob2/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202k00116qfyg1zp2ob2/</id>
     <published>2022-06-10T08:46:01.000Z</published>
     <updated>2022-06-10T08:50:28.000Z</updated>
     
@@ -208,8 +210,8 @@
   
   <entry>
     <title>我的自画像</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2ong000xhrfyc8ek6dqq/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2ong000xhrfyc8ek6dqq/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202k000v6qfyhhdf4bwc/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202k000v6qfyhhdf4bwc/</id>
     <published>2022-05-24T15:14:00.000Z</published>
     <updated>2022-05-24T15:29:18.000Z</updated>
     
@@ -229,8 +231,8 @@
   
   <entry>
     <title>Notes on Fermionic Systems</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onb0003hrfygkaufyqt/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onb0003hrfygkaufyqt/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202g00076qfy1hhyctxx/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202g00076qfy1hhyctxx/</id>
     <published>2022-04-29T06:54:42.000Z</published>
     <updated>2022-10-25T12:55:05.635Z</updated>
     
@@ -242,16 +244,16 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>TRG Code</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onf000nhrfyb8vgh53t/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onf000nhrfyb8vgh53t/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202i000j6qfya1qnbbju/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202i000j6qfya1qnbbju/</id>
     <published>2022-04-05T02:56:42.000Z</published>
     <updated>2022-07-28T09:20:34.142Z</updated>
     
@@ -263,9 +265,9 @@
     <category term="code" scheme="https://richard-liu-physics.github.io/categories/code/"/>
     
     
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
     <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
     
     <category term="Code" scheme="https://richard-liu-physics.github.io/tags/Code/"/>
     
@@ -273,8 +275,8 @@
   
   <entry>
     <title>From Matrix Product State(MPS) to DMRG（1）</title>
-    <link href="https://richard-liu-physics.github.io/2022/clfpi2onc0008hrfycexshl2y/"/>
-    <id>https://richard-liu-physics.github.io/2022/clfpi2onc0008hrfycexshl2y/</id>
+    <link href="https://richard-liu-physics.github.io/2022/clgti202e00036qfybhgxeeg0/"/>
+    <id>https://richard-liu-physics.github.io/2022/clgti202e00036qfybhgxeeg0/</id>
     <published>2022-04-03T01:53:00.000Z</published>
     <updated>2022-07-28T09:21:28.384Z</updated>
     
@@ -286,9 +288,9 @@
     <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/categories/Numerical-Physics/"/>
     
     
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
     <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
@@ -313,8 +315,8 @@
   
   <entry>
     <title>Python面向对象编程</title>
-    <link href="https://richard-liu-physics.github.io/2021/clfpi2one000ihrfyerzp02eu/"/>
-    <id>https://richard-liu-physics.github.io/2021/clfpi2one000ihrfyerzp02eu/</id>
+    <link href="https://richard-liu-physics.github.io/2021/clgti202i000i6qfy82ro88az/"/>
+    <id>https://richard-liu-physics.github.io/2021/clgti202i000i6qfy82ro88az/</id>
     <published>2021-07-28T05:33:02.000Z</published>
     <updated>2022-07-28T09:25:00.576Z</updated>
     
@@ -335,8 +337,8 @@
   
   <entry>
     <title>统计物理学笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/clfpi2onl002qhrfy59iobwf8/"/>
-    <id>https://richard-liu-physics.github.io/2021/clfpi2onl002qhrfy59iobwf8/</id>
+    <link href="https://richard-liu-physics.github.io/2021/clgti202p00306qfyhkrwc9kn/"/>
+    <id>https://richard-liu-physics.github.io/2021/clgti202p00306qfyhkrwc9kn/</id>
     <published>2021-07-27T13:05:11.000Z</published>
     <updated>2022-08-06T08:45:55.158Z</updated>
     
@@ -348,16 +350,16 @@
     <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>或称作理想的</title>
-    <link href="https://richard-liu-physics.github.io/2021/clfpi2onh0011hrfy3xcv586i/"/>
-    <id>https://richard-liu-physics.github.io/2021/clfpi2onh0011hrfy3xcv586i/</id>
+    <link href="https://richard-liu-physics.github.io/2021/clgti202k000z6qfyfrqtg7fl/"/>
+    <id>https://richard-liu-physics.github.io/2021/clgti202k000z6qfyfrqtg7fl/</id>
     <published>2021-07-17T15:00:01.000Z</published>
     <updated>2021-07-17T11:20:36.000Z</updated>
     
@@ -379,8 +381,8 @@
   
   <entry>
     <title>气势有别，內圣外王</title>
-    <link href="https://richard-liu-physics.github.io/2021/clfpi2onl002ohrfy16hm7wsw/"/>
-    <id>https://richard-liu-physics.github.io/2021/clfpi2onl002ohrfy16hm7wsw/</id>
+    <link href="https://richard-liu-physics.github.io/2021/clgti202p002y6qfy1m106p4l/"/>
+    <id>https://richard-liu-physics.github.io/2021/clgti202p002y6qfy1m106p4l/</id>
     <published>2021-07-17T15:00:00.000Z</published>
     <updated>2021-07-17T11:20:08.000Z</updated>
     
