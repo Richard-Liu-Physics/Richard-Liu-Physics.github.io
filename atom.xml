@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2023-10-13T13:25:25.845Z</updated>
+  <updated>2023-10-16T04:24:40.272Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最近的难绷时刻</title>
+    <link href="https://richard-liu-physics.github.io/2023/clnse64q10000lpx53m62ccbh/"/>
+    <id>https://richard-liu-physics.github.io/2023/clnse64q10000lpx53m62ccbh/</id>
+    <published>2023-10-16T04:22:41.000Z</published>
+    <updated>2023-10-16T04:24:40.272Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近经历了几件让我有点难以绷得住的事情，mostly是关于情感话题的， such as:&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>在你还未察觉的时候</title>
@@ -417,27 +436,6 @@
     <category term="Python 3" scheme="https://richard-liu-physics.github.io/tags/Python-3/"/>
     
     <category term="CS搬砖教程" scheme="https://richard-liu-physics.github.io/tags/CS%E6%90%AC%E7%A0%96%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>统计物理学笔记</title>
-    <link href="https://richard-liu-physics.github.io/2021/clnon63q80021lox5ef0o2dwp/"/>
-    <id>https://richard-liu-physics.github.io/2021/clnon63q80021lox5ef0o2dwp/</id>
-    <published>2021-07-27T13:05:11.000Z</published>
-    <updated>2022-08-06T08:45:55.158Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
