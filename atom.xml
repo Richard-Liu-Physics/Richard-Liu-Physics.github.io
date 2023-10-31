@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2023-10-22T08:37:17.701Z</updated>
+  <updated>2023-10-31T06:26:11.631Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>压抑，怀疑与其他</title>
+    <link href="https://richard-liu-physics.github.io/2023/clody48k10000ujx55y0a9bp5/"/>
+    <id>https://richard-liu-physics.github.io/2023/clody48k10000ujx55y0a9bp5/</id>
+    <published>2023-10-31T06:23:40.000Z</published>
+    <updated>2023-10-31T06:26:11.631Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近常常感到压抑与自我怀疑。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>自省</title>
@@ -411,27 +430,6 @@
     <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
     
     <category term="Code" scheme="https://richard-liu-physics.github.io/tags/Code/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>From Matrix Product State(MPS) to DMRG（1）</title>
-    <link href="https://richard-liu-physics.github.io/2022/clo17v01l0008uex51769gkpl/"/>
-    <id>https://richard-liu-physics.github.io/2022/clo17v01l0008uex51769gkpl/</id>
-    <published>2022-04-03T01:53:00.000Z</published>
-    <updated>2022-07-28T09:21:28.384Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;This note is originally from review article &lt;em&gt;arXiv:1008.3477v2&lt;/em&gt;. Notice: This note is written in Chinese.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/categories/Numerical-Physics/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="Numerical Physics" scheme="https://richard-liu-physics.github.io/tags/Numerical-Physics/"/>
     
   </entry>
   
