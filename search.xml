@@ -6,7 +6,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Hello, I’m Richard Liu, just a student learning physics and exploring my interests. Hope my web page can  help you.</p>
 <span id="more"></span>
 
-    <div id="aplayer-MATWqJss" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ygfnYoqv" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1373017417" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <p>这是一个个人生活记录网站。建立这个博客的初衷是为了给自己一个享受的小天地，所以更新看心情（不要试着催更），部分内容也可以在我的知乎上找到。</p>
@@ -28,8 +28,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Entanglement Growth in Random Quantum Circuit</title>
+    <url>/2023/clss7v2y90003mcx56wq801w7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>A introductory note about entanglement in random quantum circuit.</p>
+<span id="more"></span>
+
+
+	<div class="row">
+    <embed src="/Circuit.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>物理笔记</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>物理笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>From Matrix Product State(MPS) to DMRG（1）</title>
-    <url>/2022/cls17akc30003tmx566xc3ocv/</url>
+    <url>/2022/clss7v2ya0007mcx57gtlg690/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This note is originally from review article <em>arXiv:1008.3477v2</em>. Notice: This note is written in Chinese.</p>
 <span id="more"></span>
 <h2 id="svd-qr分解">SVD/QR分解</h2>
@@ -161,39 +183,17 @@ I &amp;=\sum_{\sigma_l}A^{\sigma_l\dagger}A^{\sigma_l} \\
         <category>Numerical Physics</category>
       </categories>
       <tags>
+        <tag>物理</tag>
         <tag>Numerical Physics</tag>
-        <tag>物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Entanglement Growth in Random Quantum Circuit</title>
-    <url>/2023/cls17akc50007tmx55yxx9tuq/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>A introductory note about entanglement in random quantum circuit.</p>
-<span id="more"></span>
-
-
-	<div class="row">
-    <embed src="/Circuit.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>物理笔记</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>物理笔记</tag>
       </tags>
   </entry>
   <entry>
     <title>Notes on Fermionic Systems</title>
-    <url>/2022/cls17akc50008tmx5d7x4gwmh/</url>
+    <url>/2022/clss7v2yb0008mcx5gvj6eg4c/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is the note of my summer research after my junior year，the reference is the note of HH Tu,TENSOR NETWORKS (SS2021)  Lecture 10&amp;11。</p>
 <span id="more"></span>
 
-    <div id="aplayer-CmzjiApj" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-NMsBiHIb" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="497572729" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <h2 id="correlation-matrix">Correlation matrix</h2>
@@ -337,7 +337,7 @@ A_{mN}\sigma_N^+ &amp;-\sigma_N^z\\
 <p>The truncation is a process described as follows graphically :</p>
 <p><img src="4.png" alt=""></p>
 <p>To understand what I’m doing here, you may consult the previous article.</p>
-<a href="/2022/cls17akc30003tmx566xc3ocv/" title="From Matrix Product State(MPS) to DMRG（1）">From Matrix Product State(MPS) to DMRG（1）</a>
+<a href="/2022/clss7v2ya0007mcx57gtlg690/" title="From Matrix Product State(MPS) to DMRG（1）">From Matrix Product State(MPS) to DMRG（1）</a>
 <p>What should be stressed here is the process of QR decomposition: as we want to use SVD decomposition to maximize the approximation, we should put the MPS state in the canonical form, i.e. the state should consisted of Schmidt vectors for different blocks.</p>
 <p>If you are not satisfied with the accuracy of SVD truncation, you may use DMRG to “sweep” to get a better result.</p>
 <h3 id="different-type-of-oporators">Different type of oporators</h3>
@@ -366,7 +366,7 @@ f_r^\dagger = \sum_{l=1}^MU_{rl}d^\dagger_l = \sum_{l=1}^N(UA)_{rl}c^\dagger_l
   </entry>
   <entry>
     <title>Note on Lieb-Robinson Bound(1)</title>
-    <url>/2023/cls17akc50009tmx51nns7xgn/</url>
+    <url>/2023/clss7v2yb0009mcx52jj4cjfg/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This note mainly focus on the basis of Lieb-Robinson Bound, considering the application towards correlation function, topological order, and nonrelativistic Goldstone theorem. The main references are:</p>
 <p>[1] <a href="https://zhuanlan.zhihu.com/p/266233990">An Online Chinese Note</a></p>
 <p>[2] <a href="https://arxiv.org/pdf/1008.5137.pdf">M. B. Hastings, Locality in Quantum Systems.</a></p>
@@ -457,8 +457,30 @@ C_B(X,t)&amp;\leq2\|H_Z\|\sum_{Z:Z \cap X \neq\varnothing}\int_0^{|t|}dxC_B(Z,x)
       </tags>
   </entry>
   <entry>
+    <title>Notes on Quantum Phase Transition</title>
+    <url>/2022/clss7v2yc000dmcx5bwx2hx3k/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a note for the book-reading seminar of <em>Quantum Phase Transition chapter 5, Subir Sachdev</em>.</p>
+<span id="more"></span>
+
+
+	<div class="row">
+    <embed src="/7.30seminar.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>物理笔记</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>物理笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Notes on Free Field, David Tong</title>
-    <url>/2022/cls17akc6000dtmx533n2ak5q/</url>
+    <url>/2022/clss7v2yc000emcx59sg5fn2v/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a note for the book-reading seminar of QFT, chapter 2, David Tong. The new thing I learn from this book is non-relativistic field theory.</p>
 <span id="more"></span>
 <p>For seminar video, you can check the website below:</p>
@@ -483,30 +505,8 @@ C_B(X,t)&amp;\leq2\|H_Z\|\sum_{Z:Z \cap X \neq\varnothing}\int_0^{|t|}dxC_B(Z,x)
       </tags>
   </entry>
   <entry>
-    <title>Notes on Quantum Phase Transition</title>
-    <url>/2022/cls17akc6000etmx5aenjdojm/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a note for the book-reading seminar of <em>Quantum Phase Transition chapter 5, Subir Sachdev</em>.</p>
-<span id="more"></span>
-
-
-	<div class="row">
-    <embed src="/7.30seminar.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>物理笔记</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>物理笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Notes on strong correlated system(1)</title>
-    <url>/2022/cls17akc7000itmx5axs1f28k/</url>
+    <url>/2022/clss7v2yc000imcx5c8ob92oa/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a note for the reading of the 2nd yellow book by <em>Nagaosa</em>.</p>
 <span id="more"></span>
 <h1>Bosonization</h1>
@@ -599,7 +599,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>Notes on the CFT yellow book(1)</title>
-    <url>/2022/cls17akc7000jtmx54tnvhhpx/</url>
+    <url>/2022/clss7v2yc000jmcx5g3vk3my8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a note for the book-reading seminar of the CFT yellow book, chapter 2.</p>
 <span id="more"></span>
 
@@ -620,24 +620,8 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
-    <title>TRG Code</title>
-    <url>/2022/cls17akc8000ntmx53fukelkn/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is the code for calculating the partition function of 2D Ising model, using TRG(Tensor Renormalization Group)  algorithm. The notes of this method might be updated in the future.</p>
-<span id="more"></span>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">Created by Richard Liu</span></span><br><span class="line"><span class="string">This is a typical Tensor Renormalisation Group(TRG) program trying to solve the calssical Ising model without magnetical field</span></span><br><span class="line"><span class="string">the Hamitonian is H = \sum_&#123;\sigma_i,\sigma_j&#125;J*\sigma_i*\sigma_j,</span></span><br><span class="line"><span class="string">for classical model,\sigma is 1 or -1</span></span><br><span class="line"><span class="string">the system is supposed to be a 2D square</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="comment"># parameter</span></span><br><span class="line">J = <span class="number">1</span></span><br><span class="line">beta = math.log(<span class="number">1</span>+math.sqrt(<span class="number">2</span>))/<span class="number">2</span>   <span class="comment">#critical point temporature from wiki</span></span><br><span class="line">std = <span class="number">0.929695398341610</span></span><br><span class="line">ira = <span class="number">20</span></span><br><span class="line">trunc = <span class="number">25</span></span><br><span class="line">norm =[]</span><br><span class="line"></span><br><span class="line"><span class="comment"># making B into UV(unfinished)</span></span><br><span class="line">B = np.exp([[-<span class="number">1</span>*beta*J,beta*J],[beta*J,-<span class="number">1</span>*beta*J]])</span><br><span class="line">U,S_tem,V = np.linalg.svd(B) <span class="comment">#B = USV</span></span><br><span class="line">S_tem = np.diag(np.sqrt(S_tem))</span><br><span class="line">U = np.dot(U,S_tem)</span><br><span class="line">U = torch.from_numpy(U)</span><br><span class="line">V = np.dot(S_tem,V)</span><br><span class="line">V = torch.from_numpy(V)</span><br><span class="line"></span><br><span class="line"><span class="comment"># calculating A_0 tensor</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#   U</span></span><br><span class="line"><span class="comment"># V-A-U     making this to become A_0   #init</span></span><br><span class="line"><span class="comment">#   V</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line">A = torch.zeros(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,dtype=<span class="built_in">float</span>) <span class="comment">#the sequence order is left-right-up-down</span></span><br><span class="line">A[<span class="number">0</span>][<span class="number">0</span>][<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span></span><br><span class="line">A[<span class="number">1</span>][<span class="number">1</span>][<span class="number">1</span>][<span class="number">1</span>] = <span class="number">1</span> </span><br><span class="line">A = torch.einsum(<span class="string">&#x27;mi,ijkl -&gt; mjkl&#x27;</span>,V,A)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ijkl,jm -&gt; imkl&#x27;</span>,A,U)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ijkl,km -&gt; ijml&#x27;</span>,A,U)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ml,ijkl -&gt; ijkm&#x27;</span>,V,A)</span><br><span class="line"></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#   *-----*-----*</span></span><br><span class="line"><span class="comment">#   |     2     |</span></span><br><span class="line"><span class="comment">#   *--0--*--1--*     #SVD for the vertex</span></span><br><span class="line"><span class="comment">#   |     3     |</span></span><br><span class="line"><span class="comment">#   *-----*-----*</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#calculating A_n tensor</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(ira):</span><br><span class="line">    tem = A.permute(<span class="number">0</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">3</span>)</span><br><span class="line">    num_con = A.size(dim=<span class="number">1</span>)</span><br><span class="line">    num_S = num_con**<span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> trunc&lt;num_S:</span><br><span class="line">        <span class="comment">#from left-up to right-down</span></span><br><span class="line">        U_lef_up,S1,V_rig_down = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        S1_topk = torch.topk(S1,trunc)</span><br><span class="line">        idx = S1_topk[<span class="number">1</span>]</span><br><span class="line">        U_lef_up = torch.index_select(U_lef_up,<span class="number">1</span>,idx)</span><br><span class="line">        U_lef_up = U_lef_up.reshape(num_con,num_con,trunc)</span><br><span class="line">        V_rig_down = torch.index_select(V_rig_down,<span class="number">0</span>,idx)</span><br><span class="line">        V_rig_down = V_rig_down.reshape(trunc,num_con,num_con)</span><br><span class="line"></span><br><span class="line">        S1 = S1_topk[<span class="number">0</span>]</span><br><span class="line">        c = torch.norm(S1)</span><br><span class="line">        S1 = S1/c</span><br><span class="line">        S1 = torch.diag(torch.sqrt(S1))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        norm.append(c)</span><br><span class="line"></span><br><span class="line">        U_lef_up = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_up,S1)</span><br><span class="line">        V_rig_down = torch.einsum(<span class="string">&#x27;il,ljk -&gt;ijk&#x27;</span>,S1,V_rig_down)</span><br><span class="line">        <span class="comment">#from left-down to right-up</span></span><br><span class="line">        tem = A.permute(<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">        U_lef_down,S2,V_rig_up = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        S2_topk = torch.topk(S2,trunc)</span><br><span class="line">        idx = S2_topk[<span class="number">1</span>]</span><br><span class="line">        U_lef_down = torch.index_select(U_lef_down,<span class="number">1</span>,idx)</span><br><span class="line">        U_lef_down = U_lef_down.reshape(num_con,num_con,trunc)</span><br><span class="line">        V_rig_up = torch.index_select(V_rig_up,<span class="number">0</span>,idx)</span><br><span class="line">        V_rig_up = V_rig_up.reshape(trunc,num_con,num_con)</span><br><span class="line"></span><br><span class="line">        S2 = S2_topk[<span class="number">0</span>]</span><br><span class="line">        c = torch.norm(S2)</span><br><span class="line">        S2 = S2/c</span><br><span class="line">        S2 = torch.diag(torch.sqrt(S2))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        norm.append(c)</span><br><span class="line"></span><br><span class="line">        U_lef_down = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_down,S2)</span><br><span class="line">        V_rig_up = torch.einsum(<span class="string">&#x27;il,ijk -&gt; ljk&#x27;</span>,S2,V_rig_up)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment">#from left-up to right-down</span></span><br><span class="line">        U_lef_up,S1,V_rig_down = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        U_lef_up = U_lef_up.reshape(num_con,num_con,num_S)</span><br><span class="line">        V_rig_down = V_rig_down.reshape(num_S,num_con,num_con)</span><br><span class="line">        c = torch.norm(S1)</span><br><span class="line">        S1 = S1/c</span><br><span class="line">        S1 = torch.diag(torch.sqrt(S1))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        <span class="comment"># print(c)    #test</span></span><br><span class="line">        norm.append(c)</span><br><span class="line">        U_lef_up = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_up,S1)</span><br><span class="line">        V_rig_down = torch.einsum(<span class="string">&#x27;il,ijk -&gt;ljk&#x27;</span>,S1,V_rig_down)</span><br><span class="line">        <span class="comment">#from left-down to right-up</span></span><br><span class="line">        tem = A.permute(<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">        U_lef_down,S2,V_rig_up = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        U_lef_down = U_lef_down.reshape(num_con,num_con,num_S)</span><br><span class="line">        V_rig_up = V_rig_up.reshape(num_S,num_con,num_con)</span><br><span class="line">        c = torch.norm(S2)</span><br><span class="line">        S2=S2/c</span><br><span class="line">        S2 = torch.diag(torch.sqrt(S2))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        <span class="comment"># print(c)    #test</span></span><br><span class="line">        norm.append(c)</span><br><span class="line">        U_lef_down = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_down,S2)</span><br><span class="line">        V_rig_up = torch.einsum(<span class="string">&#x27;il,ijk -&gt; ljk&#x27;</span>,S2,V_rig_up)</span><br><span class="line">    <span class="comment">#CONTRACTION</span></span><br><span class="line">    tem = torch.einsum(<span class="string">&#x27;ijk,lmk -&gt; ijlm&#x27;</span>,V_rig_down,V_rig_up)</span><br><span class="line">    tem = torch.einsum(<span class="string">&#x27;ijlm,jno -&gt;ilmno&#x27;</span>,tem,U_lef_down)</span><br><span class="line">    A = torch.einsum(<span class="string">&#x27;ilmno,mns -&gt;isol&#x27;</span>,tem,U_lef_up)</span><br><span class="line">ans = torch.einsum(<span class="string">&#x27;iijj -&gt;&#x27;</span>,A)</span><br><span class="line">ans = torch.log(ans)/<span class="number">2</span>**ira</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> norm:</span><br><span class="line">    ans += i</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;最大保留态数目：%d&quot;</span> %trunc)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;迭代次数：%d&quot;</span> %ira)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;配分函数ln(Z)/N的数值解为：%.7f&quot;</span> %ans)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;在临界点处与解析解的相对误差为：%g&quot;</span> %<span class="built_in">abs</span>(ans-std))</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>code</category>
-      </categories>
-      <tags>
-        <tag>Numerical Physics</tag>
-        <tag>物理</tag>
-        <tag>Code</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python面向对象编程</title>
-    <url>/2021/cls17akc8000ptmx50vtihosw/</url>
+    <url>/2021/clss7v2yd000omcx5dlpl6j6e/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1>Python 3 OOP（1）</h1>
 <p>This is a note in Chinese.</p>
 <p>介于之后可能在物理科研过程中的编程面对对象的运算封装，且因为我浅薄无比的Python 3 知识，决心下苦工夫学习这一系列的知识。本文主要是依据<em>Dusty Phillips</em>所写的<em>Python 3面向对象编程</em>一书所写笔记，希望不会咕咕咕。</p>
@@ -730,31 +714,24 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
-    <title>一个人的中秋</title>
-    <url>/2023/cls17akc8000utmx554u0e0gu/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>昨天是23年的中秋节，第一次在异国他乡一个人过。我似乎并不想家，只是感觉有些寂寞。</p>
+    <title>TRG Code</title>
+    <url>/2022/clss7v2ye000rmcx590s992we/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is the code for calculating the partition function of 2D Ising model, using TRG(Tensor Renormalization Group)  algorithm. The notes of this method might be updated in the future.</p>
 <span id="more"></span>
-<p>昨天熬夜看小说看到很晚，下午洗了个澡才起床。心血来潮去了NUS-Yale Library，在utown的星巴克看了会随机量子线路的网课。</p>
-<p>感觉PhD生活和本科相比，上课、社交少了些，能每天见面的朋友也就是组里的同事。一个人咀嚼着一种寂寞，原以为刷xhs刷b站就能填满自己的时间，最后还是会发现自己并不喜欢这样的生活。作为一个e人（或者说暂时塑造着e人的人设），寂寞并非所愿，但是也并不让我觉得难过。相比较而言，最近发现的一些事实更让人落寞，不想记下来在未来提醒自己。</p>
-<p>我发现当我不说话时，我并没有感觉到充实，但是说话的时候，我的确感受到空虚。或许这只是表明，在过去的23年间，我没有认认真真的生活过。我随时需要别人的反馈告诉我什么是对的（指让对方开心），什么会引起误解或者矛盾。我似乎并没有push myself to the limit，简而言之，我仅仅是live a half life。我猜这是生活并不让我感到兴奋的原因。</p>
-<p>下周二是我的渡劫日，我不止一次向周围人输送这个概念以缓解我自己什么都没有准备的难堪局面。我很难真真切切像这段文字一样描述我的内心，但是不忠实于自己内心的人得不到一个忠实表示。似乎这里我想加入一些幽默，似乎只是在逃避一些让我觉得难过的事实：我并不知道我是什么样子。</p>
-<p>随机量子线路，对。我好像听说了某些让我觉得非平凡的领域常识，但就经验来看，不做任何推导的&quot;heard of something&quot;并不会在我的心里留下什么记忆。上大学之后感觉自己记忆在衰退，我有理由怀疑这是因为我开始不忠实于自己因为我对“自我”这个词感到莫名的迷茫。我想我应该做一些推导，关于Haar随机量子线路的纠缠动力学是sub-linear这一点值得我写一个比较正式的note。但是应该用英文还是中文呢，虽然暂时不应该纠结这些细节但是他确实在我脑子里挥之不去。要不下次seminar我就讲这个duality吧，感觉蛮有意思的。</p>
-<p>说回性格。每个我认识的朋友都会说我是典型的enfp，这个性格描述词的每一点我都能对上。我不知道我是扮演着这样一个角色还是因为我很少忠实的表达我的想法所以看上去像这个性格。可能我需要学会放下手机，寻找一些线下的社交，不要用观察者的视角生活。</p>
-<p>哦对，今天zth问我了一些qft的问题，我发现我的记忆并不能覆盖这些细节，哪怕这些都很trivial。我到底记得什么东西呢？还有就是头发日渐长了，我开始思考要留长发还是剪短，但是第一反应是找一个人询问他/她喜欢什么样的头发。我到底需要什么呢？我不知道。</p>
-<p>今天的流水账就记到这里吧，絮絮叨叨的没有逻辑，或许下次会好一些？The most important thing to do，推一遍学到的随机量子线路，讲一遍随机量子线路。12点半了，要开始早睡早起。早起要洗澡香香的会很开心。</p>
-<p>学会生活。</p>
-<p>记于2023.09.30 凌晨</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">Created by Richard Liu</span></span><br><span class="line"><span class="string">This is a typical Tensor Renormalisation Group(TRG) program trying to solve the calssical Ising model without magnetical field</span></span><br><span class="line"><span class="string">the Hamitonian is H = \sum_&#123;\sigma_i,\sigma_j&#125;J*\sigma_i*\sigma_j,</span></span><br><span class="line"><span class="string">for classical model,\sigma is 1 or -1</span></span><br><span class="line"><span class="string">the system is supposed to be a 2D square</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="comment"># parameter</span></span><br><span class="line">J = <span class="number">1</span></span><br><span class="line">beta = math.log(<span class="number">1</span>+math.sqrt(<span class="number">2</span>))/<span class="number">2</span>   <span class="comment">#critical point temporature from wiki</span></span><br><span class="line">std = <span class="number">0.929695398341610</span></span><br><span class="line">ira = <span class="number">20</span></span><br><span class="line">trunc = <span class="number">25</span></span><br><span class="line">norm =[]</span><br><span class="line"></span><br><span class="line"><span class="comment"># making B into UV(unfinished)</span></span><br><span class="line">B = np.exp([[-<span class="number">1</span>*beta*J,beta*J],[beta*J,-<span class="number">1</span>*beta*J]])</span><br><span class="line">U,S_tem,V = np.linalg.svd(B) <span class="comment">#B = USV</span></span><br><span class="line">S_tem = np.diag(np.sqrt(S_tem))</span><br><span class="line">U = np.dot(U,S_tem)</span><br><span class="line">U = torch.from_numpy(U)</span><br><span class="line">V = np.dot(S_tem,V)</span><br><span class="line">V = torch.from_numpy(V)</span><br><span class="line"></span><br><span class="line"><span class="comment"># calculating A_0 tensor</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#   U</span></span><br><span class="line"><span class="comment"># V-A-U     making this to become A_0   #init</span></span><br><span class="line"><span class="comment">#   V</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line">A = torch.zeros(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,dtype=<span class="built_in">float</span>) <span class="comment">#the sequence order is left-right-up-down</span></span><br><span class="line">A[<span class="number">0</span>][<span class="number">0</span>][<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span></span><br><span class="line">A[<span class="number">1</span>][<span class="number">1</span>][<span class="number">1</span>][<span class="number">1</span>] = <span class="number">1</span> </span><br><span class="line">A = torch.einsum(<span class="string">&#x27;mi,ijkl -&gt; mjkl&#x27;</span>,V,A)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ijkl,jm -&gt; imkl&#x27;</span>,A,U)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ijkl,km -&gt; ijml&#x27;</span>,A,U)</span><br><span class="line">A = torch.einsum(<span class="string">&#x27;ml,ijkl -&gt; ijkm&#x27;</span>,V,A)</span><br><span class="line"></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#   *-----*-----*</span></span><br><span class="line"><span class="comment">#   |     2     |</span></span><br><span class="line"><span class="comment">#   *--0--*--1--*     #SVD for the vertex</span></span><br><span class="line"><span class="comment">#   |     3     |</span></span><br><span class="line"><span class="comment">#   *-----*-----*</span></span><br><span class="line"><span class="comment">#---------------------------------------------------</span></span><br><span class="line"><span class="comment">#calculating A_n tensor</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(ira):</span><br><span class="line">    tem = A.permute(<span class="number">0</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">3</span>)</span><br><span class="line">    num_con = A.size(dim=<span class="number">1</span>)</span><br><span class="line">    num_S = num_con**<span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> trunc&lt;num_S:</span><br><span class="line">        <span class="comment">#from left-up to right-down</span></span><br><span class="line">        U_lef_up,S1,V_rig_down = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        S1_topk = torch.topk(S1,trunc)</span><br><span class="line">        idx = S1_topk[<span class="number">1</span>]</span><br><span class="line">        U_lef_up = torch.index_select(U_lef_up,<span class="number">1</span>,idx)</span><br><span class="line">        U_lef_up = U_lef_up.reshape(num_con,num_con,trunc)</span><br><span class="line">        V_rig_down = torch.index_select(V_rig_down,<span class="number">0</span>,idx)</span><br><span class="line">        V_rig_down = V_rig_down.reshape(trunc,num_con,num_con)</span><br><span class="line"></span><br><span class="line">        S1 = S1_topk[<span class="number">0</span>]</span><br><span class="line">        c = torch.norm(S1)</span><br><span class="line">        S1 = S1/c</span><br><span class="line">        S1 = torch.diag(torch.sqrt(S1))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        norm.append(c)</span><br><span class="line"></span><br><span class="line">        U_lef_up = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_up,S1)</span><br><span class="line">        V_rig_down = torch.einsum(<span class="string">&#x27;il,ljk -&gt;ijk&#x27;</span>,S1,V_rig_down)</span><br><span class="line">        <span class="comment">#from left-down to right-up</span></span><br><span class="line">        tem = A.permute(<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">        U_lef_down,S2,V_rig_up = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        S2_topk = torch.topk(S2,trunc)</span><br><span class="line">        idx = S2_topk[<span class="number">1</span>]</span><br><span class="line">        U_lef_down = torch.index_select(U_lef_down,<span class="number">1</span>,idx)</span><br><span class="line">        U_lef_down = U_lef_down.reshape(num_con,num_con,trunc)</span><br><span class="line">        V_rig_up = torch.index_select(V_rig_up,<span class="number">0</span>,idx)</span><br><span class="line">        V_rig_up = V_rig_up.reshape(trunc,num_con,num_con)</span><br><span class="line"></span><br><span class="line">        S2 = S2_topk[<span class="number">0</span>]</span><br><span class="line">        c = torch.norm(S2)</span><br><span class="line">        S2 = S2/c</span><br><span class="line">        S2 = torch.diag(torch.sqrt(S2))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        norm.append(c)</span><br><span class="line"></span><br><span class="line">        U_lef_down = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_down,S2)</span><br><span class="line">        V_rig_up = torch.einsum(<span class="string">&#x27;il,ijk -&gt; ljk&#x27;</span>,S2,V_rig_up)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment">#from left-up to right-down</span></span><br><span class="line">        U_lef_up,S1,V_rig_down = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        U_lef_up = U_lef_up.reshape(num_con,num_con,num_S)</span><br><span class="line">        V_rig_down = V_rig_down.reshape(num_S,num_con,num_con)</span><br><span class="line">        c = torch.norm(S1)</span><br><span class="line">        S1 = S1/c</span><br><span class="line">        S1 = torch.diag(torch.sqrt(S1))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        <span class="comment"># print(c)    #test</span></span><br><span class="line">        norm.append(c)</span><br><span class="line">        U_lef_up = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_up,S1)</span><br><span class="line">        V_rig_down = torch.einsum(<span class="string">&#x27;il,ijk -&gt;ljk&#x27;</span>,S1,V_rig_down)</span><br><span class="line">        <span class="comment">#from left-down to right-up</span></span><br><span class="line">        tem = A.permute(<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">        U_lef_down,S2,V_rig_up = torch.linalg.svd(tem.reshape(num_S,num_S))</span><br><span class="line">        U_lef_down = U_lef_down.reshape(num_con,num_con,num_S)</span><br><span class="line">        V_rig_up = V_rig_up.reshape(num_S,num_con,num_con)</span><br><span class="line">        c = torch.norm(S2)</span><br><span class="line">        S2=S2/c</span><br><span class="line">        S2 = torch.diag(torch.sqrt(S2))</span><br><span class="line">        c = torch.log(c)/(<span class="number">2</span>**(i+<span class="number">1</span>))</span><br><span class="line">        <span class="comment"># print(c)    #test</span></span><br><span class="line">        norm.append(c)</span><br><span class="line">        U_lef_down = torch.einsum(<span class="string">&#x27;ijk,kl -&gt; ijl&#x27;</span>,U_lef_down,S2)</span><br><span class="line">        V_rig_up = torch.einsum(<span class="string">&#x27;il,ijk -&gt; ljk&#x27;</span>,S2,V_rig_up)</span><br><span class="line">    <span class="comment">#CONTRACTION</span></span><br><span class="line">    tem = torch.einsum(<span class="string">&#x27;ijk,lmk -&gt; ijlm&#x27;</span>,V_rig_down,V_rig_up)</span><br><span class="line">    tem = torch.einsum(<span class="string">&#x27;ijlm,jno -&gt;ilmno&#x27;</span>,tem,U_lef_down)</span><br><span class="line">    A = torch.einsum(<span class="string">&#x27;ilmno,mns -&gt;isol&#x27;</span>,tem,U_lef_up)</span><br><span class="line">ans = torch.einsum(<span class="string">&#x27;iijj -&gt;&#x27;</span>,A)</span><br><span class="line">ans = torch.log(ans)/<span class="number">2</span>**ira</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> norm:</span><br><span class="line">    ans += i</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;最大保留态数目：%d&quot;</span> %trunc)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;迭代次数：%d&quot;</span> %ira)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;配分函数ln(Z)/N的数值解为：%.7f&quot;</span> %ans)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;在临界点处与解析解的相对误差为：%g&quot;</span> %<span class="built_in">abs</span>(ans-std))</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>杂感</category>
+        <category>code</category>
       </categories>
       <tags>
-        <tag>杂感</tag>
+        <tag>物理</tag>
+        <tag>Numerical Physics</tag>
+        <tag>Code</tag>
       </tags>
   </entry>
   <entry>
     <title>“重新变成一个人”</title>
-    <url>/2023/cls17akc9000wtmx5dy5ub1om/</url>
+    <url>/2023/clss7v2ye000wmcx52cuk4tpv/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>有的时候，对你来说的列车到站，可能是别人的坐过站。</p>
 <span id="more"></span>
 <p>早上起来看到另外某个群的群友说出上面的话，深以为然。</p>
@@ -868,8 +845,31 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
+    <title>一个人的中秋</title>
+    <url>/2023/clss7v2ye000zmcx53yqc88yt/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>昨天是23年的中秋节，第一次在异国他乡一个人过。我似乎并不想家，只是感觉有些寂寞。</p>
+<span id="more"></span>
+<p>昨天熬夜看小说看到很晚，下午洗了个澡才起床。心血来潮去了NUS-Yale Library，在utown的星巴克看了会随机量子线路的网课。</p>
+<p>感觉PhD生活和本科相比，上课、社交少了些，能每天见面的朋友也就是组里的同事。一个人咀嚼着一种寂寞，原以为刷xhs刷b站就能填满自己的时间，最后还是会发现自己并不喜欢这样的生活。作为一个e人（或者说暂时塑造着e人的人设），寂寞并非所愿，但是也并不让我觉得难过。相比较而言，最近发现的一些事实更让人落寞，不想记下来在未来提醒自己。</p>
+<p>我发现当我不说话时，我并没有感觉到充实，但是说话的时候，我的确感受到空虚。或许这只是表明，在过去的23年间，我没有认认真真的生活过。我随时需要别人的反馈告诉我什么是对的（指让对方开心），什么会引起误解或者矛盾。我似乎并没有push myself to the limit，简而言之，我仅仅是live a half life。我猜这是生活并不让我感到兴奋的原因。</p>
+<p>下周二是我的渡劫日，我不止一次向周围人输送这个概念以缓解我自己什么都没有准备的难堪局面。我很难真真切切像这段文字一样描述我的内心，但是不忠实于自己内心的人得不到一个忠实表示。似乎这里我想加入一些幽默，似乎只是在逃避一些让我觉得难过的事实：我并不知道我是什么样子。</p>
+<p>随机量子线路，对。我好像听说了某些让我觉得非平凡的领域常识，但就经验来看，不做任何推导的&quot;heard of something&quot;并不会在我的心里留下什么记忆。上大学之后感觉自己记忆在衰退，我有理由怀疑这是因为我开始不忠实于自己因为我对“自我”这个词感到莫名的迷茫。我想我应该做一些推导，关于Haar随机量子线路的纠缠动力学是sub-linear这一点值得我写一个比较正式的note。但是应该用英文还是中文呢，虽然暂时不应该纠结这些细节但是他确实在我脑子里挥之不去。要不下次seminar我就讲这个duality吧，感觉蛮有意思的。</p>
+<p>说回性格。每个我认识的朋友都会说我是典型的enfp，这个性格描述词的每一点我都能对上。我不知道我是扮演着这样一个角色还是因为我很少忠实的表达我的想法所以看上去像这个性格。可能我需要学会放下手机，寻找一些线下的社交，不要用观察者的视角生活。</p>
+<p>哦对，今天zth问我了一些qft的问题，我发现我的记忆并不能覆盖这些细节，哪怕这些都很trivial。我到底记得什么东西呢？还有就是头发日渐长了，我开始思考要留长发还是剪短，但是第一反应是找一个人询问他/她喜欢什么样的头发。我到底需要什么呢？我不知道。</p>
+<p>今天的流水账就记到这里吧，絮絮叨叨的没有逻辑，或许下次会好一些？The most important thing to do，推一遍学到的随机量子线路，讲一遍随机量子线路。12点半了，要开始早睡早起。早起要洗澡香香的会很开心。</p>
+<p>学会生活。</p>
+<p>记于2023.09.30 凌晨</p>
+]]></content>
+      <categories>
+        <category>杂感</category>
+      </categories>
+      <tags>
+        <tag>杂感</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一些幻想和现实</title>
-    <url>/2023/cls17akc90010tmx505yf0bn8/</url>
+    <url>/2023/clss7v2yf0014mcx5441o5grg/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>到新加坡已经一月有余，日子也学着过了些。</p>
 <span id="more"></span>
 <p>刚开始也还在刷各种社交软件以窥探其他人的生活，突然意识到这对自己的生活并没有提供任何价值——除去增加无所事事的焦虑并无作用。同时对科研也产生一种空虚，“这真的是我想做的东西吗？”每次坐进格子间，面对几十个人的办公室，就有一种上班打卡的感觉。我猛的意识到一种网络的空虚，以及本科时一些缺乏实体的想象。我似乎还没有找到自己的生活节奏。在这里我理应给出一些精巧的挪揄，不过脑子已经乏了，假装这里有一些神秘的比喻。</p>
@@ -886,11 +886,11 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>像雪一样</title>
-    <url>/2023/cls17akc90013tmx50byhhtne/</url>
+    <url>/2023/clss7v2yf0017mcx5g6see80j/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>久违的听了听叹息，然后我就会回想起在北京的下雪天，一下子就有一种有一点冷到刺痛但是亮亮堂堂的感觉。</p>
 <span id="more"></span>
 
-    <div id="aplayer-FpKnvjRn" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-OTrAyiPX" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1421000780" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <p>遗憾的是新加坡完全没有下雪的日子，没办法重新感受踩在雪上嘎吱响的安静。然后就会想起一些对自己的幻想：做一个儒雅的文人，就像雪一样干干净净的，底下掩着等待绽放的绿色。但是现状就是我仍然畏惧孤独，畏惧像雪一样的颜色。</p>
@@ -908,7 +908,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>压抑，怀疑与其他</title>
-    <url>/2023/cls17akca0018tmx5egvy707h/</url>
+    <url>/2023/clss7v2yg001cmcx5hgit4zjk/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>最近常常感到压抑与自我怀疑。</p>
 <span id="more"></span>
 <p>我想大部分这种感受的主要来源应该是并不顺畅的科研和最近稍显push的老板，其次来源于前途未卜的课程内容（QIQC点名批评）以及没有进步一点的感兴趣的物理内容。如果还要加一点的话那便是我那不知道葬身何处的爱情。</p>
@@ -925,8 +925,27 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
+    <title>和自己聊天</title>
+    <url>/2024/clss7v2yg001fmcx5691v6s09/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>恍惚间又快到年关了，朋友们都开始写年终小结，像是完成某种任务。<span id="more"></span>这时我才意识到我已经摆烂了很长时间了：已经记不起上次独自发呆思考是什么时候了。很想一个人抛下所有社交到一个不会有人打扰到的漂亮的地方去躺下读文章，但是却缺乏必要的行动力。</p>
+<p>之前不记下碎碎念的原因是太忙，最近没记下碎碎念的原因是过有思考的日子太累。思考是需要勇气的，发呆也是，保持积极也是。糊糊涂涂的生活是最轻松的，也是最无趣的。但是生活需要有脑子的过，也需要没脑子的过。没脑子的在一周内看完了一部150w字的玄幻小说，现在像是大梦初醒一样希望能和自己安静的谈话。可惜的是一台生锈的机器是没法一下子启动的。</p>
+<p>我总会发现自己有集中不了注意力的时候。从高中起，我在心烦意乱的时候最喜欢干的事情是在桌子上/纸上写篆书的“道”。一笔一划的涂厚，大概需要好几分钟时间。在这个时候我就好像在走马灯式的回忆我学到的东西，生活里的小确幸，和那些让我一直烦心的故事。当写完那个字的时候，我就真的能平静下来：一种很玄学的体验。而到现在，我发现写碎碎念或者日寄是最能让人平静下来的：敲下的文字比思考更慢，这让人不得不放慢思维的速度。</p>
+<p>到今天，那些情感故事上的缺憾也不再纠缠住我了：我深切的感受到我需要的不是陪伴的时光，而是独处的思考。我也不会为某个人某件事挂心，“礼貌”的美式热情就足够了。我也有足够有意思且深入的问题去思考，也有很多希望从书里从文章里学到的东西。不产生直觉的经验是无足轻重的：当我们对某个细节追根究底而不了解大背景的时候，我们就像是某朵历史浪花卷起的泥沙——起起落落但仍在原地。</p>
+<p>自从读博以来，虽然没有完整的复现多少文章，但是也读了很多论文的intro和abstract，有了一些最粗浅的思考。我现在最关心的事情是locality和unitary/non- unitary能给量子多体带来什么知识？纠缠的build-up有多复杂？我们能从量子的世界里学习到什么——我们如何给量子力学这匹马套上马鞍，从而让我们能更好的利用这些资源。</p>
+<p>最近老板开了一个新的课题，让我带着一个RA做Krylov complexity：一个可以给出简单纠缠动力学的体系会不会给出渐进的遍历算符。我读完了他给的文章的intro，感觉很有意思。老板之前还给了我好几个看上去可解的模型，还有一些更深入的randomness的问题。而我自己对Holography和membrane theory很感兴趣：top-down的理论假设和唯像理论分别能给我们对世界的理解带来什么样的改变呢？每一件事情都需要花好多精力，付出好多的勇气。这让人感到丧气：我好像已经不是少年了。</p>
+<p>这带来的一件难过的事情就是自己逐渐增长的年纪和粗浅无比的理论知识之间的矛盾。确切的说，我不懂量子多体，我也不懂量子信息。我大概比做量子信息的人多懂一些多体的常识，比做传统凝聚态多体的人多懂一些量子信息的黑话。这很讨厌——我知道我很无知但却暂时无法改变。而远在新加坡，我最难过的情绪无人诉说，也不会有人给我什么情感上的支撑。人，或者说我，多么脆弱。</p>
+<p>但是去思考那些引人入胜却费力的问题确实是生活的一大乐趣。我很难想象未来某一天我转行之后的生活：我将视什么为快乐呢？我离不开学术，并不只是因为我只会这个（当然这也是原因之一）；学术对我来说就和晚霞一样和诗歌一样不可舍弃。或许我只会活到50岁，或者40岁。但是在这些所有的时光里，我希望我活的富有力量。在渴望成长的时间里，生活需要有脑子的过，也只需要有脑子的过。</p>
+]]></content>
+      <categories>
+        <category>杂感</category>
+      </categories>
+      <tags>
+        <tag>杂感</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在你还未察觉的时候</title>
-    <url>/2023/cls17akca0019tmx50yrhcq57/</url>
+    <url>/2023/clss7v2yg001imcx5cpavfkgt/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>我审判我自己</p>
 <p>在一个清晨，傍晚，抑或是深夜，</p>
 <p>一个你不会察觉的时候</p>
@@ -951,10 +970,32 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
+    <title>基于紧束缚模型对称性的拓扑性质</title>
+    <url>/2022/clss7v2yg001lmcx5g24p5f24/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a Chinese essay of the research on the SSH model and the Haldane model.</p>
+<span id="more"></span>
+
+
+	<div class="row">
+    <embed src="/基于紧束缚模型对称性的拓扑性质.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <categories>
+        <category>科研笔记</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>物理科研</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>存在，抑或回忆</title>
-    <url>/2022/cls17akcb001dtmx53o5o4crr/</url>
+    <url>/2022/clss7v2yh001omcx5d82gh9fl/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>
-    <div id="aplayer-bqQPQcXy" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-gBJSCkuc" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1949108901" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 <span id="more"></span>
@@ -982,30 +1023,8 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
-    <title>基于紧束缚模型对称性的拓扑性质</title>
-    <url>/2022/cls17akcb001ftmx5hpco7n56/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>This is a Chinese essay of the research on the SSH model and the Haldane model.</p>
-<span id="more"></span>
-
-
-	<div class="row">
-    <embed src="/基于紧束缚模型对称性的拓扑性质.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <categories>
-        <category>科研笔记</category>
-      </categories>
-      <tags>
-        <tag>物理</tag>
-        <tag>物理科研</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>很多天后的日寄一则</title>
-    <url>/2024/cls17akcb001ktmx594be95dx/</url>
+    <url>/2024/clss7v2yh001rmcx5g6m2395e/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>距离上次写日寄已经过了两个月了，主要原因是写文章收尾很忙+后来变得千头万绪不知道从何说起。</p>
 <span id="more"></span>
 <p>先挑清楚一些的事情讲。在老板的督促下写完了我人生中的第一篇paper，最近老板也把它投出去了，希望能中lottery。这次经历也让我成长了很多，从写作语言、故事背景、细节处理等等方面都看到了老板的优秀之处，希望能早日从他那里学到这些东西成功出师x最难过的一点在于我总是犯错，完全不是一个mature的状态，希望能让老板早日对我放心。</p>
@@ -1022,7 +1041,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>我的自画像</title>
-    <url>/2022/cls17akcc001ltmx5erp43lfw/</url>
+    <url>/2022/clss7v2yh001tmcx503qy0yon/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>（作于22岁生日前夜）</p>
 <span id="more"></span>
 <p>​</p>
@@ -1068,7 +1087,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>或称作理想的</title>
-    <url>/2021/cls17akcc001otmx5eg0qcei3/</url>
+    <url>/2021/clss7v2yi001xmcx55sq9g0rb/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>荒原建立在</p>
 <p>春天语言的草场，</p>
 <p>天使的翅膀下护着撒旦。</p>
@@ -1106,72 +1125,8 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
-    <title>最近的难绷时刻</title>
-    <url>/2023/cls17akcc001rtmx5b2je39sr/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>最近经历了几件让我有点难以绷得住的事情，mostly是关于情感话题的， such as:</p>
-<span id="more"></span>
-<ul>
-<li>发觉自己喜欢上了某个人，然后转头第二天得知对方谈恋爱了；</li>
-<li>出门三人行，在喜欢的人面前被问到目前有没有喜欢的人；</li>
-<li>和同组的朋友吃饭，开玩笑问我什么时候能谈恋爱，这样出门玩就是thermal double date；</li>
-</ul>
-<p>一件比较有意思的fact是昨天和朋友去看天空树，误入了一个园艺满分的garden，作为一个P人对这种意外之喜非常开心，对一些神秘出现的好感也类似。</p>
-<p>不知道为什么突然就收到身边的各类恋爱问题，或者说为什么就突然开始留意这些开玩笑似的话。似乎是因为我的本质还是屁大点事分享者？被朋友说像小学生，其实在各类活动里尝试扮演这样一个角色挺奇怪的，但是不知道为什么不这么做我就完全没有安全感，somehow这个是我应该改变的地方？</p>
-<p>和统计系的phd聊了聊他们做的科研，完全不会。我以为做生物统计的应该挺物理的，结果说到最后只有一个random walk是我听过的，笑死。但是归根结底我还是喜欢和朋友聊天的，尤其是安安静静的那种，还是很喜欢做一个listener然后给出comment。</p>
-<p>说到科研，老板终于完整的present了这个课题的idea，但是trivial的按照函数流程写代码跑的很慢，结果也很怪，我严重怀疑哪里写错了出了问题。initial state really matters? 我不知道，或许应该去看看没看完的热化的油管？最近发现paper的阅读量极低，感觉需要加油努力狠狠读。。。最近的seminar也还是很有意思的嘿嘿。准备给博客开一个rss订阅，这样哪怕我退网了，close friends也会知道我最近遇到了些什么，有什么讨厌的事情，lc最近又有什么新的碎碎念。组里的网站也应该做了，不能偷懒！</p>
-<p>但是还是好累，科研上情感上都是。</p>
-<p>（10.16 午）</p>
-]]></content>
-      <categories>
-        <category>杂感</category>
-      </categories>
-      <tags>
-        <tag>杂感</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>气势有别，內圣外王</title>
-    <url>/2021/cls17akcc001utmx54li73egp/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。</p>
-<span id="more"></span>
-<h3 id="摘要">摘要</h3>
-<p>正如徐复观先生所说，自殷周之际开始的人文精神的跃动——从神手中取得自主权，让人格神性的天命随政治混乱逐渐崩溃。作为战争逐渐频繁发生的战国，如何处理自己在时代洪流下的生命形式成为思想家的关注点之一；在追求自身生存的合理性解释同时，寻求形而上的超脱可能。</p>
-<p>在社会和个人需求的推动下，“儒道阴阳法，名墨纵横杂”的作为代表的诸子学说逐渐产生完善，在儒学方面，孔子完成了天命根植于人的转变，“为仁由己”方使人之为人得到保证。而由于相对观念化的阐述、客观基础的缺失，让天命的实质在执行时缺少了依仗。相对于其他学派，儒家在孔子之下对现实不逃避、对内心所求保持谨慎的自省，在行为上自我约束，但是对较为超验的生命体验的指向性较为模糊。在孟子这里，不仅仅为道德提供了“四端”、良知良能、为善之才的心性论基础，得出人之所谓人的思辨，同时提供的超验的“浩然之气”的生命体验，为儒家在这些方面弥补了相当的思考缺漏，在人文精神上也增添了相当的色彩。</p>
-<p>本文从孟子笔下的浩然之气出发，辅以孟子及韩非子对势的描述，从“养”字入手，对气（特指孟子笔下浩然之气的概念，下文同）与势做一些比较，对“内圣外王”的概念提出了一种理解路径，希望在当下可以具有一定的借鉴意义。</p>
-<h3 id="一-个人层面气与势概述">（一）个人层面气与势概述</h3>
-<p>在个人层面上，儒家完成的是对以个人修身、社会伦理关系，天之所赋使命为重点的行为和思想约束。相较而言，孟子从“为仁由己”到“人皆可以为尧舜”，在历史中完成了一定程度上儒家思想的深化，让自省得以延续的同时揭示了从“生之所以然谓性”到扩而充之成就“善行”的一条大道。而在战国利益相争严重的形式下，孟子在仁义内在的思想下做出的发展让儒家道德下的行为规范有了客观上的实体。</p>
-<p>从“扩而充之”的性善论出发，提出“我善养吾浩然之气”的“功夫论”，让对自己行为的自律和规范最终达到超验式的个人满足。与强行改变人的天性的“守气”不同，涵养为手段的功夫论有内在的价值判断同时以此来行动。以志为标杆的“养气”在一定程度上为儒家的自我约束意识提供了一个精神上的去处：我为何如此行事？如何对待世界才是真正的我的本心、灌注出我的形象？</p>
-<p>从个人“善”的修养过程及由此阐发的孟子独有的养气概念，“养”字在人本性所有的“才”到人所做出的“行”的外化过程中，始终是不可取代的：保持本心不是一蹴而就的事，是一件谨言慎行、反躬己身的过程；从“才”到“行”依靠的是自身通过理性（志）的反省，并由此掌握自己的一言一行，不是依靠生命强度的坚持来“守”住本心。</p>
-<p>从孟子原文分析，我们可以得出养气的“养”之核心要义（同理可推知于性善的外化到善行的过程）：“以直养而无害，则塞于天地之间。其为气也，配义与道；无是，馁也。是集义所生者，……必有事焉，而勿正；心勿忘，勿助长也。”（《孟子·公孙丑上》）养，首先是心中有道义、有准则（以直养），揭示的是儒家思想的指导意义；其次是不断寻求实现的道路，“集义是行底功夫，是积累着行的功夫”，然后是不求最后结果于心，不以意助之，是“求”而无暇顾及“求得”的非目的性导向说明。总的来说，是“以志持气”的功夫。</p>
-<p>谈及势，笔者选择从法家的理解入手加以解读。相对韩非子的论述而言，其基础首先建立在性恶论的基础上。趋利避害、利害算计、见利忘义、民智愚昧是其首先做出的假设与判断。韩非子因而言“君持柄以处势，故令行禁止。柄者，杀生之治也；势者，胜众之资也。”（《韩非子·八经篇》）又有“所为言势者，言人之所设也”（《韩非子·难势》）之语。势是凌驾在众人之上的资格，通过人为将个人在等级上有所差异分化，以势持权、借势立法，从而达到在人客观性恶的基础上完成强制性的规范。取得执掌权柄的前提。对持势之人而言，与气相同的是同样存在“持守”的需要，也算是“积累着行的功夫”，但相对而言在准则方面缺失让个人本身来选择补充，最终是由“处势”的结果来断定“势”的形成与否。而从这个观点出发，笔者将在后面通过在国家层面的势的表述，最后回到这个问题，对这个概念进行新的阐述。</p>
-<p>从个人持守上来讲，关于气和势的相似性，我们看到的是两者相似的蕴养过程，抑或是守抑或是持，都是“积累着行的功夫”。关于气（浩然之气）和势的差异性，孟子谈及的浩然之气是需要“养”的，用义的原则来浇灌才能开出最美的花朵，而相比之下势保持更近于气概念下的“守”的成分，像是铁匠用强力敲打下的灼热的剑胚。这是法家的“势”的解读形式，那么再进一步，二者有怎样的关系呢？</p>
-<h3 id="二-更高层面的论述与联系">（二）更高层面的论述与联系</h3>
-<p>从孟子本意上讲，个人层面的“性善论”与个人涵养的“功夫论”问题与政治主张是无法脱离的。笔者认为气与势的详细探讨也需要落到更高的国家层面来进行考量。</p>
-<p>战争逐渐频繁发生的战国下的思考方向，相对应于个人意义上的哲学思辨，社会整体上的观念取舍和一致性问题同样是一个重大命题。在社会和个人需求的推动下，“儒道阴阳法，名墨纵横杂”的作为代表的诸子学说逐渐产生完善在不同思想派别下，对相应的价值判断标准有所取舍、有所甄别。无论是墨家、法家抑或道家、儒家，每个学派都希望表达的是一个相对客观的对世界和自我的描述方式；但在出发点和归址不同，自觉反省的身份阶级不相同，这两大原因让他们进行了不同的取舍。</p>
-<p>道家“御六气之辩，以游无穷”追求形而上的超脱心态，试图对人的社会性进行某种程度上的淡化与解构；法家立足于国家百姓客观事实实现了一种从上而下的观察，为以法、势、术治国提供了一定的基础；而相应儒家立足的士人层次，通过规范言行、规范国民，对行为、思想和国家的自觉反思是决定取舍的要素之一。。这种百花争鸣的景象一方面为学术的开展提供了良好的培植土壤，另一方面多种学说的选择与阐述却也有断章取义、见解罅漏之嫌。</p>
-<p>而仅就孟子来讲，国家政治方面的思考主要集中在“仁政”“民为贵”学说之上。从治国需民心的思想导向，到治国人才、土地基本制度、爵位等较为较为客观的思考，我们看到的是国君代人民治国的理念。一种以道义为指向的治理方案，指向的是与个人相同的以理（以直）养“国运”的思考方式。代天道的道义而施行政策是孟子的愿景，如齐国伐燕时所谓“为天吏则可以伐之”（《孟子·公孙丑下》）如此与个人修身便有了共通之处：孟子思想最终希望通向的是放之四海而皆准的天下大道，也就将个人修身层面的养气，过渡到对国家的政治上形成一种特殊的滋养。从孟子的政治主张来看，无论是仔细推敲得出的“性善论”抑或是从功夫论导出的“浩然之气”的概念，都可以视为为“仁政”这一主张提供道德基础和修养基础——要想仁义成为政治的核心，那么相对仁义之施下的个人也应当有所意义。从人皆有“四端”的道德属性，到“浩然之气”的超脱性，到与现实结合的“仁政”的现实性，然后用这种现实的价值去涵养国民的前二者。</p>
-<p>如果我们从仁政学说的角度考虑“势”的问题，我们可以得到一种不同于法家的思考。对于同样凌驾在众人之上的权势，法家选择的是集权制度，让下属对法、势、术的结合进行完全的屈从；强行将社会嵌入一道设下的模具中，借用人的生理需求和相应的被孟子淡化的自然属性，让整个社会运转起来。而相应的，孟子追求的国家借“势”王天下的方式是同样有道义支撑。借这种较为良性的势行仁政，成王道，便是孟子的政治追求。“‘德何如则可以王矣？’曰：‘保民而王，莫之能御也。’”（《孟子·梁惠王上》）把德（亦即仁义）灌注于治国中，王道之势成，便“莫之能御”，这便是孟子的政治理想，从此亦看出“养”的韵味都在其中。</p>
-<p>孟子在首章便指出：“王亦曰仁义而已矣，何必曰利”，正言仁义功用，天地赖以常运而不息，人纪赖以接续而不坠。遗亲后君，便非仁义，不是言仁义未尝不利。将仁义置于势的内部，从而拥有了更强的适应能力与正道的光辉。从而我认为吕坤在《呻吟语·论道》中将理与势对立，让势屈服于理的说法有所不妥：理与势的对立并不是应当有的预期情况，只有将势顺理发展，才是足以算为“养势”，让势保持着良好的发展趋势。如果势将自己和理对立起来，完全凭借原始的生命预期来实施，那么最后只能成为“守势”。有理才可以称之王道，否则为霸道。于士人的道德属性和“势”的关系而言，势在仁义内核上的补充是必要的。孟子曰：“古之贤王好善而忘势，古之贤士何独不然？乐其道而忘人之势，故王公不致敬尽礼，则不得亟见之。见且犹不得亟，而况得而臣之乎？”（《孟子·尽心上》）</p>
-<p>但较为显然的是，无论是在国家层面上还是在个人修养上的养气还是笔者所提出的“养势”，气与势还是存在着一定的区别。首先从阶级差别上讲，士子有志，以志御气，是孟夫子对士人（或者说全体国人）的预期，而相对应的统治阶级拥有改变、统帅国人的“势”，只是要求一方之王亦存在势中亦存在道，即因势成王道。另外我们可以说国势，但从未提出过“国气”；我们讲某物有“生气”，从未讲有“生势”；我们讲“天气”“地势”，不会相互混淆。这是因为就其根源上，势的产生还是伴随着权柄，还是具有着“君持柄以处势，故令行禁止”的能力。而相对而言，气是生命的自我力量，是由生理所形成的生命力。但是两者同样存在是否由直、由理所统领的“守”“养”之别。</p>
-<p>那么对于孟子对修身提出的“养气”，和儒家在治国上提出的王道，两者都可以视作“养”的过程。一者一人养，一者天下人共养。相对个人而言，需要养的不仅仅是以志御气，同时还有以志御势；一者为御己之意志之法，一者为御人行事之圭臬。这种非用生命强度的力量去“守”的内蕴，为一种可成长性提供了可能。</p>
-<p>换种说法，不正是内圣（对自己的思想、行为运用志来规范）外王（对外表现为正直、刚强）的表述方式吗？所以笔以将“养”之一字看成内圣外王人格的养成方法，达到虽手握权柄但不动霸王之心，从而将知言养气章所提到的功夫论的功夫从而可以将蕴养的目标扩大推广化到内圣外王的蕴养。同时我们应当注意到原有的功夫论对此中的“势”的相关的内容并未提及。</p>
-<p>而同时笔者认为功夫论中蕴养的内涵同样可以扩大到国家层面，将蕴养的内涵推广到“势”这一主题之后，同样由国人形成的国势同样具有类似的性质，只是需要在国人之“不动心”和“知言”上加以仔细考量，完成从个人到国人的又一次提炼，再将其灌注到人与人之间交流沟通的“势”中，王道铺张于天下之势亦是“莫之能御”。</p>
-<h5 id="参考文献">参考文献</h5>
-<p>徐复观著： 《中国人性论史·先秦篇》， 上海：上海三联书店，2001</p>
-<p>徐复观：《孟子“知言养气”章试释》，《中国思想史论集》，上海：上海书店出版社，2004</p>
-<p>黄宗羲：《孟子师说》卷一，转引自杨海文：《为《孟子》首章鼓与呼》，中华读书报，2018年3月</p>
-]]></content>
-      <categories>
-        <category>critic</category>
-      </categories>
-      <tags>
-        <tag>literature</tag>
-        <tag>critic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>无题</title>
-    <url>/2022/cls17akcd001xtmx5byz61fgg/</url>
+    <url>/2022/clss7v2yi0020mcx514xd1gjr/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>我要在这张纸上堆起一个小土堆</p>
 <p>把我的稚嫩和爱都埋进去</p>
 <span id="more"></span>
@@ -1210,8 +1165,72 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
       </tags>
   </entry>
   <entry>
+    <title>最近的难绷时刻</title>
+    <url>/2023/clss7v2yi0024mcx5hro22tgt/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>最近经历了几件让我有点难以绷得住的事情，mostly是关于情感话题的， such as:</p>
+<span id="more"></span>
+<ul>
+<li>发觉自己喜欢上了某个人，然后转头第二天得知对方谈恋爱了；</li>
+<li>出门三人行，在喜欢的人面前被问到目前有没有喜欢的人；</li>
+<li>和同组的朋友吃饭，开玩笑问我什么时候能谈恋爱，这样出门玩就是thermal double date；</li>
+</ul>
+<p>一件比较有意思的fact是昨天和朋友去看天空树，误入了一个园艺满分的garden，作为一个P人对这种意外之喜非常开心，对一些神秘出现的好感也类似。</p>
+<p>不知道为什么突然就收到身边的各类恋爱问题，或者说为什么就突然开始留意这些开玩笑似的话。似乎是因为我的本质还是屁大点事分享者？被朋友说像小学生，其实在各类活动里尝试扮演这样一个角色挺奇怪的，但是不知道为什么不这么做我就完全没有安全感，somehow这个是我应该改变的地方？</p>
+<p>和统计系的phd聊了聊他们做的科研，完全不会。我以为做生物统计的应该挺物理的，结果说到最后只有一个random walk是我听过的，笑死。但是归根结底我还是喜欢和朋友聊天的，尤其是安安静静的那种，还是很喜欢做一个listener然后给出comment。</p>
+<p>说到科研，老板终于完整的present了这个课题的idea，但是trivial的按照函数流程写代码跑的很慢，结果也很怪，我严重怀疑哪里写错了出了问题。initial state really matters? 我不知道，或许应该去看看没看完的热化的油管？最近发现paper的阅读量极低，感觉需要加油努力狠狠读。。。最近的seminar也还是很有意思的嘿嘿。准备给博客开一个rss订阅，这样哪怕我退网了，close friends也会知道我最近遇到了些什么，有什么讨厌的事情，lc最近又有什么新的碎碎念。组里的网站也应该做了，不能偷懒！</p>
+<p>但是还是好累，科研上情感上都是。</p>
+<p>（10.16 午）</p>
+]]></content>
+      <categories>
+        <category>杂感</category>
+      </categories>
+      <tags>
+        <tag>杂感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>气势有别，內圣外王</title>
+    <url>/2021/clss7v2yi0028mcx50dwfhnmk/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>这是我大一春季学期在参加了《孟子研读》课程之后写的论文，学校的老师给了我很多关于《孟子》文本的新的思考，在这篇文章中，我做了一定的简单表达，以及我自己的一些想法。相对比较粗糙，但我现在也写不出这种有意思的东西了。</p>
+<span id="more"></span>
+<h3 id="摘要">摘要</h3>
+<p>正如徐复观先生所说，自殷周之际开始的人文精神的跃动——从神手中取得自主权，让人格神性的天命随政治混乱逐渐崩溃。作为战争逐渐频繁发生的战国，如何处理自己在时代洪流下的生命形式成为思想家的关注点之一；在追求自身生存的合理性解释同时，寻求形而上的超脱可能。</p>
+<p>在社会和个人需求的推动下，“儒道阴阳法，名墨纵横杂”的作为代表的诸子学说逐渐产生完善，在儒学方面，孔子完成了天命根植于人的转变，“为仁由己”方使人之为人得到保证。而由于相对观念化的阐述、客观基础的缺失，让天命的实质在执行时缺少了依仗。相对于其他学派，儒家在孔子之下对现实不逃避、对内心所求保持谨慎的自省，在行为上自我约束，但是对较为超验的生命体验的指向性较为模糊。在孟子这里，不仅仅为道德提供了“四端”、良知良能、为善之才的心性论基础，得出人之所谓人的思辨，同时提供的超验的“浩然之气”的生命体验，为儒家在这些方面弥补了相当的思考缺漏，在人文精神上也增添了相当的色彩。</p>
+<p>本文从孟子笔下的浩然之气出发，辅以孟子及韩非子对势的描述，从“养”字入手，对气（特指孟子笔下浩然之气的概念，下文同）与势做一些比较，对“内圣外王”的概念提出了一种理解路径，希望在当下可以具有一定的借鉴意义。</p>
+<h3 id="一-个人层面气与势概述">（一）个人层面气与势概述</h3>
+<p>在个人层面上，儒家完成的是对以个人修身、社会伦理关系，天之所赋使命为重点的行为和思想约束。相较而言，孟子从“为仁由己”到“人皆可以为尧舜”，在历史中完成了一定程度上儒家思想的深化，让自省得以延续的同时揭示了从“生之所以然谓性”到扩而充之成就“善行”的一条大道。而在战国利益相争严重的形式下，孟子在仁义内在的思想下做出的发展让儒家道德下的行为规范有了客观上的实体。</p>
+<p>从“扩而充之”的性善论出发，提出“我善养吾浩然之气”的“功夫论”，让对自己行为的自律和规范最终达到超验式的个人满足。与强行改变人的天性的“守气”不同，涵养为手段的功夫论有内在的价值判断同时以此来行动。以志为标杆的“养气”在一定程度上为儒家的自我约束意识提供了一个精神上的去处：我为何如此行事？如何对待世界才是真正的我的本心、灌注出我的形象？</p>
+<p>从个人“善”的修养过程及由此阐发的孟子独有的养气概念，“养”字在人本性所有的“才”到人所做出的“行”的外化过程中，始终是不可取代的：保持本心不是一蹴而就的事，是一件谨言慎行、反躬己身的过程；从“才”到“行”依靠的是自身通过理性（志）的反省，并由此掌握自己的一言一行，不是依靠生命强度的坚持来“守”住本心。</p>
+<p>从孟子原文分析，我们可以得出养气的“养”之核心要义（同理可推知于性善的外化到善行的过程）：“以直养而无害，则塞于天地之间。其为气也，配义与道；无是，馁也。是集义所生者，……必有事焉，而勿正；心勿忘，勿助长也。”（《孟子·公孙丑上》）养，首先是心中有道义、有准则（以直养），揭示的是儒家思想的指导意义；其次是不断寻求实现的道路，“集义是行底功夫，是积累着行的功夫”，然后是不求最后结果于心，不以意助之，是“求”而无暇顾及“求得”的非目的性导向说明。总的来说，是“以志持气”的功夫。</p>
+<p>谈及势，笔者选择从法家的理解入手加以解读。相对韩非子的论述而言，其基础首先建立在性恶论的基础上。趋利避害、利害算计、见利忘义、民智愚昧是其首先做出的假设与判断。韩非子因而言“君持柄以处势，故令行禁止。柄者，杀生之治也；势者，胜众之资也。”（《韩非子·八经篇》）又有“所为言势者，言人之所设也”（《韩非子·难势》）之语。势是凌驾在众人之上的资格，通过人为将个人在等级上有所差异分化，以势持权、借势立法，从而达到在人客观性恶的基础上完成强制性的规范。取得执掌权柄的前提。对持势之人而言，与气相同的是同样存在“持守”的需要，也算是“积累着行的功夫”，但相对而言在准则方面缺失让个人本身来选择补充，最终是由“处势”的结果来断定“势”的形成与否。而从这个观点出发，笔者将在后面通过在国家层面的势的表述，最后回到这个问题，对这个概念进行新的阐述。</p>
+<p>从个人持守上来讲，关于气和势的相似性，我们看到的是两者相似的蕴养过程，抑或是守抑或是持，都是“积累着行的功夫”。关于气（浩然之气）和势的差异性，孟子谈及的浩然之气是需要“养”的，用义的原则来浇灌才能开出最美的花朵，而相比之下势保持更近于气概念下的“守”的成分，像是铁匠用强力敲打下的灼热的剑胚。这是法家的“势”的解读形式，那么再进一步，二者有怎样的关系呢？</p>
+<h3 id="二-更高层面的论述与联系">（二）更高层面的论述与联系</h3>
+<p>从孟子本意上讲，个人层面的“性善论”与个人涵养的“功夫论”问题与政治主张是无法脱离的。笔者认为气与势的详细探讨也需要落到更高的国家层面来进行考量。</p>
+<p>战争逐渐频繁发生的战国下的思考方向，相对应于个人意义上的哲学思辨，社会整体上的观念取舍和一致性问题同样是一个重大命题。在社会和个人需求的推动下，“儒道阴阳法，名墨纵横杂”的作为代表的诸子学说逐渐产生完善在不同思想派别下，对相应的价值判断标准有所取舍、有所甄别。无论是墨家、法家抑或道家、儒家，每个学派都希望表达的是一个相对客观的对世界和自我的描述方式；但在出发点和归址不同，自觉反省的身份阶级不相同，这两大原因让他们进行了不同的取舍。</p>
+<p>道家“御六气之辩，以游无穷”追求形而上的超脱心态，试图对人的社会性进行某种程度上的淡化与解构；法家立足于国家百姓客观事实实现了一种从上而下的观察，为以法、势、术治国提供了一定的基础；而相应儒家立足的士人层次，通过规范言行、规范国民，对行为、思想和国家的自觉反思是决定取舍的要素之一。。这种百花争鸣的景象一方面为学术的开展提供了良好的培植土壤，另一方面多种学说的选择与阐述却也有断章取义、见解罅漏之嫌。</p>
+<p>而仅就孟子来讲，国家政治方面的思考主要集中在“仁政”“民为贵”学说之上。从治国需民心的思想导向，到治国人才、土地基本制度、爵位等较为较为客观的思考，我们看到的是国君代人民治国的理念。一种以道义为指向的治理方案，指向的是与个人相同的以理（以直）养“国运”的思考方式。代天道的道义而施行政策是孟子的愿景，如齐国伐燕时所谓“为天吏则可以伐之”（《孟子·公孙丑下》）如此与个人修身便有了共通之处：孟子思想最终希望通向的是放之四海而皆准的天下大道，也就将个人修身层面的养气，过渡到对国家的政治上形成一种特殊的滋养。从孟子的政治主张来看，无论是仔细推敲得出的“性善论”抑或是从功夫论导出的“浩然之气”的概念，都可以视为为“仁政”这一主张提供道德基础和修养基础——要想仁义成为政治的核心，那么相对仁义之施下的个人也应当有所意义。从人皆有“四端”的道德属性，到“浩然之气”的超脱性，到与现实结合的“仁政”的现实性，然后用这种现实的价值去涵养国民的前二者。</p>
+<p>如果我们从仁政学说的角度考虑“势”的问题，我们可以得到一种不同于法家的思考。对于同样凌驾在众人之上的权势，法家选择的是集权制度，让下属对法、势、术的结合进行完全的屈从；强行将社会嵌入一道设下的模具中，借用人的生理需求和相应的被孟子淡化的自然属性，让整个社会运转起来。而相应的，孟子追求的国家借“势”王天下的方式是同样有道义支撑。借这种较为良性的势行仁政，成王道，便是孟子的政治追求。“‘德何如则可以王矣？’曰：‘保民而王，莫之能御也。’”（《孟子·梁惠王上》）把德（亦即仁义）灌注于治国中，王道之势成，便“莫之能御”，这便是孟子的政治理想，从此亦看出“养”的韵味都在其中。</p>
+<p>孟子在首章便指出：“王亦曰仁义而已矣，何必曰利”，正言仁义功用，天地赖以常运而不息，人纪赖以接续而不坠。遗亲后君，便非仁义，不是言仁义未尝不利。将仁义置于势的内部，从而拥有了更强的适应能力与正道的光辉。从而我认为吕坤在《呻吟语·论道》中将理与势对立，让势屈服于理的说法有所不妥：理与势的对立并不是应当有的预期情况，只有将势顺理发展，才是足以算为“养势”，让势保持着良好的发展趋势。如果势将自己和理对立起来，完全凭借原始的生命预期来实施，那么最后只能成为“守势”。有理才可以称之王道，否则为霸道。于士人的道德属性和“势”的关系而言，势在仁义内核上的补充是必要的。孟子曰：“古之贤王好善而忘势，古之贤士何独不然？乐其道而忘人之势，故王公不致敬尽礼，则不得亟见之。见且犹不得亟，而况得而臣之乎？”（《孟子·尽心上》）</p>
+<p>但较为显然的是，无论是在国家层面上还是在个人修养上的养气还是笔者所提出的“养势”，气与势还是存在着一定的区别。首先从阶级差别上讲，士子有志，以志御气，是孟夫子对士人（或者说全体国人）的预期，而相对应的统治阶级拥有改变、统帅国人的“势”，只是要求一方之王亦存在势中亦存在道，即因势成王道。另外我们可以说国势，但从未提出过“国气”；我们讲某物有“生气”，从未讲有“生势”；我们讲“天气”“地势”，不会相互混淆。这是因为就其根源上，势的产生还是伴随着权柄，还是具有着“君持柄以处势，故令行禁止”的能力。而相对而言，气是生命的自我力量，是由生理所形成的生命力。但是两者同样存在是否由直、由理所统领的“守”“养”之别。</p>
+<p>那么对于孟子对修身提出的“养气”，和儒家在治国上提出的王道，两者都可以视作“养”的过程。一者一人养，一者天下人共养。相对个人而言，需要养的不仅仅是以志御气，同时还有以志御势；一者为御己之意志之法，一者为御人行事之圭臬。这种非用生命强度的力量去“守”的内蕴，为一种可成长性提供了可能。</p>
+<p>换种说法，不正是内圣（对自己的思想、行为运用志来规范）外王（对外表现为正直、刚强）的表述方式吗？所以笔以将“养”之一字看成内圣外王人格的养成方法，达到虽手握权柄但不动霸王之心，从而将知言养气章所提到的功夫论的功夫从而可以将蕴养的目标扩大推广化到内圣外王的蕴养。同时我们应当注意到原有的功夫论对此中的“势”的相关的内容并未提及。</p>
+<p>而同时笔者认为功夫论中蕴养的内涵同样可以扩大到国家层面，将蕴养的内涵推广到“势”这一主题之后，同样由国人形成的国势同样具有类似的性质，只是需要在国人之“不动心”和“知言”上加以仔细考量，完成从个人到国人的又一次提炼，再将其灌注到人与人之间交流沟通的“势”中，王道铺张于天下之势亦是“莫之能御”。</p>
+<h5 id="参考文献">参考文献</h5>
+<p>徐复观著： 《中国人性论史·先秦篇》， 上海：上海三联书店，2001</p>
+<p>徐复观：《孟子“知言养气”章试释》，《中国思想史论集》，上海：上海书店出版社，2004</p>
+<p>黄宗羲：《孟子师说》卷一，转引自杨海文：《为《孟子》首章鼓与呼》，中华读书报，2018年3月</p>
+]]></content>
+      <categories>
+        <category>critic</category>
+      </categories>
+      <tags>
+        <tag>literature</tag>
+        <tag>critic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>河流</title>
-    <url>/2024/cls17akch004etmx5e80q5i80/</url>
+    <url>/2024/clss7v2yj002cmcx5bh852hp4/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>很难讲这是为谁写的。最近脑子里总会跑出一些过去的回忆。<span id="more"></span>可能是一首不为谁而作的诗，也可能是为自己而作的诗。</p>
 <p>每一场梦都是一条</p>
 <p>或深或浅的河</p>
@@ -1243,7 +1262,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>统计物理学笔记</title>
-    <url>/2021/cls17akch004ftmx5b8qw0iwa/</url>
+    <url>/2021/clss7v2yj002emcx588radvlp/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>此网页提供的PDF笔记主要基于刘川老师的讲义和Pathria的《统计力学》写成。</p>
 <span id="more"></span>
 <p>我的主要目的是构建一个基于此的思维路径，提供一个“拐杖式”的文档；同时催促自己学习orz。大多细节部分将略过，且在笔者学习过程中加以更新，希望在这个过程也可以能帮助我厘清两本书的脉络。</p>
@@ -1267,7 +1286,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>自由的碎碎念</title>
-    <url>/2023/cls17akch004htmx566veg6lp/</url>
+    <url>/2023/clss7v2yn004nmcx5e73y2t6d/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>最近心血来潮就会写一些碎碎念，有的会放上博客，有的不会。<span id="more"></span>写下来也并不是想记录，而是觉得这是一次与自己的谈话，似乎在这个时候我是充分自由的。</p>
 <p>偶尔，或者说刚刚，我翻阅了一下自己和朋友的聊天记录，似乎要从中找到每个人情绪释放的蛛丝马迹。我发现自己在工作劳累之后言语之间的无趣：能唤起他人笑容的男孩在那一刻似乎被杀死了。我的确为此感到难过，因为表演性人格并没有得到满足。但这并不是说我变得木讷了，我依然渴望看到生活里可能存在的张力，或者任何怪诞的浪漫。</p>
 <p>夜晚，每个人也都是自由的。前两天是万圣节，国内国外都在为一种疯狂庆祝，或者嘲笑生活中的割裂的怪诞。我没有参与其中，袖手旁观或许也是一种嘲讽怪诞的方式。在夜晚，不会有任何火热的鞭子鞭笞任何一颗冷漠的心，你也不会需要带上任何一张假面。我厌恶假面，我也厌恶每天白天带上假面的我自己。我痛恨自己孱弱的表达能力，似乎只有通过角色扮演的方式才能和他人沟通，我害怕看见我自己？或者我害怕别人看见真实的我自己？</p>
@@ -1283,7 +1302,7 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
   </entry>
   <entry>
     <title>自省</title>
-    <url>/2023/cls17akch004jtmx5b9e98frz/</url>
+    <url>/2023/clss7v2yn004omcx57enydlx7/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Randomness is the measurement of our ignorance.</p>
 <span id="more"></span>
 <p>望着雨落下突然冒出这一句话，没头没脑但是像句腓句。读PhD快3个月了，越发认识到自己的无知。但是无知的随机也会给我们带来可描述的结构，就好像tell us something from nothing.  这个周末和老板meet了两次，老板对我的pre非常的disappointed；同时我也可以看得出来，他对我也非常上心与温柔。</p>
@@ -1293,25 +1312,6 @@ H_1 = \sum_k J_\perp k(R^\dagger(k)R(k)-L^\dagger(k)L(k))
 <p>我其实有一点难过，但是又有一点开心。难过在我不够厉害到让他满意，开心在我有好多好多可以提升的地方。承认自己不够厉害这件事情我已经不止做过一次了，而且我之前也意识到我的pre非常混乱。感觉老板好厉害，明明手底下有好多学生，自己也有好多科研以及杂务要做，但是在我的project上比我的insight要强好多，能给出好多有意思的comment以及方向。为什么我总是拖延总是拒绝play around呢？明明有好多可以思考的地方，但是我却选择无所事事玩手机。我应该再i人一点，学会享受一个人独处的温柔。</p>
 <p>这个世界最难以置信的一点是他是可以描述的。</p>
 <p>每次想到这句话的时候，我就总觉得做科研的人都是某种程度上自由的信徒，对描述世界具有狂热的自信。我们永远相信我自己，但是我好像在某个瞬间迷失了。学会自省，学会自信，这大概是PhD生活告诉我的第一件事。温柔而自洽的对待世界，这是我自己需要学会的PhD第一课。</p>
-]]></content>
-      <categories>
-        <category>杂感</category>
-      </categories>
-      <tags>
-        <tag>杂感</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>和自己聊天</title>
-    <url>/2024/cls69liux0000xcx50fw48gzn/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>恍惚间又快到年关了，朋友们都开始写年终小结，像是完成某种任务。这时我才意识到我已经摆烂了很长时间了：已经记不起上次独自发呆思考是什么时候了。很想一个人抛下所有社交到一个不会有人打扰到的漂亮的地方去躺下读文章，但是却缺乏必要的行动力。</p>
-<p>之前不记下碎碎念的原因是太忙，最近没记下碎碎念的原因是过有思考的日子太累。思考是需要勇气的，发呆也是，保持积极也是。糊糊涂涂的生活是最轻松的，也是最无趣的。但是生活需要有脑子的过，也需要没脑子的过。没脑子的在一周内看完了一部150w字的玄幻小说，现在像是大梦初醒一样希望能和自己安静的谈话。可惜的是一台生锈的机器是没法一下子启动的。</p>
-<p>我总会发现自己有集中不了注意力的时候。从高中起，我在心烦意乱的时候最喜欢干的事情是在桌子上/纸上写篆书的“道”。一笔一划的涂厚，大概需要好几分钟时间。在这个时候我就好像在走马灯式的回忆我学到的东西，生活里的小确幸，和那些让我一直烦心的故事。当写完那个字的时候，我就真的能平静下来：一种很玄学的体验。而到现在，我发现写碎碎念或者日寄是最能让人平静下来的：敲下的文字比思考更慢，这让人不得不放慢思维的速度。</p>
-<p>到今天，那些情感故事上的缺憾也不再纠缠住我了：我深切的感受到我需要的不是陪伴的时光，而是独处的思考。我也不会为某个人某件事挂心，“礼貌”的美式热情就足够了。我也有足够有意思且深入的问题去思考，也有很多希望从书里从文章里学到的东西。不产生直觉的经验是无足轻重的：当我们对某个细节追根究底而不了解大背景的时候，我们就像是某朵历史浪花卷起的泥沙——起起落落但仍在原地。</p>
-<p>自从读博以来，虽然没有完整的复现多少文章，但是也读了很多论文的intro和abstract，有了一些最粗浅的思考。我现在最关心的事情是locality和unitary/non- unitary能给量子多体带来什么知识？纠缠的build-up有多复杂？我们能从量子的世界里学习到什么——我们如何给量子力学这匹马套上马鞍，从而让我们能更好的利用这些资源。</p>
-<p>最近老板开了一个新的课题，让我带着一个RA做Krylov complexity：一个可以给出简单纠缠动力学的体系会不会给出渐进的遍历算符。我读完了他给的文章的intro，感觉很有意思。老板之前还给了我好几个看上去可解的模型，还有一些更深入的randomness的问题。而我自己对Holography和membrane theory很感兴趣：top-down的理论假设和唯像理论分别能给我们对世界的理解带来什么样的改变呢？每一件事情都需要花好多精力，付出好多的勇气。这让人感到丧气：我好像已经不是少年了。</p>
-<p>这带来的一件难过的事情就是自己逐渐增长的年纪和粗浅无比的理论知识之间的矛盾。确切的说，我不懂量子多体，我也不懂量子信息。我大概比做量子信息的人多懂一些多体的常识，比做传统凝聚态多体的人多懂一些量子信息的黑话。这很讨厌——我知道我很无知但却暂时无法改变。而远在新加坡，我最难过的情绪无人诉说，也不会有人给我什么情感上的支撑。人，或者说我，多么脆弱。</p>
-<p>但是去思考那些引人入胜却费力的问题确实是生活的一大乐趣。我很难想象未来某一天我转行之后的生活：我将视什么为快乐呢？我离不开学术，并不只是因为我只会这个（当然这也是原因之一）；学术对我来说就和晚霞一样和诗歌一样不可舍弃。或许我只会活到50岁，或者40岁。但是在这些所有的时光里，我希望我活的富有力量。在渴望成长的时间里，生活需要有脑子的过，也只需要有脑子的过。</p>
 ]]></content>
       <categories>
         <category>杂感</category>
