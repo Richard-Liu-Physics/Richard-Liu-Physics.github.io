@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2024-06-04T16:28:39.476Z</updated>
+  <updated>2024-05-30T14:31:48.502Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>给桃子的信</title>
-    <link href="https://richard-liu-physics.github.io/2024/clx0n34l4002ma0x54e97ceq3/"/>
-    <id>https://richard-liu-physics.github.io/2024/clx0n34l4002ma0x54e97ceq3/</id>
-    <published>2024-06-04T16:26:50.000Z</published>
-    <updated>2024-06-04T16:28:39.476Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;写给很喜欢的桃子：&lt;/p&gt;
-&lt;p&gt;又把你送我的信翻出来反反复复看了一遍，突然意识到我好像还没给你写过什么东西，再加上想见你你也不愿意，那就在这里写下来吧。现在是6月5号的十二点，这里的话可能会挂到我的博客上，也可能会写成电子邮件发给你（大概这也算信吧）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
-    
-    
-    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
-    
-  </entry>
   
   <entry>
     <title>1st year PhD随笔——怀疑、迷茫及其他</title>
@@ -405,6 +385,27 @@
     
     
     <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of QFT, chapter 2, David Tong. The new thing I learn from this book is non-relativistic field theory.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notes on strong correlated system(1)</title>
+    <link href="https://richard-liu-physics.github.io/2022/clx0n34kw000ka0x576eng79k/"/>
+    <id>https://richard-liu-physics.github.io/2022/clx0n34kw000ka0x576eng79k/</id>
+    <published>2022-08-17T01:42:23.000Z</published>
+    <updated>2023-09-11T04:49:47.795Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This is a note for the reading of the 2nd yellow book by &lt;em&gt;Nagaosa&lt;/em&gt;.&lt;/p&gt;</summary>
     
     
     
