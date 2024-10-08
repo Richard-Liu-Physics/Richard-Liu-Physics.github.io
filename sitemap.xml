@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://richard-liu-physics.github.io/2024/cm20j8hxi0000h5zv65zcggmu/</loc>
+    
+    <lastmod>2024-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://richard-liu-physics.github.io/2024/clyabt4n80001orx5a40lcd5t/</loc>
     
     <lastmod>2024-07-06</lastmod>
@@ -292,7 +301,7 @@
 
   <url>
     <loc>https://richard-liu-physics.github.io/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -300,84 +309,84 @@
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/Numerical-Physics/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/Python-3/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/CS%E6%90%AC%E7%A0%96%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/Code/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/poetry/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%A7%91%E7%A0%94/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/literature/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/tags/critic/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -386,63 +395,63 @@
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/Numerical-Physics/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/CS%E6%90%AC%E7%A0%96/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/code/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/%E7%A7%91%E7%A0%94%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/poetry/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://richard-liu-physics.github.io/categories/critic/</loc>
-    <lastmod>2024-07-06</lastmod>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
