@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2024-12-29T09:42:18.337Z</updated>
+  <updated>2025-01-13T15:30:37.999Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Berry Phase and Topological Physics</title>
+    <link href="https://richard-liu-physics.github.io/2025/cm5v7b3wq0000d1zvfi433f8k/"/>
+    <id>https://richard-liu-physics.github.io/2025/cm5v7b3wq0000d1zvfi433f8k/</id>
+    <published>2025-01-13T15:25:58.000Z</published>
+    <updated>2025-01-13T15:30:37.999Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本篇主要内容参考&lt;em&gt;Topological insulators and topological superconductors / B. Andrei Bernevig&lt;/em&gt;，夹带些许私货。</summary>
+    
+    
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>年终杂记</title>
@@ -383,27 +404,6 @@
     
     
     <summary type="html">&lt;p&gt;This is a note for the reading of the 2nd yellow book by &lt;em&gt;Nagaosa&lt;/em&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Notes on Quantum Phase Transition</title>
-    <link href="https://richard-liu-physics.github.io/2022/cm59f9gxk000irizvd03gh3tf/"/>
-    <id>https://richard-liu-physics.github.io/2022/cm59f9gxk000irizvd03gh3tf/</id>
-    <published>2022-07-31T03:18:46.000Z</published>
-    <updated>2022-10-14T11:04:21.223Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of &lt;em&gt;Quantum Phase Transition chapter 5, Subir Sachdev&lt;/em&gt;.&lt;/p&gt;</summary>
     
     
     
