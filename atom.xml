@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2025-01-13T15:30:37.999Z</updated>
+  <updated>2025-02-20T08:41:31.521Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一封遗书</title>
+    <link href="https://richard-liu-physics.github.io/2025/cm7d3fg8z00006wzvdnlde2y2/"/>
+    <id>https://richard-liu-physics.github.io/2025/cm7d3fg8z00006wzvdnlde2y2/</id>
+    <published>2025-02-20T08:40:04.000Z</published>
+    <updated>2025-02-20T08:41:31.521Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;自从得知一位哈佛PhD朋友的死讯，效仿的念头在脑海中挥之不去。但是上吊好疼，大概我需要寻找一种更approachable的死法。但是死去总得留存点什么，用以解释以免给身边的人带来麻烦。</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="给自己" scheme="https://richard-liu-physics.github.io/tags/%E7%BB%99%E8%87%AA%E5%B7%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>Berry Phase and Topological Physics</title>
@@ -383,27 +402,6 @@
     
     
     <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of QFT, chapter 2, David Tong. The new thing I learn from this book is non-relativistic field theory.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Notes on strong correlated system(1)</title>
-    <link href="https://richard-liu-physics.github.io/2022/cm59f9gxl000krizv3iug1ixb/"/>
-    <id>https://richard-liu-physics.github.io/2022/cm59f9gxl000krizv3iug1ixb/</id>
-    <published>2022-08-17T01:42:23.000Z</published>
-    <updated>2023-09-11T04:49:47.795Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;This is a note for the reading of the 2nd yellow book by &lt;em&gt;Nagaosa&lt;/em&gt;.&lt;/p&gt;</summary>
     
     
     
