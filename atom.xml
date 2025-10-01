@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2025-05-24T15:31:41.502Z</updated>
+  <updated>2025-10-01T13:22:25.571Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的极大魔法是什么</title>
+    <link href="https://richard-liu-physics.github.io/2025/cmg80nmoa0000bhzvgxsq7i2f/"/>
+    <id>https://richard-liu-physics.github.io/2025/cmg80nmoa0000bhzvgxsq7i2f/</id>
+    <published>2025-10-01T13:21:01.000Z</published>
+    <updated>2025-10-01T13:22:25.571Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近在读一本植物巫师小说，感觉作者大概是一个退出科研圈写文的人。读到中间提到的生态环境的冗余结构，构造独属于自己的“极大魔法”，感触一下子涌上来，感觉想写一点脑子里出现的念头。</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>25岁生日小记</title>
@@ -381,27 +400,6 @@
     
     
     <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of the CFT yellow book, chapter 2.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Notes on Free Field, David Tong</title>
-    <link href="https://richard-liu-physics.github.io/2022/cm59f9gxk000erizv71pn8kj9/"/>
-    <id>https://richard-liu-physics.github.io/2022/cm59f9gxk000erizv71pn8kj9/</id>
-    <published>2022-10-14T10:42:07.000Z</published>
-    <updated>2022-10-14T11:01:05.792Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of QFT, chapter 2, David Tong. The new thing I learn from this book is non-relativistic field theory.&lt;/p&gt;</summary>
     
     
     
