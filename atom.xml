@@ -6,7 +6,7 @@
   <link href="https://richard-liu-physics.github.io/atom.xml" rel="self"/>
   
   <link href="https://richard-liu-physics.github.io/"/>
-  <updated>2025-10-01T13:22:25.571Z</updated>
+  <updated>2026-05-24T15:06:37.994Z</updated>
   <id>https://richard-liu-physics.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>26岁的草木</title>
+    <link href="https://richard-liu-physics.github.io/2026/cmpjx2gac00000ezvgrmv4a9h/"/>
+    <id>https://richard-liu-physics.github.io/2026/cmpjx2gac00000ezvgrmv4a9h/</id>
+    <published>2026-05-24T14:38:26.000Z</published>
+    <updated>2026-05-24T15:06:37.994Z</updated>
+    
+    
+    <summary type="html">&lt;div id=&quot;aplayer-oaFPIbVT&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
+         data-id=&quot;1912597869&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#ad7a86&quot;
+    &gt;&lt;/div&gt;
+&lt;p&gt;昨天路过大须观音，进门随手求了个签，打开发现是末吉。</summary>
+    
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/categories/%E6%9D%82%E6%84%9F/"/>
+    
+    
+    <category term="杂感" scheme="https://richard-liu-physics.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>我的极大魔法是什么</title>
@@ -388,27 +410,6 @@
     <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
     
     <category term="物理科研" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%A7%91%E7%A0%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Notes on the CFT yellow book(1)</title>
-    <link href="https://richard-liu-physics.github.io/2022/cm59f9gxl000orizvechbapfr/"/>
-    <id>https://richard-liu-physics.github.io/2022/cm59f9gxl000orizvechbapfr/</id>
-    <published>2022-10-14T11:01:54.000Z</published>
-    <updated>2022-10-14T11:04:34.999Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;This is a note for the book-reading seminar of the CFT yellow book, chapter 2.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="物理" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-    <category term="物理笔记" scheme="https://richard-liu-physics.github.io/tags/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
