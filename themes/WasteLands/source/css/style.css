@@ -1,0 +1,374 @@
+#waste-lands-blog {
+  --blog-paper: #faf9f6;
+  --blog-ink: #30332c;
+  --blog-soft: #75796f;
+  --blog-rule: #e1e3da;
+  --blog-accent: #99632d;
+  --blog-hero-ink: #fff9ed;
+  --blog-hero-soft: #e0d9cc;
+  --blog-column: 704px;
+  --blog-reading-size: 17px;
+  --blog-hero-height: 620px;
+  background: var(--blog-paper);
+  color: var(--blog-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  padding: 42px 64px 28px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+#waste-lands-blog *, #waste-lands-blog *::before, #waste-lands-blog *::after { box-sizing: border-box; }
+#waste-lands-blog [hidden] { display: none !important; }
+#waste-lands-blog button, #waste-lands-blog a { font-family: inherit; }
+#waste-lands-blog button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+}
+#waste-lands-blog button:hover, #waste-lands-blog a:hover { color: var(--blog-accent); }
+#waste-lands-blog .blog-header {
+  max-width: 896px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  padding-right: 0;
+}
+#waste-lands-blog .blog-name { font-size: 17px; font-weight: 500; letter-spacing: .01em; }
+#waste-lands-blog .blog-brand { display: flex; gap: 12px; align-items: center; }
+#waste-lands-blog .blog-site-logo { display: block; width: 34px; height: 31px; object-fit: contain; }
+#waste-lands-blog .blog-nav { display: flex; align-items: center; gap: 28px; }
+#waste-lands-blog .blog-nav a {
+  color: var(--blog-soft);
+  font-size: 13px;
+  min-height: 36px;
+  border-bottom: 1px solid transparent;
+}
+#waste-lands-blog .blog-nav a[aria-current="page"] { color: var(--blog-ink); border-color: var(--blog-ink); }
+#waste-lands-blog .blog-main { max-width: var(--blog-column); margin: 0 auto; min-height: 704px; }
+#waste-lands-blog .blog-intro { padding: 80px 0 62px; }
+#waste-lands-blog .blog-eyebrow {
+  margin: 0 0 19px;
+  color: var(--blog-soft);
+  font-size: 11px;
+  letter-spacing: .17em;
+  line-height: 1.6;
+}
+#waste-lands-blog h1, #waste-lands-blog h2, #waste-lands-blog h3 { color: var(--blog-ink); margin: 0; font-weight: 400; }
+#waste-lands-blog .blog-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 6.2vw, 62px);
+  line-height: 1.15;
+  letter-spacing: -.045em;
+}
+#waste-lands-blog .blog-description {
+  font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  color: var(--blog-soft);
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 22px 0 0;
+}
+#waste-lands-blog .blog-list-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0 0 17px;
+  border-bottom: 1px solid var(--blog-rule);
+  font-size: 12px;
+}
+#waste-lands-blog .blog-list-label h2 { font-size: 12px; font-family: inherit; font-weight: 500; }
+#waste-lands-blog .blog-list-label span { color: var(--blog-soft); font-size: 11px; letter-spacing: .08em; }
+#waste-lands-blog .blog-post-row {
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--blog-rule);
+}
+#waste-lands-blog .blog-post-heading {
+  font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  font-size: 20px;
+  line-height: 1.55;
+  display: block;
+  overflow-wrap: anywhere;
+}
+#waste-lands-blog .blog-post-category { display: block; color: var(--blog-soft); margin-top: 5px; font-size: 11px; line-height: 1.6; }
+#waste-lands-blog .blog-post-row time { color: var(--blog-soft); font: 11px/1.7 ui-monospace, "SFMono-Regular", Consolas, monospace; white-space: nowrap; }
+#waste-lands-blog .blog-all { margin-top: 24px; font-size: 12px; color: var(--blog-soft); min-height: 36px; }
+#waste-lands-blog .blog-arrow { display: inline-block; margin-left: 12px; font-family: sans-serif; }
+#waste-lands-blog .blog-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  max-width: 896px;
+  margin: 62px auto 0;
+  border-top: 1px solid var(--blog-rule);
+  padding: 22px 0 0;
+  color: var(--blog-soft);
+  font-size: 11px;
+  line-height: 1.8;
+}
+#waste-lands-blog .blog-subpage { padding-top: 58px; }
+#waste-lands-blog .blog-subpage-title {
+  font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  font-size: 34px;
+  line-height: 1.5;
+  margin: 15px 0 12px;
+  overflow-wrap: anywhere;
+}
+#waste-lands-blog .blog-subpage-description { color: var(--blog-soft); font-size: 13px; margin: 0 0 42px; line-height: 1.8; }
+#waste-lands-blog .blog-year { margin: 32px 0 6px; color: var(--blog-soft); font: 13px/1.8 ui-monospace, "SFMono-Regular", Consolas, monospace; }
+#waste-lands-blog .blog-archive .blog-post-row { padding: 14px 0; }
+#waste-lands-blog .blog-archive .blog-post-heading { font-size: 18px; }
+#waste-lands-blog .blog-back { color: var(--blog-soft); font-size: 12px; min-height: 36px; }
+#waste-lands-blog .blog-reader-header { margin: 26px 0 36px; padding-bottom: 26px; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-reader-meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--blog-soft); font-size: 12px; line-height: 1.8; }
+#waste-lands-blog .blog-reader-body {
+  font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  font-size: var(--blog-reading-size);
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+#waste-lands-blog .blog-reader-body p { margin: 0 0 24px; }
+#waste-lands-blog .blog-reader-body h1, #waste-lands-blog .blog-reader-body h2, #waste-lands-blog .blog-reader-body h3 { font-size: 24px; margin: 30px 0 18px; line-height: 1.7; }
+#waste-lands-blog .blog-reader-body a { color: var(--blog-accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+#waste-lands-blog .blog-reader-body blockquote { margin: 28px 0; padding-left: 22px; border-left: 1px solid var(--blog-rule); color: var(--blog-soft); }
+#waste-lands-blog .blog-reader-body ul, #waste-lands-blog .blog-reader-body ol { padding-left: 24px; }
+#waste-lands-blog .blog-reader-body strong { font-weight: 500; }
+#waste-lands-blog .blog-reader-body pre { white-space: pre; font-size: 13px; line-height: 1.8; max-width: 100%; overflow-x: auto; padding: 18px; background: #f0f1eb; }
+#waste-lands-blog .blog-reader-body .katex { font-size: 1.03em; display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; padding: .12em .03em; }
+#waste-lands-blog .blog-reader-body .katex-block { max-width: 100%; overflow-x: auto; padding: 8px 0; }
+#waste-lands-blog .blog-reader-body .katex-block .katex { display: block; overflow: visible; }
+#waste-lands-blog .blog-reader-body img { display: block; max-width: 100%; height: auto; margin: 28px auto; }
+#waste-lands-blog .blog-resource { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; padding: 18px 0; border-top: 1px solid var(--blog-rule); border-bottom: 1px solid var(--blog-rule); font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; font-size: 13px; }
+#waste-lands-blog .blog-resource span { overflow-wrap: anywhere; }
+#waste-lands-blog .blog-reader-end { margin-top: 34px; padding-top: 24px; border-top: 1px solid var(--blog-rule); color: var(--blog-soft); font-size: 12px; }
+#waste-lands-blog .blog-about-signature { margin-top: 42px; font-family: Georgia, serif; font-style: italic; font-size: 22px; }
+@media (max-width: 700px) {
+  #waste-lands-blog { padding: 30px 28px 24px; }
+  #waste-lands-blog .blog-header { padding-right: 0; gap: 16px; }
+  #waste-lands-blog .blog-nav { gap: 20px; }
+  #waste-lands-blog .blog-main { min-height: 690px; }
+  #waste-lands-blog .blog-intro { padding: 64px 0 44px; }
+  #waste-lands-blog .blog-title { font-size: 44px; }
+  #waste-lands-blog .blog-post-row { column-gap: 16px; }
+  #waste-lands-blog .blog-post-heading { font-size: 18px; }
+  #waste-lands-blog .blog-subpage-title { font-size: 30px; }
+}
+@media (max-width: 440px) {
+  #waste-lands-blog { padding: 26px 22px 22px; }
+  #waste-lands-blog .blog-header { align-items: flex-start; flex-direction: column; padding-right: 0; gap: 16px; }
+  #waste-lands-blog .blog-nav { gap: 22px; }
+  #waste-lands-blog .blog-intro { padding-top: 54px; }
+  #waste-lands-blog .blog-title { font-size: 39px; }
+  #waste-lands-blog .blog-description { font-size: 15px; }
+  #waste-lands-blog .blog-post-row { grid-template-columns: minmax(0, 1fr); row-gap: 9px; padding: 19px 0; }
+  #waste-lands-blog .blog-post-row time { font-size: 11px; }
+  #waste-lands-blog .blog-footer { margin-top: 46px; }
+  #waste-lands-blog .blog-subpage-title { font-size: 28px; }
+}
+@media (pointer: coarse) {
+  #waste-lands-blog .blog-nav a, #waste-lands-blog .blog-back, #waste-lands-blog .blog-all { min-height: 44px; }
+}
+#waste-lands-blog[data-blog-current="home"] { padding: 0 0 28px; }
+#waste-lands-blog[data-blog-current="home"] .blog-header { position: absolute; inset: 30px 48px auto; max-width: none; z-index: 2; margin: 0; padding-right: 0; }
+#waste-lands-blog[data-blog-current="home"] .blog-brand, #waste-lands-blog[data-blog-current="home"] .blog-nav a { color: var(--blog-hero-ink); }
+#waste-lands-blog[data-blog-current="home"] .blog-nav a[aria-current="page"] { border-color: #deb782; }
+#waste-lands-blog[data-blog-current="home"] .blog-nav a:hover, #waste-lands-blog[data-blog-current="home"] .blog-brand:hover { color: #f2cea0; }
+#waste-lands-blog[data-blog-current="home"] .blog-main { max-width: none; min-height: 0; }
+#waste-lands-blog .blog-hero { position: relative; min-height: var(--blog-hero-height, 590px); overflow: hidden; padding: 154px 64px 44px; }
+#waste-lands-blog .blog-hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 43%; }
+#waste-lands-blog .blog-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5,13,28,.73), rgba(8,18,36,.24) 61%, rgba(6,14,25,.09)), linear-gradient(180deg, rgba(6,13,27,.14), transparent 50%, rgba(8,17,29,.43)); pointer-events: none; }
+#waste-lands-blog .blog-hero-content { position: relative; z-index: 1; max-width: 850px; margin: 0 auto; }
+#waste-lands-blog .blog-hero .blog-eyebrow { color: #e4c8a3; font-size: 11px; letter-spacing: .22em; margin-bottom: 24px; }
+#waste-lands-blog .blog-hero .blog-title { color: var(--blog-hero-ink); font-size: clamp(54px, 7.8vw, 84px); line-height: 1.03; letter-spacing: -.04em; }
+#waste-lands-blog .blog-hero .blog-description { color: var(--blog-hero-soft); font-size: 17px; line-height: 1.9; margin-top: 23px; }
+#waste-lands-blog .blog-hero-bottom { position: relative; z-index: 1; max-width: 850px; margin: 49px auto 0; display: flex; justify-content: space-between; align-items: flex-end; gap: 34px; }
+#waste-lands-blog .blog-hero-down { color: var(--blog-hero-ink); font-size: 12px; min-height: 36px; padding-bottom: 7px; border-bottom: 1px solid rgba(255,249,237,.45); }
+#waste-lands-blog .blog-hero-down:hover { color: #f2cea0; }
+#waste-lands-blog .blog-original-quote { font-family: "Songti SC", "SimSun", Georgia, serif; margin: 0; color: var(--blog-hero-soft); font-size: 13px; line-height: 1.9; letter-spacing: .07em; }
+#waste-lands-blog .blog-latest { max-width: 896px; margin: 0 auto; padding: 58px 0 0; }
+#waste-lands-blog .blog-latest-top { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 18px; margin-bottom: 34px; }
+#waste-lands-blog .blog-latest-top .blog-eyebrow { margin-bottom: 10px; font-size: 11px; letter-spacing: .18em; }
+#waste-lands-blog .blog-latest-top h2 { font-family: "Songti SC", "SimSun", Georgia, serif; font-size: 30px; line-height: 1.5; }
+#waste-lands-blog .blog-latest-top .blog-all { margin-top: 0; min-height: 32px; }
+#waste-lands-blog .blog-home-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); column-gap: 52px; row-gap: 26px; }
+#waste-lands-blog .blog-featured-post { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; min-width: 0; padding: 32px 34px 30px; background: #eee9de; }
+#waste-lands-blog .blog-featured-kicker { color: var(--blog-soft); font: 11px/1.7 ui-monospace, "SFMono-Regular", Consolas, monospace; letter-spacing: .025em; }
+#waste-lands-blog .blog-featured-title { font-family: "Songti SC", "SimSun", Georgia, serif; font-size: 35px; line-height: 1.5; margin-top: 31px; }
+#waste-lands-blog .blog-featured-summary { font-family: "Songti SC", "SimSun", Georgia, serif; color: var(--blog-soft); font-size: 15px; line-height: 2; margin-top: 18px; }
+#waste-lands-blog .blog-featured-read { color: var(--blog-accent); margin-top: 37px; font-size: 12px; }
+#waste-lands-blog .blog-home-side { display: flex; flex-direction: column; justify-content: space-between; }
+#waste-lands-blog .blog-home-small { display: block; min-width: 0; width: 100%; padding: 6px 0 24px; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-home-small + .blog-home-small { padding-top: 25px; }
+#waste-lands-blog .blog-home-small-title { font-family: "Songti SC", "SimSun", Georgia, serif; font-size: 23px; line-height: 1.6; display: block; margin-top: 17px; overflow-wrap: anywhere; }
+#waste-lands-blog .blog-home-small-read { color: var(--blog-accent); font-size: 12px; display: block; margin-top: 20px; }
+#waste-lands-blog .blog-home-bottom { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 52px; margin-top: 33px; }
+#waste-lands-blog .blog-home-bottom .blog-home-small { border-bottom: 0; border-top: 1px solid var(--blog-rule); padding: 23px 0 6px; }
+#waste-lands-blog[data-blog-current="home"] .blog-footer { margin-top: 54px; }
+@media (max-width: 1000px) {
+  #waste-lands-blog .blog-latest { margin-left: 48px; margin-right: 48px; }
+  #waste-lands-blog[data-blog-current="home"] .blog-footer { margin-left: 48px; margin-right: 48px; }
+}
+@media (max-width: 700px) {
+  #waste-lands-blog[data-blog-current="home"] .blog-header { inset: 26px 28px auto; gap: 18px; padding-right: 0; }
+  #waste-lands-blog .blog-hero { min-height: max(var(--blog-hero-height, 590px), 610px); padding: 154px 30px 35px; }
+  #waste-lands-blog .blog-hero .blog-title { font-size: 68px; }
+  #waste-lands-blog .blog-hero-image { object-position: 58% center; }
+  #waste-lands-blog .blog-hero-bottom { margin-top: 56px; }
+  #waste-lands-blog .blog-latest { margin-left: 28px; margin-right: 28px; padding-top: 41px; }
+  #waste-lands-blog .blog-home-grid { gap: 30px; }
+  #waste-lands-blog .blog-featured-post { padding: 28px; }
+  #waste-lands-blog .blog-featured-title { font-size: 29px; }
+  #waste-lands-blog .blog-home-small-title { font-size: 21px; }
+  #waste-lands-blog .blog-home-bottom { gap: 30px; }
+  #waste-lands-blog[data-blog-current="home"] .blog-footer { margin-left: 28px; margin-right: 28px; }
+}
+@media (max-width: 520px) {
+  #waste-lands-blog[data-blog-current="home"] .blog-header { inset: 25px 24px auto; flex-direction: column; align-items: flex-start; gap: 15px; padding-right: 0; }
+  #waste-lands-blog .blog-site-logo { width: 29px; height: 26px; }
+  #waste-lands-blog .blog-hero { min-height: max(var(--blog-hero-height, 590px), 622px); padding: 180px 25px 29px; }
+  #waste-lands-blog .blog-hero .blog-title { font-size: 57px; }
+  #waste-lands-blog .blog-hero .blog-description { font-size: 15px; margin-top: 22px; }
+  #waste-lands-blog .blog-hero-bottom { margin-top: 41px; gap: 24px; align-items: flex-end; }
+  #waste-lands-blog .blog-original-quote { font-size: 11px; letter-spacing: 0; line-height: 1.9; }
+  #waste-lands-blog .blog-hero-down { white-space: nowrap; }
+  #waste-lands-blog .blog-latest { margin-left: 24px; margin-right: 24px; }
+  #waste-lands-blog .blog-latest-top { align-items: center; margin-bottom: 25px; }
+  #waste-lands-blog .blog-latest-top h2 { font-size: 27px; }
+  #waste-lands-blog .blog-latest-top .blog-all { font-size: 11px; }
+  #waste-lands-blog .blog-home-grid { grid-template-columns: minmax(0, 1fr); gap: 30px; }
+  #waste-lands-blog .blog-featured-post { min-height: 292px; }
+  #waste-lands-blog .blog-home-small { padding-top: 0; }
+  #waste-lands-blog .blog-home-bottom { grid-template-columns: minmax(0, 1fr); gap: 25px; margin-top: 27px; }
+  #waste-lands-blog .blog-home-bottom .blog-home-small { border-top: 0; border-bottom: 1px solid var(--blog-rule); padding-top: 0; padding-bottom: 25px; }
+  #waste-lands-blog[data-blog-current="home"] .blog-footer { margin-left: 24px; margin-right: 24px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #waste-lands-blog .blog-home-small-read .blog-arrow, #waste-lands-blog .blog-featured-read .blog-arrow { transition: transform .18s ease; }
+  #waste-lands-blog .blog-home-small:hover .blog-arrow, #waste-lands-blog .blog-featured-post:hover .blog-arrow { transform: translateX(4px); }
+}
+
+/* Real page navigation and reading styles, matching the approved preview. */
+html { scroll-behavior: smooth; color-scheme: light; }
+body { margin: 0; background: #faf9f6; }
+#waste-lands-blog { min-height: 100vh; }
+#waste-lands-blog a { color: inherit; text-decoration: none; }
+#waste-lands-blog a:focus-visible, #waste-lands-blog button:focus-visible, #waste-lands-blog input:focus-visible { outline: 2px solid var(--blog-accent); outline-offset: 5px; }
+#waste-lands-blog .blog-nav a { display: inline-flex; align-items: center; }
+#waste-lands-blog .blog-title, #waste-lands-blog .blog-description, #waste-lands-blog .blog-original-quote { white-space: pre-line; }
+#waste-lands-blog .blog-skip-link { position: absolute; top: 12px; left: 12px; z-index: 5; padding: 10px 16px; color: var(--blog-ink); background: var(--blog-paper); transform: translateY(-180%); }
+#waste-lands-blog .blog-skip-link:focus { transform: none; }
+#waste-lands-blog .blog-menu-toggle { display: none; }
+#waste-lands-blog .blog-subpage .blog-eyebrow { margin-top: 24px; }
+#waste-lands-blog .blog-filter-nav { display: flex; flex-wrap: wrap; gap: 24px; margin: -20px 0 32px; color: var(--blog-soft); font-size: 12px; }
+#waste-lands-blog .blog-filter-nav a { min-height: 32px; display: flex; align-items: center; }
+#waste-lands-blog .blog-pagination { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 36px 0 0; font-size: 13px; }
+#waste-lands-blog .blog-pagination a, #waste-lands-blog .blog-pagination span { min-width: 32px; min-height: 36px; display: inline-flex; align-items: center; justify-content: center; }
+#waste-lands-blog .blog-pagination .current { border-bottom: 1px solid var(--blog-ink); }
+#waste-lands-blog .blog-pagination .prev, #waste-lands-blog .blog-pagination .next { min-width: 75px; color: var(--blog-soft); }
+#waste-lands-blog .blog-reader-body { min-width: 0; }
+#waste-lands-blog .blog-reader-body h1 { font-size: 30px; }
+#waste-lands-blog .blog-reader-body h2 { font-size: 26px; }
+#waste-lands-blog .blog-reader-body h3 { font-size: 23px; }
+#waste-lands-blog .blog-reader-body h4 { font-size: 20px; }
+#waste-lands-blog .blog-reader-body h5, #waste-lands-blog .blog-reader-body h6 { font-size: 18px; }
+#waste-lands-blog .blog-reader-body hr { border: 0; border-top: 1px solid var(--blog-rule); margin: 36px 0; }
+#waste-lands-blog .blog-reader-body code { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: .82em; background: #f0f1eb; padding: .16em .3em; border-radius: 3px; }
+#waste-lands-blog .blog-reader-body pre code { padding: 0; border-radius: 0; font-size: inherit; }
+#waste-lands-blog .blog-reader-body figure.highlight { margin: 24px 0; background: #f0f1eb; overflow-x: auto; max-width: 100%; font: 13px/1.8 ui-monospace, "SFMono-Regular", Consolas, monospace; }
+#waste-lands-blog .blog-reader-body figure.highlight table { display: table; margin: 0; width: 100%; }
+#waste-lands-blog .blog-reader-body figure.highlight td { padding: 0; border: 0; }
+#waste-lands-blog .blog-reader-body figure.highlight pre { margin: 0; padding: 18px; overflow: visible; }
+#waste-lands-blog .blog-reader-body figure.highlight .gutter { color: #94988f; width: 38px; user-select: none; }
+#waste-lands-blog .blog-reader-body figure.highlight .gutter pre { padding-right: 0; text-align: right; }
+#waste-lands-blog .blog-reader-body .hljs-comment, #waste-lands-blog .blog-reader-body .comment { color: #7f8578; }
+#waste-lands-blog .blog-reader-body .hljs-string, #waste-lands-blog .blog-reader-body .string { color: #906530; }
+#waste-lands-blog .blog-reader-body .hljs-keyword, #waste-lands-blog .blog-reader-body .keyword { color: #776199; }
+#waste-lands-blog .blog-reader-body table { display: block; width: 100%; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 28px 0; font-size: 15px; }
+#waste-lands-blog .blog-reader-body th, #waste-lands-blog .blog-reader-body td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-reader-body th { font-weight: 500; }
+#waste-lands-blog .blog-reader-body .katex-display { margin: 24px 0; max-width: 100%; overflow-x: auto; overflow-y: hidden; padding: 6px 0; }
+#waste-lands-blog .blog-reader-body .blog-math-block { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+#waste-lands-blog .blog-reader-body .katex-display .katex { display: block; overflow: visible; }
+#waste-lands-blog .blog-reader-body .katex-html { padding-right: .1em; }
+#waste-lands-blog .blog-reader-body .katex-mathml { overflow: hidden; }
+#waste-lands-blog .blog-reader-body math { max-width: 100%; }
+#waste-lands-blog .blog-reader-body img { object-fit: contain; }
+#waste-lands-blog .blog-reader-body figcaption { color: var(--blog-soft); text-align: center; font-size: 13px; margin: -12px 0 24px; }
+#waste-lands-blog .blog-reader-body iframe, #waste-lands-blog .blog-reader-body embed, #waste-lands-blog .blog-reader-body object { display: block; width: 100%; max-width: 100%; min-height: 460px; border: 1px solid var(--blog-rule); margin: 28px 0; }
+#waste-lands-blog .blog-reader-body .blog-pdf { margin: 30px 0; }
+#waste-lands-blog .blog-reader-body .blog-pdf object { height: 640px; }
+#waste-lands-blog .blog-reader-body .blog-pdf figcaption { margin-top: -12px; }
+#waste-lands-blog .blog-reader-body .blog-music-link { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; font-size: 12px; line-height: 1.8; }
+#waste-lands-blog .blog-reader-body .aplayer { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; line-height: 1.5; }
+#waste-lands-blog .blog-reader-body .aplayer p { margin: 0; }
+#waste-lands-blog .blog-reader-tags { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 36px; color: var(--blog-soft); font-size: 12px; }
+#waste-lands-blog .blog-post-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 28px; padding-top: 28px; border-top: 1px solid var(--blog-rule); font: 16px/1.8 "Songti SC", "SimSun", Georgia, serif; }
+#waste-lands-blog .blog-post-navigation a { overflow-wrap: anywhere; }
+#waste-lands-blog .blog-post-navigation span { display: block; color: var(--blog-soft); margin-bottom: 10px; font: 11px/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+#waste-lands-blog .blog-taxonomy-count { color: var(--blog-soft); font: 12px/1.8 ui-monospace, "SFMono-Regular", Consolas, monospace; white-space: nowrap; }
+#waste-lands-blog .blog-tag-cloud { display: flex; flex-wrap: wrap; gap: 16px 22px; margin-top: 32px; }
+#waste-lands-blog .blog-tag-cloud a { display: inline-flex; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--blog-rule); font-size: 17px; }
+#waste-lands-blog .blog-friends { margin-top: 24px; }
+#waste-lands-blog .blog-footer-links { display: flex; flex-wrap: wrap; gap: 20px; }
+
+/* Archive search preserves the normal list until a search is requested. */
+#waste-lands-blog .blog-search { margin: 0 0 34px; }
+#waste-lands-blog .blog-search-label { display: block; font-size: 12px; color: var(--blog-soft); margin-bottom: 12px; }
+#waste-lands-blog .blog-search-field { display: flex; align-items: center; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-search-input { flex: 1; min-width: 0; font: 15px/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: transparent; color: var(--blog-ink); border: 0; border-radius: 0; padding: 12px 0; }
+#waste-lands-blog .blog-search-input::placeholder { color: #959a8d; }
+#waste-lands-blog .blog-search-input::-webkit-search-cancel-button { display: none; }
+#waste-lands-blog .blog-search-clear { padding: 10px 0 10px 18px; color: var(--blog-soft); font-size: 12px; }
+#waste-lands-blog .blog-search-status { color: var(--blog-soft); font-size: 12px; line-height: 1.8; margin: 18px 0; }
+#waste-lands-blog .blog-search-result { display: block; padding: 22px 0; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-search-result-title { display: block; font: 20px/1.6 "Songti SC", "SimSun", Georgia, serif; }
+#waste-lands-blog .blog-search-result-meta { display: block; color: var(--blog-soft); font-size: 11px; margin-top: 7px; }
+#waste-lands-blog .blog-search-result-summary { display: block; color: var(--blog-soft); font: 14px/1.9 "Songti SC", "SimSun", Georgia, serif; margin-top: 12px; overflow-wrap: anywhere; }
+
+/* Public GitHub comments are loaded only when this section is reached. */
+#waste-lands-blog .blog-comments { max-width: var(--blog-column); margin: 54px auto 0; border-top: 1px solid var(--blog-rule); padding-top: 30px; }
+#waste-lands-blog .blog-comments h2 { font: 23px/1.8 "Songti SC", "SimSun", Georgia, serif; margin-bottom: 16px; }
+#waste-lands-blog .blog-comment-status { color: var(--blog-soft); font-size: 13px; line-height: 1.9; }
+#waste-lands-blog .blog-comment-thread { margin: 28px 0; }
+#waste-lands-blog .blog-comment-thread-header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 15px; border-bottom: 1px solid var(--blog-rule); font-size: 12px; color: var(--blog-soft); }
+#waste-lands-blog .blog-comment-reply { color: var(--blog-accent); font-size: 12px; display: inline-block; min-height: 36px; line-height: 36px; }
+#waste-lands-blog .blog-comment { padding: 22px 0; border-bottom: 1px solid var(--blog-rule); }
+#waste-lands-blog .blog-comment-meta { display: flex; flex-wrap: wrap; gap: 16px; align-items: baseline; color: var(--blog-soft); font-size: 11px; }
+#waste-lands-blog .blog-comment-author { color: var(--blog-ink); font-weight: 500; }
+#waste-lands-blog .blog-comment-body { white-space: pre-wrap; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; margin-top: 12px; }
+#waste-lands-blog .blog-comment-load-more { color: var(--blog-accent); font-size: 12px; padding: 14px 0; }
+#waste-lands-blog .blog-comment-paths { color: var(--blog-soft); font-size: 12px; line-height: 1.8; margin-top: 18px; }
+#waste-lands-blog .blog-comment-paths summary { cursor: pointer; }
+#waste-lands-blog .blog-comment-paths a { display: block; overflow-wrap: anywhere; }
+
+@media (min-width: 521px) { #waste-lands-blog .blog-nav { display: flex !important; } }
+@media (max-width: 700px) {
+  #waste-lands-blog .blog-reader-body { font-size: 16px; }
+  #waste-lands-blog .blog-reader-body iframe, #waste-lands-blog .blog-reader-body embed, #waste-lands-blog .blog-reader-body object { min-height: 360px; }
+  #waste-lands-blog .blog-reader-body .blog-pdf object { height: 460px; }
+  #waste-lands-blog .blog-footer-note { width: 100%; order: 3; }
+}
+@media (max-width: 520px) {
+  #waste-lands-blog .blog-menu-toggle { display: flex; position: absolute; top: 0; right: 0; gap: 10px; align-items: center; color: var(--blog-soft); font-size: 12px; min-height: 36px; }
+  #waste-lands-blog .blog-header { position: relative; padding-right: 64px; }
+  #waste-lands-blog[data-blog-current="home"] .blog-menu-toggle { color: var(--blog-hero-ink); }
+  #waste-lands-blog.blog-has-js .blog-nav { display: none; width: 100%; gap: 28px; }
+  #waste-lands-blog.blog-has-js .blog-nav[data-menu-open="true"] { display: flex; }
+  #waste-lands-blog .blog-post-navigation { gap: 22px; font-size: 15px; }
+  #waste-lands-blog .blog-reader-body th, #waste-lands-blog .blog-reader-body td { padding: 8px 10px; }
+  #waste-lands-blog .blog-footer-links { gap: 16px; }
+  #waste-lands-blog .blog-search-input { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

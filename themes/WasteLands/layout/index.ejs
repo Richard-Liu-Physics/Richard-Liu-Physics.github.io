@@ -1,0 +1,49 @@
+<%
+  const home = config.home || {};
+  const recent = site.posts.sort('-date').toArray().filter(post => post.id !== 'about' && !/(?:^|\/)About-Me\.md$/.test(post.source || '')).slice(0, 5);
+  const lead = recent[0];
+  const total = site.posts.length;
+  const summaryHTML = lead ? String(lead.description || lead.excerpt || lead.content)
+    .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '')
+    .replace(/<(p|figure|div)\b[^>]*class=(["'])[^"']*(?:blog-music-link|blog-pdf|aplayer)[^"']*\2[^>]*>[\s\S]*?<\/\1>/gi, '') : '';
+%>
+<% if (page.current > 1) { %>
+<section class="blog-subpage">
+  <p class="blog-eyebrow">ARCHIVE</p>
+  <h1 class="blog-subpage-title">所有文字</h1>
+  <p class="blog-subpage-description"><%= total %> 篇记录</p>
+  <%- partial('_partial/archive-list', { posts: page.posts }) %>
+  <%- partial('_partial/pagination') %>
+</section>
+<% } else { %>
+<section class="blog-hero" aria-labelledby="home-title">
+  <img class="blog-hero-image" src="<%= url_for(home.cover || '/images/1.JPG') %>" alt="" fetchpriority="high">
+  <div class="blog-hero-content">
+    <p class="blog-eyebrow"><%= home.eyebrow || 'PHYSICS, POETRY & LIFE' %></p>
+    <h1 id="home-title" class="blog-title"><%= home.title || config.title %></h1>
+    <p class="blog-description"><%= home.description || '物理也好，诗歌也好，\n都是一生的浪漫。' %></p>
+  </div>
+  <div class="blog-hero-bottom">
+    <a class="blog-hero-down" href="#latest"><%= home.scroll_label || '往下读' %><span class="blog-arrow" aria-hidden="true">↓</span></a>
+    <p class="blog-original-quote"><%= home.quote || '我看着每一行字，如同\n沉思的皱纹，时间\n或是停止前进，或是倒流' %></p>
+  </div>
+</section>
+<section id="latest" class="blog-latest" aria-labelledby="latest-title">
+  <div class="blog-latest-top">
+    <div><p class="blog-eyebrow">LATEST ENTRIES</p><h2 id="latest-title"><%= home.latest_label || '最近的文字' %></h2></div>
+    <a class="blog-all" href="<%= url_for(config.archive_dir || 'archives') %>">全部 <%= total %> 篇<span class="blog-arrow" aria-hidden="true">↗</span></a>
+  </div>
+  <% if (lead) { %>
+  <div class="blog-home-grid">
+    <a class="blog-featured-post" href="<%= url_for(lead.path) %>">
+      <span class="blog-featured-kicker">最新 · <%= lead.categories && lead.categories.length ? lead.categories.toArray().map(category => category.name).join(' / ') : '随记' %> · <time datetime="<%= date(lead.date, 'YYYY-MM-DD') %>"><%= date(lead.date, 'YYYY.MM.DD') %></time></span>
+      <span class="blog-featured-title"><%= lead.title %></span>
+      <span class="blog-featured-summary"><%= truncate(strip_html(summaryHTML).replace(/\s+/g, ' ').trim(), { length: 135, omission: '…' }) %></span>
+      <span class="blog-featured-read">读全文<span class="blog-arrow" aria-hidden="true">↗</span></span>
+    </a>
+    <div class="blog-home-side"><% recent.slice(1, 3).forEach(post => { %><%- partial('_partial/post-small', { post }) %><% }); %></div>
+  </div>
+  <div class="blog-home-bottom"><% recent.slice(3).forEach(post => { %><%- partial('_partial/post-small', { post }) %><% }); %></div>
+  <% } %>
+</section>
+<% } %>

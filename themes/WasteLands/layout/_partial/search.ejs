@@ -1,0 +1,12 @@
+<section class="blog-search" data-blog-search data-blog-search-url="<%= url_for(config.search && config.search.path || 'search.xml') %>" aria-label="搜索文章">
+  <form class="blog-search-form" role="search">
+    <label class="blog-search-label" for="blog-search-input">找一篇文字</label>
+    <div class="blog-search-field">
+      <input id="blog-search-input" class="blog-search-input" type="search" placeholder="标题、标签或正文中的词" autocomplete="off" aria-controls="blog-search-results">
+      <button class="blog-search-clear" type="button" aria-label="清空搜索" hidden>清空</button>
+    </div>
+  </form>
+  <p class="blog-search-status" role="status" aria-live="polite" hidden></p>
+  <div id="blog-search-results" class="blog-search-results" hidden></div>
+  <noscript><p class="blog-search-status">启用 JavaScript 后可搜索全文；也可以按年份、分类或标签浏览。</p></noscript>
+</section>

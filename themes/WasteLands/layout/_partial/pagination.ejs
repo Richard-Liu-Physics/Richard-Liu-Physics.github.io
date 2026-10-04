@@ -1,0 +1,5 @@
+<% if (page.total > 1) { %>
+<nav class="blog-pagination" aria-label="文章分页">
+  <%- paginator({ prev_text: '← 上一页', next_text: '下一页 →', mid_size: 1, end_size: 1, space: '…' }) %>
+</nav>
+<% } %>

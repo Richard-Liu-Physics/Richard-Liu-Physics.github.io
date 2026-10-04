@@ -1,0 +1,21 @@
+<article class="blog-subpage blog-reader">
+  <a class="blog-back" href="<%= url_for(config.archive_dir || 'archives') %>">← 所有文字</a>
+  <header class="blog-reader-header">
+    <h1 class="blog-subpage-title"><%= page.title %></h1>
+    <div class="blog-reader-meta">
+      <% if (page.date) { %><time datetime="<%= date(page.date, 'YYYY-MM-DD') %>"><%= date(page.date, 'YYYY.MM.DD') %></time><% } %>
+      <% if (page.categories && page.categories.length) { %><span><% page.categories.toArray().forEach((category, index) => { %><% if (index) { %> / <% } %><a href="<%= url_for(category.path) %>"><%= category.name %></a><% }); %></span><% } %>
+    </div>
+  </header>
+  <div class="blog-reader-body"><%- page.content %></div>
+  <% if (page.tags && page.tags.length) { %>
+  <nav class="blog-reader-tags" aria-label="文章标签"><% page.tags.toArray().forEach(tag => { %><a href="<%= url_for(tag.path) %>"># <%= tag.name %></a><% }); %></nav>
+  <% } %>
+  <div class="blog-reader-end"><%= config.author %> · <%= theme.footer_text || '生活如歌，至死少年。' %></div>
+  <% if (page.prev || page.next) { %>
+  <nav class="blog-post-navigation" aria-label="前后文章">
+    <% if (page.prev) { %><a href="<%= url_for(page.prev.path) %>"><span>更新的文字</span><%= page.prev.title %></a><% } %>
+    <% if (page.next) { %><a href="<%= url_for(page.next.path) %>"><span>更早的文字</span><%= page.next.title %></a><% } %>
+  </nav>
+  <% } %>
+</article>

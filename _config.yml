@@ -1,0 +1,74 @@
+# 站点信息
+title: The Waste Lands
+author: Richard Liu
+email: richard.liu.physics@gmail.com
+description: 物理也好，诗歌也好，都是一生的浪漫。
+language: zh-CN
+timezone: Asia/Singapore
+url: https://richard-liu-physics.github.io/
+root: /
+
+# 首页：只需要修改这一段。竖线 | 表示保留换行。
+home:
+  eyebrow: PHYSICS, POETRY & LIFE
+  title: |
+    The Waste
+    Lands
+  description: |
+    物理也好，诗歌也好，
+    都是一生的浪漫。
+  quote: |
+    我看着每一行字，如同
+    沉思的皱纹，时间
+    或是停止前进，或是倒流
+  cover: /images/1.JPG
+  logo: /images/Logo.jpg
+  latest_label: 最近的文字
+  scroll_label: 向下，读一些文字
+
+theme: WasteLands
+source_dir: source
+public_dir: dist
+# 新文章使用文件名作为网址；旧文章网址由 legacy-posts.json 固定保留。
+permalink: posts/:title/
+pretty_urls:
+  trailing_index: true
+post_asset_folder: false
+relative_link: false
+default_layout: post
+future: false
+per_page: 10
+pagination_dir: page
+index_generator:
+  per_page: 0
+  order_by: -date
+archive_generator:
+  per_page: 10
+  yearly: true
+  monthly: true
+
+markdown:
+  render:
+    html: true
+    breaks: true
+    linkify: true
+    typographer: false
+  anchors:
+    level: 2
+    collisionSuffix: ''
+
+search:
+  path: search.xml
+  field: post
+  format: html
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  order_by: -date
+aplayer:
+  meting: true
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

@@ -1,0 +1,42 @@
+<%
+  const home = config.home || {};
+  const aboutPost = site.posts.toArray().find(post => post.id === 'about' || /(?:^|\/)About-Me\.md$/.test(post.source || ''));
+  const aboutPath = aboutPost ? aboutPost.path : '/archives/';
+  const isAbout = page.id === 'about' || /(?:^|\/)About-Me\.md$/.test(page.source || '');
+  const current = isAbout ? 'about' : is_home() && (!page.current || page.current === 1) ? 'home' : is_archive() || is_category() || is_tag() || (is_home() && page.current > 1) ? 'archive' : 'reader';
+  const pageTitle = current === 'home' ? config.title : `${page.title || (is_category() ? page.category : is_tag() ? page.tag : '归档')} · ${config.title}`;
+  const description = truncate(strip_html(page.description || page.excerpt || home.description || config.description || ''), { length: 160 });
+  const canonical = full_url_for(page.path || '');
+%>
+<!DOCTYPE html>
+<html lang="<%= config.language === 'en' ? 'zh-CN' : config.language || 'zh-CN' %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= description %>">
+  <meta name="author" content="<%= config.author %>">
+  <meta name="theme-color" content="#faf9f6">
+  <link rel="canonical" href="<%= canonical %>">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= description %>">
+  <meta property="og:url" content="<%= canonical %>">
+  <meta property="og:type" content="<%= is_post() ? 'article' : 'website' %>">
+  <meta property="og:image" content="<%= full_url_for(home.cover || '/images/1.JPG') %>">
+  <link rel="icon" href="<%= url_for(theme.favicon || '/images/Logo.jpg') %>">
+  <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="<%= url_for(config.feed && config.feed.path || 'atom.xml') %>">
+  <%- css('css/style.css') %>
+  <%- css('vendor/katex/katex.min.css') %>
+</head>
+<body>
+  <div id="waste-lands-blog" data-blog-current="<%= current %>">
+    <a class="blog-skip-link" href="#main-content">跳到正文</a>
+    <%- partial('_partial/header', { current, aboutPath, home }) %>
+    <main id="main-content" class="blog-main" tabindex="-1">
+      <%- body %>
+    </main>
+    <%- partial('_partial/footer') %>
+  </div>
+  <%- js('js/main.js') %>
+</body>
+</html>

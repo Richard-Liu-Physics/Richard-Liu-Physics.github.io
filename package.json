@@ -1,0 +1,45 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "post": "node scripts/new-post.cjs",
+    "preview": "node scripts/preview.cjs",
+    "server": "node scripts/preview.cjs",
+    "build": "node scripts/build.cjs",
+    "publish": "node scripts/publish.cjs",
+    "deploy": "node scripts/publish.cjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "hexo": {
+    "version": "6.2.0"
+  },
+  "dependencies": {
+    "@abreto/markdown-it-katex": "3.2.0",
+    "hexo": "^6.2.0",
+    "hexo-browsersync": "^0.3.0",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-baidu-sitemap": "^0.1.9",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index-pin-top": "^0.2.2",
+    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-pdf": "^1.1.1",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-jade": "^0.5.0",
+    "hexo-renderer-markdown-it-katex": "^3.4.4",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
+    "hexo-theme-ayer": "^1.9.7-0",
+    "hexo-theme-landscape": "^0.0.3",
+    "hexo-theme-melody": "^1.9.1",
+    "hexo-theme-next": "^8.15.0",
+    "js-yaml": "4.1.0",
+    "katex": "0.11.1",
+    "markdown-it": "10.0.0"
+  }
+}

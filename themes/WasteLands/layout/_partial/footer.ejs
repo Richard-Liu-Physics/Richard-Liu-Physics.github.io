@@ -1,0 +1,10 @@
+<footer class="blog-footer">
+  <span>© <%= date(Date.now(), 'YYYY') %> <%= config.author %></span>
+  <span class="blog-footer-note"><%= theme.footer_text || '生活如歌，至死少年。' %></span>
+  <nav class="blog-footer-links" aria-label="更多链接">
+    <a href="<%= url_for(config.feed && config.feed.path || 'atom.xml') %>">RSS</a>
+    <a href="<%= url_for('friends/') %>">友情链接</a>
+    <% if (theme.homepage) { %><a href="<%= theme.homepage %>" target="_blank" rel="noopener noreferrer">Homepage</a><% } %>
+    <% if (theme.github) { %><a href="<%= theme.github %>" target="_blank" rel="noopener noreferrer">GitHub</a><% } %>
+  </nav>
+</footer>

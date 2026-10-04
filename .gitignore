@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+dist/
+.cache/
+.migration-backups/
+.env
+.env.local
+# 旧主题保持本地原样（其中 Academia 自带嵌套 Git），新版主题独立提交。
+themes/Academia/
+themes/Own/
+.blog-build-*

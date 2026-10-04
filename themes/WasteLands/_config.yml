@@ -1,0 +1,20 @@
+# Homepage text is edited in the root _config.yml under home.
+# This theme lives in the repository, so it is preserved on npm install.
+favicon: /images/Logo.jpg
+homepage: https://sites.google.com/view/chuanliu/homepage
+github: https://github.com/Richard-Liu-Physics
+footer_text: 生活如歌，至死少年。
+
+friends:
+  - name: Ayer主题
+    url: https://github.com/Shen-Yu/hexo-theme-ayer
+  - name: Papaya's Blog
+    url: https://papaya-z.github.io/
+  - name: Rienzi's Blog
+    url: https://rienzi0.github.io/
+
+# GitHub comments use only the public repository; no client secret is used.
+comments:
+  enabled: true
+  owner: Richard-Liu-Physics
+  repo: comment

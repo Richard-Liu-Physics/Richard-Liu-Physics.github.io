@@ -1,0 +1,7 @@
+<a class="blog-post-row" href="<%= url_for(post.path) %>">
+  <span>
+    <span class="blog-post-heading"><%= post.title %></span>
+    <span class="blog-post-category"><%= post.categories && post.categories.length ? post.categories.toArray().map(category => category.name).join(' / ') : '随记' %></span>
+  </span>
+  <time datetime="<%= date(post.date, 'YYYY-MM-DD') %>"><%= date(post.date, 'YYYY.MM.DD') %></time>
+</a>

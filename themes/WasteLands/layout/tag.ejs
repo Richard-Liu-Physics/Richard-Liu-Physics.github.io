@@ -1,0 +1,7 @@
+<section class="blog-subpage">
+  <a class="blog-back" href="<%= url_for('tags/') %>">← 所有标签</a>
+  <p class="blog-eyebrow">TAG</p>
+  <h1 class="blog-subpage-title"><%= page.tag %></h1>
+  <%- partial('_partial/archive-list', { posts: page.posts }) %>
+  <%- partial('_partial/pagination') %>
+</section>

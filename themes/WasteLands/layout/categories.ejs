@@ -1,0 +1,9 @@
+<section class="blog-subpage">
+  <a class="blog-back" href="<%= url_for(config.archive_dir || 'archives') %>">← 归档</a>
+  <p class="blog-eyebrow">CATEGORIES</p>
+  <h1 class="blog-subpage-title">文章分类</h1>
+  <div class="blog-taxonomy-list"><% site.categories.sort('name').each(category => { %>
+    <a class="blog-post-row" href="<%= url_for(category.path) %>"><span class="blog-post-heading"><%= category.name %></span><span class="blog-taxonomy-count"><%= category.length %> 篇</span></a>
+  <% }); %></div>
+  <% if (page.content) { %><div class="blog-reader-body"><%- page.content %></div><% } %>
+</section>

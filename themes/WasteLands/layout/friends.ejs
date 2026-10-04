@@ -1,0 +1,8 @@
+<section class="blog-subpage">
+  <p class="blog-eyebrow">FRIENDS</p>
+  <h1 class="blog-subpage-title">友情链接</h1>
+  <div class="blog-friends"><% (theme.friends || []).forEach(friend => { %>
+    <a class="blog-post-row" href="<%= friend.url %>" target="_blank" rel="noopener noreferrer"><span class="blog-post-heading"><%= friend.name %></span><span class="blog-arrow" aria-hidden="true">↗</span></a>
+  <% }); %></div>
+  <% if (page.content) { %><div class="blog-reader-body"><%- page.content %></div><% } %>
+</section>

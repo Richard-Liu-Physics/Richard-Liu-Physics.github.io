@@ -1,0 +1,11 @@
+<section class="blog-subpage">
+  <p class="blog-eyebrow">ARCHIVE</p>
+  <h1 class="blog-subpage-title"><%= page.year ? `${page.year}${page.month ? ' / ' + String(page.month).padStart(2, '0') : ''}` : '所有文字' %></h1>
+  <p class="blog-subpage-description"><%= site.posts.length %> 篇记录，从物理到诗歌，再到日常。</p>
+  <nav class="blog-filter-nav" aria-label="浏览文章"><a href="<%= url_for('categories/') %>">按分类</a><a href="<%= url_for('tags/') %>">按标签</a></nav>
+  <%- partial('_partial/search') %>
+  <div data-blog-archive-default>
+  <%- partial('_partial/archive-list', { posts: page.posts }) %>
+  <%- partial('_partial/pagination') %>
+  </div>
+</section>

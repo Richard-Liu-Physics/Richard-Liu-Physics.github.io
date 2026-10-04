@@ -1,0 +1,11 @@
+<%
+  const orderedPosts = posts.toArray();
+  let previousYear = '';
+%>
+<div class="blog-archive">
+  <% orderedPosts.forEach(post => { const year = date(post.date, 'YYYY'); %>
+    <% if (year !== previousYear) { previousYear = year; %><h2 class="blog-year"><%= year %></h2><% } %>
+    <%- partial('_partial/post-row', { post }) %>
+  <% }); %>
+  <% if (!orderedPosts.length) { %><p class="blog-subpage-description">还没有文章。</p><% } %>
+</div>

@@ -1,0 +1,7 @@
+<section class="blog-subpage">
+  <a class="blog-back" href="<%= url_for('categories/') %>">← 所有分类</a>
+  <p class="blog-eyebrow">CATEGORY</p>
+  <h1 class="blog-subpage-title"><%= page.category %></h1>
+  <%- partial('_partial/archive-list', { posts: page.posts }) %>
+  <%- partial('_partial/pagination') %>
+</section>

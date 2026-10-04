@@ -1,0 +1,8 @@
+<%- partial('_partial/article') %>
+<% if (page.comments !== false && theme.comments && theme.comments.enabled) { %>
+<section class="blog-comments" aria-labelledby="comments-title">
+  <h2 id="comments-title">评论</h2>
+  <div id="gitalk-container" data-blog-comments="<%= JSON.stringify(page.legacy_comments && page.legacy_comments.length ? page.legacy_comments : page.comment_id ? [{ id: page.comment_id, path: page.comment_path }] : []) %>" data-blog-comment-owner="<%= theme.comments.owner %>" data-blog-comment-repo="<%= theme.comments.repo %>" data-blog-page-url="<%= full_url_for(page.path) %>" data-blog-page-title="<%= page.title %>"><p class="blog-comment-status">评论保存在 GitHub，阅读到这里时加载。</p></div>
+  <noscript><p><a href="https://github.com/<%= theme.comments.owner %>/<%= theme.comments.repo %>/issues" target="_blank" rel="noopener noreferrer">在 GitHub 阅读与回复评论 ↗</a></p></noscript>
+</section>
+<% } %>

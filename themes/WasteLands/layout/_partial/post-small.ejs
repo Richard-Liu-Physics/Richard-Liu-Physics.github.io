@@ -1,0 +1,5 @@
+<a class="blog-home-small" href="<%= url_for(post.path) %>">
+  <span class="blog-featured-kicker"><%= post.categories && post.categories.length ? post.categories.toArray().map(category => category.name).join(' / ') : '随记' %> · <time datetime="<%= date(post.date, 'YYYY-MM-DD') %>"><%= date(post.date, 'YYYY.MM.DD') %></time></span>
+  <span class="blog-home-small-title"><%= post.title %></span>
+  <span class="blog-home-small-read">读全文<span class="blog-arrow" aria-hidden="true">↗</span></span>
+</a>
