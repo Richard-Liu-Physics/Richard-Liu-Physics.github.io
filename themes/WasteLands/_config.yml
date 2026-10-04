@@ -1,6 +1,6 @@
 # Homepage text is edited in the root _config.yml under home.
 # This theme lives in the repository, so it is preserved on npm install.
-favicon: /images/Logo.jpg
+favicon: /images/aki-logo.png
 homepage: https://sites.google.com/view/chuanliu/homepage
 github: https://github.com/Richard-Liu-Physics
 footer_text: 生活如歌，至死少年。

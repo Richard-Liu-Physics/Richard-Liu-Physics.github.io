@@ -23,7 +23,7 @@
   <meta property="og:url" content="<%= canonical %>">
   <meta property="og:type" content="<%= is_post() ? 'article' : 'website' %>">
   <meta property="og:image" content="<%= full_url_for(home.cover || '/images/1.JPG') %>">
-  <link rel="icon" href="<%= url_for(theme.favicon || '/images/Logo.jpg') %>">
+  <link rel="icon" href="<%= url_for(theme.favicon || home.logo || '/images/aki-logo.png') %>">
   <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="<%= url_for(config.feed && config.feed.path || 'atom.xml') %>">
   <%- css('css/style.css') %>
   <%- css('vendor/katex/katex.min.css') %>

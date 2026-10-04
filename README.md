@@ -23,10 +23,10 @@ home:
     这里可以写一句你喜欢的话。
     也可以保留多行。
   cover: /images/1.JPG
-  logo: /images/Logo.jpg
+  logo: /images/aki-logo.png
 ```
 
-这只是配置格式示例，按你的想法修改文字即可。替换配图时，将图片放在 `source/images/`，再修改 `cover:` 的路径。
+这只是配置格式示例，按你的想法修改文字即可。替换配图时，将图片放在 `source/images/`，再修改 `cover:` 的路径。网站 Logo 使用 `logo:` 配置；浏览器标签页图标使用 `themes/WasteLands/_config.yml` 的 `favicon:` 配置。
 
 ## 写文章
 
