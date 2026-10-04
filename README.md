@@ -89,6 +89,14 @@ npm run build
 
 源代码分支是 `codex/blog-source`，旧 `master` 分支保留原网站历史。第一次接入时，需要 GitHub 登录、配置 `origin` 和分支跟踪，并在仓库 **Settings → Pages → Source** 选择 **GitHub Actions**。Pages 的 `github-pages` 环境如果限制部署分支，请允许 `codex/blog-source`。
 
+这台电脑的 `origin`、分支跟踪和 GitHub Pages 已配置完成，可以直接使用下面的发布命令。在新电脑上下载源码时使用：
+
+```sh
+git clone -b codex/blog-source git@github.com:Richard-Liu-Physics/Richard-Liu-Physics.github.io.git blog
+cd blog
+npm ci
+```
+
 写好文章或修改首页后：
 
 ```sh
